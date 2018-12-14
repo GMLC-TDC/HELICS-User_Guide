@@ -1,0 +1,2960 @@
+/home/mukh614/Helics_Dependency/miniconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+EV Controller grantedtime = 1e-09
+Total Feeder Load is 2853169.611394204 + 923705.5641182151 j
+EV Controller grantedtime = 300.0
+Total Feeder Load is 2880022.647070769 + 933671.034857997 j
+EV Controller grantedtime = 600.0
+Total Feeder Load is 2841985.0733177154 + 920350.8224763784 j
+EV Controller grantedtime = 900.0
+Total Feeder Load is 2852335.212932693 + 923506.3193785241 j
+EV Controller grantedtime = 1200.0
+Total Feeder Load is 2846935.803184758 + 921814.0805402782 j
+EV Controller grantedtime = 1500.0
+Total Feeder Load is 2827924.0518904924 + 915954.6023904182 j
+EV Controller grantedtime = 1800.0
+Total Feeder Load is 2834424.7371854223 + 917988.6075726602 j
+EV Controller grantedtime = 2100.0
+Total Feeder Load is 2833101.120740694 + 917465.2465047621 j
+EV Controller grantedtime = 2400.0
+Total Feeder Load is 2832381.071226555 + 917246.0805839221 j
+EV Controller grantedtime = 2700.0
+Total Feeder Load is 2803076.464135282 + 908174.095043332 j
+EV Controller grantedtime = 3000.0
+Total Feeder Load is 2796922.5625240486 + 906243.2266209441 j
+EV Controller grantedtime = 3300.0
+Total Feeder Load is 2800407.5824183314 + 907220.8363712033 j
+EV Controller grantedtime = 3600.0
+Total Feeder Load is 2802896.051355583 + 908006.5163224149 j
+EV Controller grantedtime = 3900.0
+Total Feeder Load is 2799352.76351537 + 906900.2569258264 j
+EV Controller grantedtime = 4200.0
+Total Feeder Load is 2804489.9003889584 + 908502.0645761294 j
+EV Controller grantedtime = 4500.0
+Total Feeder Load is 2803510.288912981 + 907925.68404021 j
+EV Controller grantedtime = 4800.0
+Total Feeder Load is 2786040.8572727777 + 902462.8245975225 j
+EV Controller grantedtime = 5100.0
+Total Feeder Load is 2791611.6695883963 + 904320.5089116652 j
+EV Controller grantedtime = 5400.0
+Total Feeder Load is 2769260.0763191823 + 897330.0405660075 j
+EV Controller grantedtime = 5700.0
+Total Feeder Load is 2763284.6880046404 + 895355.0112703559 j
+EV Controller grantedtime = 6000.0
+Total Feeder Load is 2775621.721736523 + 899214.0214718983 j
+EV Controller grantedtime = 6300.0
+Total Feeder Load is 2772844.1291084066 + 898460.1520596262 j
+EV Controller grantedtime = 6600.0
+Total Feeder Load is 2760197.297643498 + 894507.9347276881 j
+EV Controller grantedtime = 6900.0
+Total Feeder Load is 2764715.735601849 + 895801.2466385446 j
+EV Controller grantedtime = 7200.0
+Total Feeder Load is 2761475.054686266 + 894795.8312842215 j
+EV Controller grantedtime = 7500.0
+Total Feeder Load is 2771369.3415722167 + 897967.4150692571 j
+EV Controller grantedtime = 7800.0
+Total Feeder Load is 2752437.329387813 + 892055.3153118478 j
+EV Controller grantedtime = 8100.0
+Total Feeder Load is 2760822.7043911098 + 894554.6004092232 j
+EV Controller grantedtime = 8400.0
+Total Feeder Load is 2757297.4312852663 + 893460.1244963335 j
+EV Controller grantedtime = 8700.0
+Total Feeder Load is 2760608.541503523 + 894612.1271804514 j
+EV Controller grantedtime = 9000.0
+Total Feeder Load is 2749471.751730299 + 891133.9170020893 j
+EV Controller grantedtime = 9300.0
+Total Feeder Load is 2760650.759234986 + 894500.9888220107 j
+EV Controller grantedtime = 9600.0
+Total Feeder Load is 2757964.7700213343 + 893668.2702247985 j
+EV Controller grantedtime = 9900.0
+Total Feeder Load is 2753436.110660086 + 892377.7027793784 j
+EV Controller grantedtime = 10200.0
+Total Feeder Load is 2740401.3587757917 + 888311.5278767602 j
+EV Controller grantedtime = 10500.0
+Total Feeder Load is 2735464.696505479 + 886657.1784913158 j
+EV_Controller
+7
+6
+Registered Endpoint ---> EV_Controller/EV6
+Registered Endpoint ---> EV_Controller/EV5
+Registered Endpoint ---> EV_Controller/EV4
+Registered Endpoint ---> EV_Controller/EV3
+Registered Endpoint ---> EV_Controller/EV2
+Registered Endpoint ---> EV_Controller/EV1
+Registered Subscription ---> IEEE_123_feeder_0/totalLoad
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV6
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV5
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV4
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV3
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV2
+Registered Subscription ---> IEEE_123_feeder_0/charge_EV1
+###############################################################################################
+########################   Entering Execution Mode  ##########################################
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6EV Controller grantedtime = 10800.0
+Total Feeder Load is 2752268.6601304496 + 891898.7685265536 j
+EV Controller grantedtime = 11100.0
+Total Feeder Load is 2745443.420330693 + 889856.1312178671 j
+EV Controller grantedtime = 11400.0
+Total Feeder Load is 2752099.0143622984 + 891924.3298649495 j
+EV Controller grantedtime = 11700.0
+Total Feeder Load is 2753887.6584445564 + 892359.8936042353 j
+EV Controller grantedtime = 12000.0
+Total Feeder Load is 2756225.9060812956 + 893095.9054704094 j
+EV Controller grantedtime = 12300.0
+Total Feeder Load is 2761843.7566519626 + 894963.9260406384 j
+EV Controller grantedtime = 12600.0
+Total Feeder Load is 2747470.6591823637 + 890476.8886481049 j
+EV Controller grantedtime = 12900.0
+Total Feeder Load is 2748553.6382564977 + 890697.7768610662 j
+EV Controller grantedtime = 13200.0
+Total Feeder Load is 2740313.3696858096 + 888135.902274679 j
+EV Controller grantedtime = 13500.0
+Total Feeder Load is 2742287.4737191456 + 888873.5866153354 j
+EV Controller grantedtime = 13800.0
+Total Feeder Load is 2758271.318655971 + 893847.0916094645 j
+EV Controller grantedtime = 14100.0
+Total Feeder Load is 2760954.3164389576 + 894562.8364740337 j
+EV Controller grantedtime = 14400.0
+Total Feeder Load is 2765761.8006330524 + 896070.2936527908 j
+EV Controller grantedtime = 14700.0
+Total Feeder Load is 2769066.005072604 + 897250.4316739396 j
+EV Controller grantedtime = 15000.0
+Total Feeder Load is 2769393.0930785444 + 897346.1042778335 j
+EV Controller grantedtime = 15300.0
+Total Feeder Load is 2761947.4177815616 + 894907.1287568499 j
+EV Controller grantedtime = 15600.0
+Total Feeder Load is 2746184.604908538 + 889998.4707759776 j
+EV Controller grantedtime = 15900.0
+Total Feeder Load is 2766107.349555934 + 896327.1121133929 j
+EV Controller grantedtime = 16200.0
+Total Feeder Load is 2774047.499877474 + 898796.6335834374 j
+EV Controller grantedtime = 16500.0
+Total Feeder Load is 2776447.4443920334 + 899431.859342475 j
+EV Controller grantedtime = 16800.0
+Total Feeder Load is 2771886.894722346 + 898012.7254894334 j
+EV Controller grantedtime = 17100.0
+Total Feeder Load is 2754776.1315383376 + 892796.6319059213 j
+EV Controller grantedtime = 17400.0
+Total Feeder Load is 2767550.5394985876 + 896776.2880141393 j
+EV Controller grantedtime = 17700.0
+Total Feeder Load is 2792639.4220751827 + 904492.0314035139 j
+EV Controller grantedtime = 18000.0
+Total Feeder Load is 2795000.497417449 + 905236.084163437 j
+EV Controller grantedtime = 18300.0
+Total Feeder Load is 2777358.186069308 + 900051.1004972053 j
+EV Controller grantedtime = 18600.0
+Total Feeder Load is 2784842.0657069953 + 902384.7772941364 j
+EV Controller grantedtime = 18900.0
+Total Feeder Load is 2790135.057548984 + 903920.8197660424 j
+EV Controller grantedtime = 19200.0
+Total Feeder Load is 2789655.499007342 + 903778.0016350513 j
+EV Controller grantedtime = 19500.0
+Total Feeder Load is 2801939.7168967826 + 907730.1771756652 j
+EV Controller grantedtime = 19800.0
+Total Feeder Load is 2815214.9790057214 + 911880.4532787054 j
+EV Controller grantedtime = 20100.0
+Total Feeder Load is 2827833.3061575666 + 915725.7562167193 j
+EV Controller grantedtime = 20400.0
+Total Feeder Load is 2807461.950379634 + 909340.9811005233 j
+EV Controller grantedtime = 20700.0
+Total Feeder Load is 2804097.554377286 + 908405.1136228302 j
+EV Controller grantedtime = 21000.0
+Total Feeder Load is 2817479.804637186 + 912589.3844694777 j
+EV Controller grantedtime = 21300.0
+Total Feeder Load is 2834000.50741834 + 917660.8800928633 j
+EV Controller grantedtime = 21600.0
+Total Feeder Load is 2854086.338463242 + 924135.3767813775 j
+EV Controller grantedtime = 21900.0
+Total Feeder Load is 2878365.1327655176 + 932309.2637360013 j
+EV Controller grantedtime = 22200.0
+Total Feeder Load is 2890191.1833867743 + 936027.5744911121 j
+EV Controller grantedtime = 22500.0
+Total Feeder Load is 2902363.702292183 + 939770.0859877493 j
+
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2EV Controller grantedtime = 22800.0
+Total Feeder Load is 2914494.559822233 + 943610.1192351994 j
+EV Controller grantedtime = 23100.0
+Total Feeder Load is 2923801.0888628755 + 946640.7430854874 j
+EV Controller grantedtime = 23400.0
+Total Feeder Load is 2903329.8125430522 + 940161.1464115095 j
+EV Controller grantedtime = 23700.0
+Total Feeder Load is 2920521.336775431 + 945505.2421202803 j
+EV Controller grantedtime = 24000.0
+Total Feeder Load is 2938621.2583501684 + 951238.3611266685 j
+EV Controller grantedtime = 24300.0
+Total Feeder Load is 2944429.740777095 + 953167.1559067026 j
+EV Controller grantedtime = 24600.0
+Total Feeder Load is 2977194.0589012043 + 963561.1729885002 j
+EV Controller grantedtime = 24900.0
+Total Feeder Load is 2976731.396916589 + 963324.7501920316 j
+3400-9IcUc-WooUU-pckN0-tn2bi (1879048193):: core tick
+EV_Controller (131073) (0)::Granting Initialization
+EV_Controller (131073) (0)::Granting Execution
+EV_Controller (131073) (0)::Granted Time=1e-09
+EV_Controller (131073) (0)::Granted Time=300
+EV_Controller (131073) (0)::Granted Time=600
+EV_Controller (131073) (0)::Granted Time=900
+EV_Controller (131073) (0)::Granted Time=1200
+EV_Controller (131073) (0)::Granted Time=1500
+EV_Controller (131073) (0)::Granted Time=1800
+EV_Controller (131073) (0)::Granted Time=2100
+EV_Controller (131073) (0)::Granted Time=2400
+EV_Controller (131073) (0)::Granted Time=2700
+EV_Controller (131073) (0)::Granted Time=3000
+EV_Controller (131073) (0)::Granted Time=3300
+EV_Controller (131073) (0)::Granted Time=3600
+EV_Controller (131073) (0)::Granted Time=3900
+EV_Controller (131073) (0)::Granted Time=4200
+EV_Controller (131073) (0)::Granted Time=4500
+EV_Controller (131073) (0)::Granted Time=4800
+EV_Controller (131073) (0)::Granted Time=5100
+EV_Controller (131073) (0)::Granted Time=5400
+EV_Controller (131073) (0)::Granted Time=5700
+EV_Controller (131073) (0)::Granted Time=6000
+EV_Controller (131073) (0)::Granted Time=6300
+EV_Controller (131073) (0)::Granted Time=6600
+EV_Controller (131073) (0)::Granted Time=6900
+EV_Controller (131073) (0)::Granted Time=7200
+EV_Controller (131073) (0)::Granted Time=7500
+EV_Controller (131073) (0)::Granted Time=7800
+EV_Controller (131073) (0)::Granted Time=8100
+EV_Controller (131073) (0)::Granted Time=8400
+EV_Controller (131073) (0)::Granted Time=8700
+EV_Controller (131073) (0)::Granted Time=9000
+EV_Controller (131073) (0)::Granted Time=9300
+EV_Controller (131073) (0)::Granted Time=9600
+EV_Controller (131073) (0)::Granted Time=9900
+EV_Controller (131073) (0)::Granted Time=10200
+EV_Controller (131073) (0)::Granted Time=10500
+EV_Controller (131073) (0)::Granted Time=10800
+EV_Controller (131073) (0)::Granted Time=11100
+EV_Controller (131073) (0)::Granted Time=11400
+EV_Controller (131073) (0)::Granted Time=11700
+EV_Controller (131073) (0)::Granted Time=12000
+EV_Controller (131073) (0)::Granted Time=12300
+EV_Controller (131073) (0)::Granted Time=12600
+EV_Controller (131073) (0)::Granted Time=12900
+EV_Controller (131073) (0)::Granted Time=13200
+EV_Controller (131073) (0)::Granted Time=13500
+EV_Controller (131073) (0)::Granted Time=13800
+EV_Controller (131073) (0)::Granted Time=14100
+EV_Controller (131073) (0)::Granted Time=14400
+EV_Controller (131073) (0)::Granted Time=14700
+EV_Controller (131073) (0)::Granted Time=15000
+EV_Controller (131073) (0)::Granted Time=15300
+EV_Controller (131073) (0)::Granted Time=15600
+EV_Controller (131073) (0)::Granted Time=15900
+EV_Controller (131073) (0)::Granted Time=16200
+EV_Controller (131073) (0)::Granted Time=16500
+EV_Controller (131073) (0)::Granted Time=16800
+EV_Controller (131073) (0)::Granted Time=17100
+EV_Controller (131073) (0)::Granted Time=17400
+EV_Controller (131073) (0)::Granted Time=17700
+EV_Controller (131073) (0)::Granted Time=18000
+EV_Controller (131073) (0)::Granted Time=18300
+EV_Controller (131073) (0)::Granted Time=18600
+EV_Controller (131073) (0)::Granted Time=18900
+EV_Controller (131073) (0)::Granted Time=19200
+EV_Controller (131073) (0)::Granted Time=19500
+EV_Controller (131073) (0)::Granted Time=19800
+EV_Controller (131073) (0)::Granted Time=20100
+EV_Controller (131073) (0)::Granted Time=20400
+EV_Controller (131073) (0)::Granted Time=20700
+EV_Controller (131073) (0)::Granted Time=21000
+EV_Controller (131073) (0)::Granted Time=21300
+EV_Controller (131073) (0)::Granted Time=21600
+EV_Controller (131073) (0)::Granted Time=21900
+EV_Controller (131073) (0)::Granted Time=22200
+EV_Controller (131073) (0)::Granted Time=22500
+EV_Controller (131073) (0)::Granted Time=22800
+EV_Controller (131073) (0)::Granted Time=23100
+EV_Controller (131073) (0)::Granted Time=23400
+EV_Controller (131073) (0)::Granted Time=23700
+EV_Controller (131073) (0)::Granted Time=24000
+EV_Controller (131073) (0)::Granted Time=24300
+EV_Controller (131073) (0)::Granted Time=24600
+EV_Controller (131073) (0)::Granted Time=24900
+EV_Controller (131073) (0)::GraEV Controller grantedtime = 25200.0
+Total Feeder Load is 2989518.4600826357 + 967408.6385715416 j
+EV Controller grantedtime = 25500.0
+Total Feeder Load is 3050450.1810225286 + 985841.6109043498 j
+EV Controller grantedtime = 25800.0
+Total Feeder Load is 3066088.88663919 + 991026.3625738057 j
+EV Controller grantedtime = 26100.0
+Total Feeder Load is 3051117.7683098684 + 986481.2527499689 j
+EV Controller grantedtime = 26400.0
+Total Feeder Load is 3060366.1799975103 + 989296.6261011522 j
+EV Controller grantedtime = 26700.0
+Total Feeder Load is 3097990.288143459 + 1001138.4355290134 j
+EV Controller grantedtime = 27000.0
+Total Feeder Load is 3137081.5978602115 + 1014125.1694141013 j
+EV Controller grantedtime = 27300.0
+Total Feeder Load is 3124749.350141591 + 1010403.4112542779 j
+EV Controller grantedtime = 27600.0
+Total Feeder Load is 3161865.552132657 + 1022039.9183342117 j
+EV Controller grantedtime = 27900.0
+Total Feeder Load is 3188894.1099819136 + 1030782.3765047136 j
+EV Controller grantedtime = 28200.0
+Total Feeder Load is 3208889.7889791494 + 1037445.2725541409 j
+EV Controller grantedtime = 28500.0
+Total Feeder Load is 3232894.140043173 + 1045298.6174143648 j
+EV Controller grantedtime = 28800.0
+Total Feeder Load is 3239792.18476375 + 1047390.5255989179 j
+EV Controller grantedtime = 29100.0
+Total Feeder Load is 3279864.525748141 + 1060452.54783624 j
+EV Controller grantedtime = 29400.0
+Total Feeder Load is 3293094.376466953 + 1064793.8470707163 j
+EV Controller grantedtime = 29700.0
+Total Feeder Load is 3319477.608755975 + 1073500.7142364709 j
+EV Controller grantedtime = 30000.0
+Total Feeder Load is 3395618.3078670176 + 1099028.018039653 j
+EV Controller grantedtime = 30300.0
+Total Feeder Load is 3450507.060408719 + 1117142.3642376948 j
+EV Controller grantedtime = 30600.0
+Total Feeder Load is 3455437.9186219107 + 1118528.649051528 j
+EV Controller grantedtime = 30900.0
+Total Feeder Load is 3476898.2496658308 + 1125823.718525169 j
+EV Controller grantedtime = 31200.0
+Total Feeder Load is 3498890.5124977957 + 1133443.4901287667 j
+EV Controller grantedtime = 31500.0
+Total Feeder Load is 3493244.268710446 + 1131416.741590012 j
+EV Controller grantedtime = 31800.0
+Total Feeder Load is 3559455.341899969 + 1153359.3290284337 j
+EV Controller grantedtime = 32100.0
+Total Feeder Load is 3585244.089384361 + 1162478.3734223717 j
+EV Controller grantedtime = 32400.0
+Total Feeder Load is 3616889.4112562463 + 1173367.3173924587 j
+EV Controller grantedtime = 32700.0
+Total Feeder Load is 3659665.996415077 + 1187518.2032318856 j
+EV Controller grantedtime = 33000.0
+Total Feeder Load is 3625915.7739363676 + 1176020.616926508 j
+EV Controller grantedtime = 33300.0
+Total Feeder Load is 3642515.76022175 + 1181231.7689797739 j
+EV Controller grantedtime = 33600.0
+Total Feeder Load is 3694864.9465257265 + 1199390.6506389705 j
+EV Controller grantedtime = 33900.0
+Total Feeder Load is 3690827.4464918375 + 1198146.8995560817 j
+EV Controller grantedtime = 34200.0
+Total Feeder Load is 3769587.8379685595 + 1225132.9116391756 j
+EV Controller grantedtime = 34500.0
+Total Feeder Load is 3802913.265637971 + 1237143.7812383065 j
+EV Controller grantedtime = 34800.0
+Total Feeder Load is 3701913.2196868462 + 1202090.8260109397 j
+
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5EV Controller grantedtime = 35100.0
+Total Feeder Load is 3770763.6410641046 + 1225539.4413424325 j
+EV Controller grantedtime = 35400.0
+Total Feeder Load is 3859860.543598287 + 1256839.394944597 j
+EV Controller grantedtime = 35700.0
+Total Feeder Load is 3894631.0926374225 + 1268910.0942656274 j
+EV Controller grantedtime = 36000.0
+Total Feeder Load is 3889453.045547805 + 1266934.5612356605 j
+EV Controller grantedtime = 36300.0
+Total Feeder Load is 3861820.7739105215 + 1257079.937266085 j
+EV Controller grantedtime = 36600.0
+Total Feeder Load is 3880603.1949475817 + 1263555.9604540947 j
+EV Controller grantedtime = 36900.0
+Total Feeder Load is 3940603.8405049564 + 1284819.741456217 j
+EV Controller grantedtime = 37200.0
+Total Feeder Load is 3977282.707369668 + 1297854.728578979 j
+EV Controller grantedtime = 37500.0
+Total Feeder Load is 3978539.95641674 + 1298091.748702945 j
+EV Controller grantedtime = 37800.0
+Total Feeder Load is 3983712.427041882 + 1300076.6681975333 j
+EV Controller grantedtime = 38100.0
+Total Feeder Load is 3966184.136459379 + 1293785.2033252078 j
+EV Controller grantedtime = 38400.0
+Total Feeder Load is 4132108.6944912327 + 1352668.579468145 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV6
+EV Controller grantedtime = 38700.0
+Total Feeder Load is 4123576.213584495 + 1349377.6206917474 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV5
+EV Controller grantedtime = 39000.0
+Total Feeder Load is 4084192.225474759 + 1335590.4075395302 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV4
+EV Controller grantedtime = 39300.0
+Total Feeder Load is 3909591.203280995 + 1308944.9463179256 j
+EV Controller grantedtime = 39600.0
+Total Feeder Load is 3729941.610838493 + 1302069.8009934044 j
+EV Controller grantedtime = 39900.0
+Total Feeder Load is 3521102.6470370283 + 1279638.9473762466 j
+EV Controller grantedtime = 40200.0
+Total Feeder Load is 3502981.2111898228 + 1273396.557965072 j
+EV Controller grantedtime = 40500.0
+Total Feeder Load is 3533431.8493775986 + 1283298.4907051264 j
+EV Controller grantedtime = 40800.0
+Total Feeder Load is 3676788.0056155534 + 1332167.355580444 j
+EV Controller grantedtime = 41100.0
+Total Feeder Load is 3716509.4152747216 + 1346134.465098016 j
+EV Controller grantedtime = 41400.0
+Total Feeder Load is 3675172.7026492856 + 1331910.2632599205 j
+EV Controller grantedtime = 41700.0
+Total Feeder Load is 3676283.547613204 + 1331818.167302769 j
+EV Controller grantedtime = 42000.0
+Total Feeder Load is 3642436.067752758 + 1320556.6611710102 j
+EV Controller grantedtime = 42300.0
+Total Feeder Load is 3696401.9128157953 + 1338815.342155506 j
+EV Controller grantedtime = 42600.0
+Total Feeder Load is 3802232.3056485634 + 1375223.7867735887 j
+EV Controller grantedtime = 42900.0
+Total Feeder Load is 3815890.425828949 + 1379933.839892862 j
+EV Controller grantedtime = 43200.0
+Total Feeder Load is 3806332.768430149 + 1376477.5957284924 j
+EV Controller grantedtime = 43500.0
+Total Feeder Load is 3798823.3908826495 + 1373905.6387054236 j
+EV Controller grantedtime = 43800.0
+Total Feeder Load is 3825863.9884353643 + 1383200.5428633487 j
+EV Controller grantedtime = 44100.0
+Total Feeder Load is 3859203.640263591 + 1394676.5410453384 j
+EV Controller grantedtime = 44400.0
+Total Feeder Load is 3971299.3678475567 + 1434407.8436805094 j
+EV Controller grantedtime = 44700.0
+Total Feeder Load is 3923559.093652048 + 1417458.6105508213 j
+EV Controller grantedtime = 45000.0
+Total Feeder Load is 4010242.782708439 + 1447671.4643785458 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV3
+EV Controller grantedtime = 45300.0
+Total Feeder Load is 4007281.696799289 + 1446624.5483771488 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV2
+EV Controller grantedtime = 45600.0
+Total Feeder Load is 4009908.3492079047 + 1447874.697403168 j
+Total Feeder Load is over the Feeder Upper Limit
+Warning ----> Feeder OverLimit --->  Turn off EV
+Turning off EV_Controller/EV1
+EV Controller grantedtime = 45900.0
+Total Feeder Load is 3816718.3051637756 + 1417926.509992952 j
+EV Controller grantedtime = 46200.0
+Total Feeder Load is 3668839.9248227044 + 1433728.4239512747 j
+EV Controller grantedtime = 46500.0
+Total Feeder Load is 3525498.4679754265 + 1448285.6647248222 j
+
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV6
+Endpoint Destination IEEE_123_feeder_0/EV6
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV5
+Endpoint Destination IEEE_123_feeder_0/EV5
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV4
+Endpoint Destination IEEE_123_feeder_0/EV4
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV3
+Endpoint Destination IEEE_123_feeder_0/EV3
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV2
+Endpoint Destination IEEE_123_feeder_0/EV2
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+EV_Controller/EV1
+Endpoint Destination IEEE_123_feeder_0/EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6EV Controller grantedtime = 46800.0
+Total Feeder Load is 3541427.882056605 + 1453948.011790905 j
+EV Controller grantedtime = 47100.0
+Total Feeder Load is 3532748.9514551014 + 1450568.772912867 j
+EV Controller grantedtime = 47400.0
+Total Feeder Load is 3604966.9935787963 + 1475973.7210770745 j
+EV Controller grantedtime = 47700.0
+Total Feeder Load is 3548117.084174434 + 1456227.8290383448 j
+EV Controller grantedtime = 48000.0
+Total Feeder Load is 3509157.5673541683 + 1442278.1456536069 j
+EV Controller grantedtime = 48300.0
+Total Feeder Load is 3617399.2422924554 + 1480053.8754788048 j
+EV Controller grantedtime = 48600.0
+Total Feeder Load is 3537170.8996228063 + 1452730.029737879 j
+EV Controller grantedtime = 48900.0
+Total Feeder Load is 3449219.966845691 + 1422120.8400898352 j
+EV Controller grantedtime = 49200.0
+Total Feeder Load is 3567193.1375023965 + 1462103.7940501503 j
+EV Controller grantedtime = 49500.0
+Total Feeder Load is 3670755.0976696396 + 1498912.827464018 j
+EV Controller grantedtime = 49800.0
+Total Feeder Load is 3623051.4954018975 + 1482201.0090417387 j
+EV Controller grantedtime = 50100.0
+Total Feeder Load is 3552382.598275132 + 1457689.3240677032 j
+EV Controller grantedtime = 50400.0
+Total Feeder Load is 3517815.128879641 + 1445231.5994635741 j
+EV Controller grantedtime = 50700.0
+Total Feeder Load is 3658839.9044722645 + 1494748.7495637957 j
+EV Controller grantedtime = 51000.0
+Total Feeder Load is 3607887.8769515445 + 1476929.55076411 j
+nted Time=25200
+EV_Controller (131073) (0)::Granted Time=25500
+EV_Controller (131073) (0)::Granted Time=25800
+EV_Controller (131073) (0)::Granted Time=26100
+EV_Controller (131073) (0)::Granted Time=26400
+EV_Controller (131073) (0)::Granted Time=26700
+EV_Controller (131073) (0)::Granted Time=27000
+EV_Controller (131073) (0)::Granted Time=27300
+EV_Controller (131073) (0)::Granted Time=27600
+EV_Controller (131073) (0)::Granted Time=27900
+EV_Controller (131073) (0)::Granted Time=28200
+EV_Controller (131073) (0)::Granted Time=28500
+EV_Controller (131073) (0)::Granted Time=28800
+EV_Controller (131073) (0)::Granted Time=29100
+EV_Controller (131073) (0)::Granted Time=29400
+EV_Controller (131073) (0)::Granted Time=29700
+EV_Controller (131073) (0)::Granted Time=30000
+EV_Controller (131073) (0)::Granted Time=30300
+EV_Controller (131073) (0)::Granted Time=30600
+EV_Controller (131073) (0)::Granted Time=30900
+EV_Controller (131073) (0)::Granted Time=31200
+EV_Controller (131073) (0)::Granted Time=31500
+EV_Controller (131073) (0)::Granted Time=31800
+EV_Controller (131073) (0)::Granted Time=32100
+EV_Controller (131073) (0)::Granted Time=32400
+EV_Controller (131073) (0)::Granted Time=32700
+EV_Controller (131073) (0)::Granted Time=33000
+EV_Controller (131073) (0)::Granted Time=33300
+EV_Controller (131073) (0)::Granted Time=33600
+EV_Controller (131073) (0)::Granted Time=33900
+EV_Controller (131073) (0)::Granted Time=34200
+EV_Controller (131073) (0)::Granted Time=34500
+EV_Controller (131073) (0)::Granted Time=34800
+EV_Controller (131073) (0)::Granted Time=35100
+EV_Controller (131073) (0)::Granted Time=35400
+EV_Controller (131073) (0)::Granted Time=35700
+EV_Controller (131073) (0)::Granted Time=36000
+EV_Controller (131073) (0)::Granted Time=36300
+EV_Controller (131073) (0)::Granted Time=36600
+EV_Controller (131073) (0)::Granted Time=36900
+EV_Controller (131073) (0)::Granted Time=37200
+EV_Controller (131073) (0)::Granted Time=37500
+EV_Controller (131073) (0)::Granted Time=37800
+EV_Controller (131073) (0)::Granted Time=38100
+EV_Controller (131073) (0)::Granted Time=38400
+EV_Controller (131073) (0)::Granted Time=38700
+EV_Controller (131073) (0)::Granted Time=39000
+EV_Controller (131073) (0)::Granted Time=39300
+EV_Controller (131073) (0)::Granted Time=39600
+EV_Controller (131073) (0)::Granted Time=39900
+EV_Controller (131073) (0)::Granted Time=40200
+EV_Controller (131073) (0)::Granted Time=40500
+EV_Controller (131073) (0)::Granted Time=40800
+EV_Controller (131073) (0)::Granted Time=41100
+EV_Controller (131073) (0)::Granted Time=41400
+EV_Controller (131073) (0)::Granted Time=41700
+EV_Controller (131073) (0)::Granted Time=42000
+EV_Controller (131073) (0)::Granted Time=42300
+EV_Controller (131073) (0)::Granted Time=42600
+EV_Controller (131073) (0)::Granted Time=42900
+EV_Controller (131073) (0)::Granted Time=43200
+EV_Controller (131073) (0)::Granted Time=43500
+EV_Controller (131073) (0)::Granted Time=43800
+EV_Controller (131073) (0)::Granted Time=44100
+EV_Controller (131073) (0)::Granted Time=44400
+EV_Controller (131073) (0)::Granted Time=44700
+EV_Controller (131073) (0)::Granted Time=45000
+EV_Controller (131073) (0)::Granted Time=45300
+EV_Controller (131073) (0)::Granted Time=45600
+EV_Controller (131073) (0)::Granted Time=45900
+EV_Controller (131073) (0)::Granted Time=46200
+EV_Controller (131073) (0)::Granted Time=46500
+EV_Controller (131073) (0)::Granted Time=46800
+EV_Controller (131073) (0)::Granted Time=47100
+EV_Controller (131073) (0)::Granted Time=47400
+EV_Controller (131073) (0)::Granted Time=47700
+EV_Controller (131073) (0)::Granted Time=48000
+EV_Controller (131073) (0)::Granted Time=48300
+EV_Controller (131073) (0)::Granted Time=48600
+EV_Controller (131073) (0)::Granted Time=48900
+EV_Controller (131073) (0)::Granted Time=49200
+EV_Controller (131073) (0)::Granted Time=49500
+EV_Controller (131073) (0)::Granted Time=49800
+EV_Controller (131073) (0)::Granted Time=50100
+EV_Controller (131073) (0)::Granted Time=50400
+EV_Controller (131073) (0)::Granted Time=50700
+EV_Controller (131073) (0)::Granted Time=51000
+EV_Controller (131073) (0)::Granted TiEV Controller grantedtime = 51300.0
+Total Feeder Load is 3625769.2662971662 + 1482853.5236446725 j
+EV Controller grantedtime = 51600.0
+Total Feeder Load is 3582418.53005152 + 1467714.8920409712 j
+EV Controller grantedtime = 51900.0
+Total Feeder Load is 3695894.9942029123 + 1507590.768736689 j
+EV Controller grantedtime = 52200.0
+Total Feeder Load is 3646916.6052002343 + 1490842.9931856752 j
+EV Controller grantedtime = 52500.0
+Total Feeder Load is 3608318.9493039018 + 1476846.4328706833 j
+EV Controller grantedtime = 52800.0
+Total Feeder Load is 3678401.6322427825 + 1501291.7019405854 j
+EV Controller grantedtime = 53100.0
+Total Feeder Load is 3675254.1833860367 + 1499986.7883481681 j
+EV Controller grantedtime = 53400.0
+Total Feeder Load is 3736746.174330366 + 1521544.5263544256 j
+EV Controller grantedtime = 53700.0
+Total Feeder Load is 3695529.9882232016 + 1507432.9820460305 j
+EV Controller grantedtime = 54000.0
+Total Feeder Load is 3702711.657761397 + 1509961.0520937513 j
+EV Controller grantedtime = 54300.0
+Total Feeder Load is 3571233.428355841 + 1464418.232248167 j
+EV Controller grantedtime = 54600.0
+Total Feeder Load is 3442871.4507184937 + 1420039.840037126 j
+EV Controller grantedtime = 54900.0
+Total Feeder Load is 3515977.283348075 + 1444877.138604878 j
+EV Controller grantedtime = 55200.0
+Total Feeder Load is 3515249.279693148 + 1445065.1580665163 j
+EV Controller grantedtime = 55500.0
+Total Feeder Load is 3584856.3174116984 + 1468872.7703761542 j
+EV Controller grantedtime = 55800.0
+Total Feeder Load is 3609825.495479849 + 1477698.477071356 j
+EV Controller grantedtime = 56100.0
+Total Feeder Load is 3366781.0650945427 + 1393732.321791467 j
+EV Controller grantedtime = 56400.0
+Total Feeder Load is 3626979.624776388 + 1483834.686849532 j
+EV Controller grantedtime = 56700.0
+Total Feeder Load is 3557755.2441933365 + 1459400.4878721088 j
+EV Controller grantedtime = 57000.0
+Total Feeder Load is 3529893.3935921276 + 1449632.1959811044 j
+EV Controller grantedtime = 57300.0
+Total Feeder Load is 3493006.0756904837 + 1437485.2616806843 j
+EV Controller grantedtime = 57600.0
+Total Feeder Load is 3561773.1956197554 + 1460959.5314411828 j
+EV Controller grantedtime = 57900.0
+Total Feeder Load is 3637454.6497035874 + 1486853.0174372462 j
+EV Controller grantedtime = 58200.0
+Total Feeder Load is 3470615.0322101903 + 1429601.5598141055 j
+EV Controller grantedtime = 58500.0
+Total Feeder Load is 3594578.4138099225 + 1472117.3261793384 j
+
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2EV Controller grantedtime = 58800.0
+Total Feeder Load is 3641692.401556516 + 1488985.2630181436 j
+EV Controller grantedtime = 59100.0
+Total Feeder Load is 3392175.734047792 + 1402908.969659143 j
+EV Controller grantedtime = 59400.0
+Total Feeder Load is 3649348.584603818 + 1491390.0984645025 j
+EV Controller grantedtime = 59700.0
+Total Feeder Load is 3572940.229175834 + 1465127.2571215024 j
+EV Controller grantedtime = 60000.0
+Total Feeder Load is 3531188.302237559 + 1450219.1485725767 j
+EV Controller grantedtime = 60300.0
+Total Feeder Load is 3451845.4185249517 + 1423235.5829944483 j
+EV Controller grantedtime = 60600.0
+Total Feeder Load is 3459023.1143050315 + 1425261.7025467705 j
+EV Controller grantedtime = 60900.0
+Total Feeder Load is 3479531.52544845 + 1432639.329225386 j
+EV Controller grantedtime = 61200.0
+Total Feeder Load is 3343561.3857409107 + 1386737.2983594807 j
+EV Controller grantedtime = 61500.0
+Total Feeder Load is 3393185.3830025913 + 1403605.0626835353 j
+EV Controller grantedtime = 61800.0
+Total Feeder Load is 3317122.2368753026 + 1377915.686546092 j
+EV Controller grantedtime = 62100.0
+Total Feeder Load is 3419376.567217374 + 1412178.3574321617 j
+EV Controller grantedtime = 62400.0
+Total Feeder Load is 3247796.3895053817 + 1355135.2581370128 j
+EV Controller grantedtime = 62700.0
+Total Feeder Load is 3401505.2744724257 + 1406622.0728719824 j
+EV Controller grantedtime = 63000.0
+Total Feeder Load is 3190603.288880019 + 1335984.8443263373 j
+EV Controller grantedtime = 63300.0
+Total Feeder Load is 3341657.95088765 + 1386756.0830018888 j
+EV Controller grantedtime = 63600.0
+Total Feeder Load is 3153078.6172185773 + 1323912.7422246127 j
+EV Controller grantedtime = 63900.0
+Total Feeder Load is 3127245.2703086673 + 1314824.3431971672 j
+EV Controller grantedtime = 64200.0
+Total Feeder Load is 3213312.4396668216 + 1343491.0412546927 j
+EV Controller grantedtime = 64500.0
+Total Feeder Load is 3076734.5452581644 + 1298451.2196355234 j
+EV Controller grantedtime = 64800.0
+Total Feeder Load is 3147771.780493468 + 1322167.7143086875 j
+EV Controller grantedtime = 65100.0
+Total Feeder Load is 3268832.677093005 + 1362123.649625012 j
+EV Controller grantedtime = 65400.0
+Total Feeder Load is 3023139.5487876954 + 1280785.2011772506 j
+EV Controller grantedtime = 65700.0
+Total Feeder Load is 2991590.85782696 + 1270196.8363412484 j
+EV Controller grantedtime = 66000.0
+Total Feeder Load is 2983911.827050469 + 1267453.417800253 j
+EV Controller grantedtime = 66300.0
+Total Feeder Load is 2904440.80170691 + 1242170.0467434705 j
+EV Controller grantedtime = 66600.0
+Total Feeder Load is 2893358.2735439437 + 1238867.4457659554 j
+EV Controller grantedtime = 66900.0
+Total Feeder Load is 2951200.7798548206 + 1256913.5838686018 j
+EV Controller grantedtime = 67200.0
+Total Feeder Load is 2866637.245485174 + 1229475.076516369 j
+EV Controller grantedtime = 67500.0
+Total Feeder Load is 2646969.695606117 + 1159845.670370285 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV1
+EV Controller grantedtime = 67800.0
+Total Feeder Load is 2693000.492621716 + 1174825.3376918933 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV2
+EV Controller grantedtime = 68100.0
+Total Feeder Load is 2643520.4199986868 + 1158749.5297431806 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV3
+EV Controller grantedtime = 68400.0
+Total Feeder Load is 2792898.677208431 + 1146600.1724531665 j
+EV Controller grantedtime = 68700.0
+Total Feeder Load is 2942443.904771845 + 1132660.3198440606 j
+EV Controller grantedtime = 69000.0
+Total Feeder Load is 2948405.7986051748 + 1093650.5337332068 j
+EV Controller grantedtime = 69300.0
+Total Feeder Load is 3023865.4100709576 + 1117592.4626695109 j
+EV Controller grantedtime = 69600.0
+Total Feeder Load is 3117533.916023921 + 1147982.7848841664 j
+EV Controller grantedtime = 69900.0
+Total Feeder Load is 3020702.891668303 + 1116709.8759203232 j
+EV Controller grantedtime = 70200.0
+Total Feeder Load is 3007864.987952402 + 1112463.8415319053 j
+EV Controller grantedtime = 70500.0
+Total Feeder Load is 3009990.578639307 + 1113172.5410469086 j
+
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV2
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV3
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2EV Controller grantedtime = 70800.0
+Total Feeder Load is 3086800.943022657 + 1138141.285410604 j
+EV Controller grantedtime = 71100.0
+Total Feeder Load is 2922988.619103345 + 1085499.3702918116 j
+EV Controller grantedtime = 71400.0
+Total Feeder Load is 2932174.018231927 + 1088205.0238665924 j
+EV Controller grantedtime = 71700.0
+Total Feeder Load is 3015346.731488236 + 1114844.099511011 j
+EV Controller grantedtime = 72000.0
+Total Feeder Load is 2872823.6427581063 + 1069885.496595364 j
+EV Controller grantedtime = 72300.0
+Total Feeder Load is 2946359.3062677775 + 1093315.3641081303 j
+EV Controller grantedtime = 72600.0
+Total Feeder Load is 2877851.9339357 + 1071990.3291259394 j
+EV Controller grantedtime = 72900.0
+Total Feeder Load is 2898614.607442905 + 1078753.9815434795 j
+EV Controller grantedtime = 73200.0
+Total Feeder Load is 2886400.928663472 + 1074743.8508115457 j
+EV Controller grantedtime = 73500.0
+Total Feeder Load is 2836783.284576061 + 1058666.2005907197 j
+EV Controller grantedtime = 73800.0
+Total Feeder Load is 2920031.2975424603 + 1085216.4499605214 j
+EV Controller grantedtime = 74100.0
+Total Feeder Load is 2870216.003641173 + 1069863.726101398 j
+EV Controller grantedtime = 74400.0
+Total Feeder Load is 2889013.92661542 + 1075561.248876186 j
+EV Controller grantedtime = 74700.0
+Total Feeder Load is 2905100.233929727 + 1080344.5445756055 j
+EV Controller grantedtime = 75000.0
+Total Feeder Load is 2867304.195481533 + 1068690.793662129 j
+EV Controller grantedtime = 75300.0
+Total Feeder Load is 2901513.525762959 + 1079662.4289852523 j
+EV Controller grantedtime = 75600.0
+Total Feeder Load is 2922842.375619647 + 1086174.2846712545 j
+EV Controller grantedtime = 75900.0
+Total Feeder Load is 2810362.1733656414 + 1050583.176599503 j
+EV Controller grantedtime = 76200.0
+Total Feeder Load is 2723075.0153934225 + 1023115.9412212734 j
+EV Controller grantedtime = 76500.0
+Total Feeder Load is 2767760.214205104 + 1037199.3141665461 j
+EV Controller grantedtime = 76800.0
+Total Feeder Load is 2741429.6131474418 + 1028868.1426507717 j
+EV Controller grantedtime = 77100.0
+Total Feeder Load is 2792251.1548674963 + 1044642.0120978185 j
+me=51300
+EV_Controller (131073) (0)::Granted Time=51600
+EV_Controller (131073) (0)::Granted Time=51900
+EV_Controller (131073) (0)::Granted Time=52200
+EV_Controller (131073) (0)::Granted Time=52500
+EV_Controller (131073) (0)::Granted Time=52800
+EV_Controller (131073) (0)::Granted Time=53100
+EV_Controller (131073) (0)::Granted Time=53400
+EV_Controller (131073) (0)::Granted Time=53700
+EV_Controller (131073) (0)::Granted Time=54000
+EV_Controller (131073) (0)::Granted Time=54300
+EV_Controller (131073) (0)::Granted Time=54600
+EV_Controller (131073) (0)::Granted Time=54900
+EV_Controller (131073) (0)::Granted Time=55200
+EV_Controller (131073) (0)::Granted Time=55500
+EV_Controller (131073) (0)::Granted Time=55800
+EV_Controller (131073) (0)::Granted Time=56100
+EV_Controller (131073) (0)::Granted Time=56400
+EV_Controller (131073) (0)::Granted Time=56700
+EV_Controller (131073) (0)::Granted Time=57000
+EV_Controller (131073) (0)::Granted Time=57300
+EV_Controller (131073) (0)::Granted Time=57600
+EV_Controller (131073) (0)::Granted Time=57900
+EV_Controller (131073) (0)::Granted Time=58200
+EV_Controller (131073) (0)::Granted Time=58500
+EV_Controller (131073) (0)::Granted Time=58800
+EV_Controller (131073) (0)::Granted Time=59100
+EV_Controller (131073) (0)::Granted Time=59400
+EV_Controller (131073) (0)::Granted Time=59700
+EV_Controller (131073) (0)::Granted Time=60000
+EV_Controller (131073) (0)::Granted Time=60300
+EV_Controller (131073) (0)::Granted Time=60600
+EV_Controller (131073) (0)::Granted Time=60900
+EV_Controller (131073) (0)::Granted Time=61200
+EV_Controller (131073) (0)::Granted Time=61500
+EV_Controller (131073) (0)::Granted Time=61800
+EV_Controller (131073) (0)::Granted Time=62100
+EV_Controller (131073) (0)::Granted Time=62400
+EV_Controller (131073) (0)::Granted Time=62700
+EV_Controller (131073) (0)::Granted Time=63000
+EV_Controller (131073) (0)::Granted Time=63300
+EV_Controller (131073) (0)::Granted Time=63600
+EV_Controller (131073) (0)::Granted Time=63900
+EV_Controller (131073) (0)::Granted Time=64200
+EV_Controller (131073) (0)::Granted Time=64500
+EV_Controller (131073) (0)::Granted Time=64800
+EV_Controller (131073) (0)::Granted Time=65100
+EV_Controller (131073) (0)::Granted Time=65400
+EV_Controller (131073) (0)::Granted Time=65700
+EV_Controller (131073) (0)::Granted Time=66000
+EV_Controller (131073) (0)::Granted Time=66300
+EV_Controller (131073) (0)::Granted Time=66600
+EV_Controller (131073) (0)::Granted Time=66900
+EV_Controller (131073) (0)::Granted Time=67200
+EV_Controller (131073) (0)::Granted Time=67500
+EV_Controller (131073) (0)::Granted Time=67800
+EV_Controller (131073) (0)::Granted Time=68100
+EV_Controller (131073) (0)::Granted Time=68400
+EV_Controller (131073) (0)::Granted Time=68700
+EV_Controller (131073) (0)::Granted Time=69000
+EV_Controller (131073) (0)::Granted Time=69300
+EV_Controller (131073) (0)::Granted Time=69600
+EV_Controller (131073) (0)::Granted Time=69900
+EV_Controller (131073) (0)::Granted Time=70200
+EV_Controller (131073) (0)::Granted Time=70500
+EV_Controller (131073) (0)::Granted Time=70800
+EV_Controller (131073) (0)::Granted Time=71100
+EV_Controller (131073) (0)::Granted Time=71400
+EV_Controller (131073) (0)::Granted Time=71700
+EV_Controller (131073) (0)::Granted Time=72000
+EV_Controller (131073) (0)::Granted Time=72300
+EV_Controller (131073) (0)::Granted Time=72600
+EV_Controller (131073) (0)::Granted Time=72900
+EV_Controller (131073) (0)::Granted Time=73200
+EV_Controller (131073) (0)::Granted Time=73500
+EV_Controller (131073) (0)::Granted Time=73800
+EV_Controller (131073) (0)::Granted Time=74100
+EV_Controller (131073) (0)::Granted Time=74400
+EV_Controller (131073) (0)::Granted Time=74700
+EV_Controller (131073) (0)::Granted Time=75000
+EV_Controller (131073) (0)::Granted Time=75300
+EV_Controller (131073) (0)::Granted Time=75600
+EV_Controller (131073) (0)::Granted Time=75900
+EV_Controller (131073) (0)::Granted Time=76200
+EV_Controller (131073) (0)::Granted Time=76500
+EV_Controller (131073) (0)::Granted Time=76800
+EV_Controller (131073) (0)::Granted Time=77100
+EV_Controller (131073) (0)::Granted Time=7740EV Controller grantedtime = 77400.0
+Total Feeder Load is 2739834.2762582907 + 1028585.7748506493 j
+EV Controller grantedtime = 77700.0
+Total Feeder Load is 2681201.371796511 + 1010502.6633581162 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV4
+EV Controller grantedtime = 78000.0
+Total Feeder Load is 2668333.2229844676 + 1006363.487932948 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV5
+EV Controller grantedtime = 78300.0
+Total Feeder Load is 2636555.701780812 + 996629.0035174148 j
+Total Feeder Load is under the Feeder Lower Limit
+Feeder Can Support EVs ------>  Turn on EV
+Turning on EV_Controller/EV6
+EV Controller grantedtime = 78600.0
+Total Feeder Load is 2842355.980733173 + 1012905.7762155922 j
+EV Controller grantedtime = 78900.0
+Total Feeder Load is 3055750.4981529443 + 1026938.9703421174 j
+EV Controller grantedtime = 79200.0
+Total Feeder Load is 3257173.6756786457 + 1053648.2523942536 j
+EV Controller grantedtime = 79500.0
+Total Feeder Load is 3263795.703651534 + 1055401.4522200427 j
+EV Controller grantedtime = 79800.0
+Total Feeder Load is 3213429.0807255283 + 1038983.5839699366 j
+EV Controller grantedtime = 80100.0
+Total Feeder Load is 3193800.6425714577 + 1032740.782972395 j
+EV Controller grantedtime = 80400.0
+Total Feeder Load is 3180727.95544559 + 1028461.22868774 j
+EV Controller grantedtime = 80700.0
+Total Feeder Load is 3107237.3923223712 + 1004314.5655410415 j
+EV Controller grantedtime = 81000.0
+Total Feeder Load is 3108873.3712683925 + 1005099.165701492 j
+EV Controller grantedtime = 81300.0
+Total Feeder Load is 3092615.2273750845 + 1000012.9143513623 j
+EV Controller grantedtime = 81600.0
+Total Feeder Load is 3125414.59660138 + 1010330.6856519401 j
+EV Controller grantedtime = 81900.0
+Total Feeder Load is 3112741.703220729 + 1006088.755804616 j
+EV Controller grantedtime = 82200.0
+Total Feeder Load is 3171465.6938743703 + 1025338.3224223336 j
+EV Controller grantedtime = 82500.0
+Total Feeder Load is 3159539.521270062 + 1021624.9946197985 j
+
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV4
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV5
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+Endpoint Destination IEEE_123_feeder_0/EV6
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2EV Controller grantedtime = 82800.0
+Total Feeder Load is 3159361.938480139 + 1021312.623167244 j
+EV Controller grantedtime = 83100.0
+Total Feeder Load is 3233050.995097745 + 1045125.7446917047 j
+EV Controller grantedtime = 83400.0
+Total Feeder Load is 3263492.5496581504 + 1055309.0543283587 j
+EV Controller grantedtime = 83700.0
+Total Feeder Load is 3260995.014292169 + 1054871.4475343574 j
+EV Controller grantedtime = 84000.0
+Total Feeder Load is 3198704.2157107317 + 1034312.9108778827 j
+EV Controller grantedtime = 84300.0
+Total Feeder Load is 3312982.8741682507 + 1071294.9637660696 j
+EV Controller grantedtime = 84600.0
+Total Feeder Load is 3185201.632896008 + 1029799.3836918904 j
+EV Controller grantedtime = 84900.0
+Total Feeder Load is 3258982.5594501668 + 1054211.4036010462 j
+EV Controller grantedtime = 85200.0
+Total Feeder Load is 3209611.6497513647 + 1037863.0785234194 j
+EV Controller grantedtime = 85500.0
+Total Feeder Load is 3153284.946098441 + 1019202.6909174623 j
+EV Controller grantedtime = 85800.0
+Total Feeder Load is 3149729.274886862 + 1018297.4431683061 j
+EV Controller grantedtime = 86100.0
+Total Feeder Load is 3095608.2852367205 + 1000977.6520822291 j
+Destroying federate
+
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+IEEE_123_feeder_0/totalLoad
+IEEE_123_feeder_0/charge_EV6
+IEEE_123_feeder_0/charge_EV5
+IEEE_123_feeder_0/charge_EV4
+IEEE_123_feeder_0/charge_EV3
+IEEE_123_feeder_0/charge_EV2
+IEEE_123_feeder_0/charge_EV1
+0
+EV_Controller (131073) (0)::Granted Time=77700
+EV_Controller (131073) (0)::Granted Time=78000
+EV_Controller (131073) (0)::Granted Time=78300
+EV_Controller (131073) (0)::Granted Time=78600
+EV_Controller (131073) (0)::Granted Time=78900
+EV_Controller (131073) (0)::Granted Time=79200
+EV_Controller (131073) (0)::Granted Time=79500
+EV_Controller (131073) (0)::Granted Time=79800
+EV_Controller (131073) (0)::Granted Time=80100
+EV_Controller (131073) (0)::Granted Time=80400
+EV_Controller (131073) (0)::Granted Time=80700
+EV_Controller (131073) (0)::Granted Time=81000
+EV_Controller (131073) (0)::Granted Time=81300
+EV_Controller (131073) (0)::Granted Time=81600
+EV_Controller (131073) (0)::Granted Time=81900
+EV_Controller (131073) (0)::Granted Time=82200
+EV_Controller (131073) (0)::Granted Time=82500
+EV_Controller (131073) (0)::Granted Time=82800
+EV_Controller (131073) (0)::Granted Time=83100
+EV_Controller (131073) (0)::Granted Time=83400
+EV_Controller (131073) (0)::Granted Time=83700
+EV_Controller (131073) (0)::Granted Time=84000
+EV_Controller (131073) (0)::Granted Time=84300
+EV_Controller (131073) (0)::Granted Time=84600
+EV_Controller (131073) (0)::Granted Time=84900
+EV_Controller (131073) (0)::Granted Time=85200
+EV_Controller (131073) (0)::Granted Time=85500
+EV_Controller (131073) (0)::Granted Time=85800
+EV_Controller (131073) (0)::Granted Time=86100
+3400-9IcUc-WooUU-pckN0-tn2bi (1879048193):: core tick
+EV_Controller (131073) (0)::Granted Time=86400
