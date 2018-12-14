@@ -25,7 +25,7 @@ logger.addHandler(logging.StreamHandler())
 logger.setLevel(logging.DEBUG)
 
 def create_broker():
-    initstring = "--federates=2 --name=mainbroker"
+    initstring = "2 --name=mainbroker"
     broker = h.helicsCreateBroker("zmq", "", initstring)
     isconnected = h.helicsBrokerIsConnected(broker)
 
@@ -59,13 +59,13 @@ def create_federate(deltat=1.0, fedinitstring="--federates=1"):
     return fed
 
 def destroy_federate(fed):
-    h.helicsFederateFinalize(fed)
+    status = h.helicsFederateFinalize(fed)
 
-#    status, state = h.helicsFederateGetState(fed)
-#    assert state == 3
+    status, state = h.helicsFederateGetState(fed)
+    assert state == 3
 
-    while (h.helicsBrokerIsConnected(broker)):
-        time.sleep(1)
+    #while (h.helicsBrokerIsConnected(broker)):
+        #time.sleep(1)
 
     h.helicsFederateFree(fed)
     h.helicsCloseLibrary()
@@ -73,35 +73,29 @@ def destroy_federate(fed):
 
 if __name__ == "__main__":
 
-    broker = create_broker()
+    # broker = create_broker()
     #fed = create_federate()
 
 #################################  Registering  federate from json  ########################################
     
-    fed = h.helicsCreateValueFederateFromConfig('Transmission_json.json')
-    status = h.helicsFederateRegisterInterfaces(fed, 'Transmission_json.json')
+    fed = h.helicsCreateValueFederateFromJson('Transmission_config.json')
+    status = h.helicsFederateRegisterInterfaces(fed, 'Transmission_config.json')
     federate_name = h.helicsFederateGetName(fed)[-1]
     print(" Federate {} has been registered".format(federate_name))
     pubkeys_count = h.helicsFederateGetPublicationCount(fed)
-    subkeys_count = h.helicsFederateGetInputCount(fed)
-    print(subkeys_count)
+    subkeys_count = h.helicsFederateGetSubscriptionCount(fed)
+
 ######################   Reference to Publications and Subscription form index  #############################   
     pubid = {}
     subid = {}
     for i in range(0,pubkeys_count):
         pubid["m{}".format(i)] = h.helicsFederateGetPublicationByIndex(fed, i)
-        type = h.helicsPublicationGetType(pubid["m{}".format(i)])
-        print(type)
     for i in range(0,subkeys_count):
-        subid["m{}".format(i)] = h.helicsFederateGetInputByIndex(fed, i)
-        status = h.helicsInputSetDefaultComplex(subid["m{}".format(i)], 0, 0)
-        sub_key = h.helicsSubscriptionGetKey(subid["m{}".format(i)])
-        print( 'Registered Subscription ---> {}'.format(sub_key))
-  
+        subid["m{}".format(i)] = h.helicsFederateGetSubscriptionByIndex(fed, i)
+        status = h.helicsSubscriptionSetDefaultComplex(subid["m{}".format(i)], 0, 0)
+
 ######################   Entereing Execution Mode  ##########################################################    
-    status = h.helicsFederateEnterInitializingMode(fed)
-    status = h.helicsFederateEnterExecutingMode(fed)
-    
+    h.helicsFederateEnterExecutionMode(fed)
 
 
     #Pypower Processing (inputs)
@@ -174,14 +168,14 @@ if __name__ == "__main__":
         # status = h.helicsEndpointSendEventRaw(epid, "fixed_price", 10, t)
                 
         while grantedtime < t:
-            grantedtime = h.helicsFederateRequestTime (fed, t)
+            status, grantedtime = h.helicsFederateRequestTime (fed, t)
         time.sleep(0.1)
         
         #############################   Subscribing to Feeder Load from to GridLAB-D ##############################################   
         
         for i in range(0,subkeys_count):
             sub = subid["m{}".format(i)]        
-            rload, iload = h.helicsInputGetComplex(sub)
+            status, rload, iload = h.helicsSubscriptionGetComplex(sub)
         logger.info("Python Federate grantedtime = {}".format(grantedtime))
         logger.info("Load value = {} kW".format(complex(rload, iload)/1000))
         #print(votlage_plot,real_demand) 
@@ -260,7 +254,7 @@ if __name__ == "__main__":
     ##############################   Terminating Federate   ########################################################
     t = 60 * 60 * 24
     while grantedtime < t:
-        grantedtime = h.helicsFederateRequestTime (fed, t)
+        status, grantedtime = h.helicsFederateRequestTime (fed, t)
     logger.info("Destroying federate")
     destroy_federate(fed)
     logger.info("Done!")

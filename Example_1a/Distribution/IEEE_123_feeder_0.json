@@ -1,30 +1,13 @@
 {
-    "name" : "DistributionSim",
-	"loglevel": 5,
-	"coreType": "zmq",
-	"period" : 1.0,
-     "publications" : [
-          {
-               "global" : true,
-               "key" : "IEEE_123_feeder_0/totalLoad",
-               "type" : "complex",
-               "unit" : "VA",
-               "info" : "{
-                    \"object\" : \"network_node\",
-                    \"property\" : \"distribution_load\"
-               }"
-          }
-     ],
-     "subscriptions" : [
-          {
-               "required": true,
-			   "key" : "TransmissionSim/transmission_voltage",
-               "type" : "complex",
-               "unit" : "V",
-               "info" : "{
-                    \"object\" : \"network_node\",
-                    \"property\" : \"positive_sequence_voltage\" 
-					}"
-          }
-     ]
+    "publications" : {
+        "network_node" : {
+            "distribution_load" : "totalLoad"
+        }
+    },
+    "subscriptions" : {
+        "network_node" : {
+            "positive_sequence_voltage" : "TransmissionSim/transmission_voltage"
+        }
+    },
+    "core_init_string" : "1"
 }

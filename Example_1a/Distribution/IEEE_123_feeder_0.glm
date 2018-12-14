@@ -4,44 +4,44 @@ clock {
 	stoptime '2013-08-29 00:00:00';
 }
 
-#include "include/schedules/appliance_schedules.glm";
-#include "include/schedules/water_and_setpoint_schedule_v5.glm";
-#include "include/schedules/commercial_schedules.glm";
-#define stylesheet=http://gridlab-d.svn.sourceforge.net/viewvc/gridlab-d/trunk/core/gridlabd-2_0;
+#include "include/schedules/appliance_schedules.glm"
+#include "include/schedules/water_and_setpoint_schedule_v5.glm"
+#include "include/schedules/commercial_schedules.glm"
+#define stylesheet=http://gridlab-d.svn.sourceforge.net/viewvc/gridlab-d/trunk/core/gridlabd-2_0
 
-#set minimum_timestep=60.000000;
-#set profiler=1;
-#set relax_naming_rules=1;
-#set randomseed=10;
-#set suppress_repeat_messages=True;
+#set minimum_timestep=60.000000
+#set profiler=1
+#set relax_naming_rules=1
+#set randomseed=10
+#set suppress_repeat_messages=True
 module market {
-}
+};
 
 module tape {
-}
+};
 
 module connection;
 object helics_msg {
   name IEEE_123_feeder_0;
   parent network_node;
   configure IEEE_123_feeder_0.json;
-}
+};
 module climate {
-}
+};
 
 module residential {
 	implicit_enduses NONE;
-}
+};
 
 module powerflow {
 	solver_method FBS;
 	default_maximum_voltage_error 1e-4;
 	line_limits TRUE;
-}
+};
 
 class player {
 	double value;
-}
+};
 
 object player {
 	name norm_feeder_loadshape;
