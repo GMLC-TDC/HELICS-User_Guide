@@ -1,0 +1,6 @@
+{
+    "publications" : {"network_node": {"distribution_load": "totalLoad"}} ,
+    "subscriptions" : {"network_node": {"positive_sequence_voltage": "TransmissionSim/transmission_voltage"}},
+    "endpoint_subscriptions" : {},
+    "core_init_string" : "1"
+}

@@ -1,31 +1,29 @@
 clock {
 	timezone PST8;
-	starttime '2013-08-28 00:00:00';
-	stoptime '2013-08-29 00:00:00';
-}
-
-#include "include/schedules/appliance_schedules.glm";
-#include "include/schedules/water_and_setpoint_schedule_v5.glm";
-#include "include/schedules/commercial_schedules.glm";
-#define stylesheet=http://gridlab-d.svn.sourceforge.net/viewvc/gridlab-d/trunk/core/gridlabd-2_0;
+	starttime "2013-08-28 00:00:00";
+	stoptime "2013-08-29 00:00:00";
+};
 
 #set minimum_timestep=60.000000;
 #set profiler=1;
 #set relax_naming_rules=1;
 #set randomseed=10;
 #set suppress_repeat_messages=True;
+
+#define stylesheet=http://gridlab-d.svn.sourceforge.net/viewvc/gridlab-d/trunk/core/gridlabd-2_0;
+
+
+
+
 module market {
 };
 
 module tape {
 };
 
-module connection;
-object helics_msg {
-  name IEEE_123_feeder_0;
-  parent network_node;
-  configure IEEE_123_feeder_0.json;
+module connection {
 };
+
 module climate {
 };
 
@@ -39,21 +37,26 @@ module powerflow {
 	line_limits TRUE;
 };
 
-class player {
-	double value;
+module connection {
+};
+
+
+
+object helics_msg {
+	name IEEE_123_feeder_0;
+	configure IEEE_123_feeder_0.json;
 };
 
 object player {
 	name norm_feeder_loadshape;
 	property value;
-	file include/players/load_shape_player.player;
+	file ./load_shape_player.player;
 	loop 14600;
-// Will loop file for 40 years assuming the file has data for a 24 hour period
 };
 
 object climate {
 	name ClimateWeather;
-	tmyfile include/weather/AZ-Phoenix.tmy3;
+	tmyfile ./AZ-Phoenix.tmy3;
 	interpolate QUADRATIC;
 };
 
@@ -73,7 +76,7 @@ object transformer_configuration {
 	install_type PADMOUNT;
 	primary_voltage 138000.0;
 	secondary_voltage 2401.7771;
-	power_rating 8.6 MVA;
+	power_rating "8.6 MVA";
 	impedance 0.00033+0.0022j;
 };
 
@@ -122,10 +125,7 @@ object triplex_line_conductor {
 	name tlc1000;
 	resistance 0.48;
 	geometric_mean_radius 0.0158;
-	rating.summer.continuous 1000.0;
-	rating.summer.emergency 1000.0;
-	rating.winter.continuous 1000.0;
-	rating.winter.emergency 1000.0;
+	rating ".winter.emergency 1000.0";
 };
 
 object line_spacing {
@@ -357,7 +357,7 @@ object line_configuration {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj12;
 	from l1;
 	to l2;
@@ -367,7 +367,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj13;
 	from l1;
 	to n3;
@@ -377,7 +377,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj17;
 	from l1;
 	to l7;
@@ -387,7 +387,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj34;
 	from n3;
 	to l4;
@@ -397,7 +397,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj35;
 	from n3;
 	to l5;
@@ -407,7 +407,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj56;
 	from l5;
 	to l6;
@@ -417,7 +417,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj78;
 	from l7;
 	to n8;
@@ -427,7 +427,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj812;
 	from n8;
 	to l12;
@@ -437,7 +437,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj89;
 	from n8;
 	to l9;
@@ -447,7 +447,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj813;
 	from n8;
 	to n13;
@@ -457,7 +457,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj140114;
 	from n1401;
 	to n14;
@@ -467,7 +467,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj1334;
 	from n13;
 	to l34;
@@ -477,7 +477,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj1318;
 	from n13;
 	to n18;
@@ -487,7 +487,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj1411;
 	from n14;
 	to l11;
@@ -497,7 +497,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj1410;
 	from n14;
 	to l10;
@@ -507,7 +507,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj1516;
 	from n15;
 	to l16;
@@ -517,7 +517,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj1517;
 	from n15;
 	to l17;
@@ -527,7 +527,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj1819;
 	from n18;
 	to l19;
@@ -537,7 +537,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj1821;
 	from n18;
 	to n21;
@@ -547,7 +547,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj1920;
 	from l19;
 	to l20;
@@ -557,7 +557,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj2122;
 	from n21;
 	to l22;
@@ -567,7 +567,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj2123;
 	from n21;
 	to n23;
@@ -577,7 +577,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj2324;
 	from n23;
 	to l24;
@@ -587,7 +587,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj2325;
 	from n23;
 	to n25;
@@ -597,7 +597,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ACN";
+	phases ACN;
 	name linobj260126;
 	from n2601;
 	to n26;
@@ -607,7 +607,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj2528;
 	from n25;
 	to l28;
@@ -617,7 +617,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ACN";
+	phases ACN;
 	name linobj2627;
 	from n26;
 	to n27;
@@ -627,7 +627,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj2631;
 	from n26;
 	to l31;
@@ -637,7 +637,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj2733;
 	from n27;
 	to l33;
@@ -647,7 +647,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj2829;
 	from l28;
 	to l29;
@@ -657,7 +657,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj2930;
 	from l29;
 	to l30;
@@ -667,7 +667,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj30250;
 	from l30;
 	to n250;
@@ -677,7 +677,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj3132;
 	from l31;
 	to l32;
@@ -687,7 +687,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj3415;
 	from l34;
 	to n15;
@@ -697,7 +697,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABN";
+	phases ABN;
 	name linobj3536;
 	from l35;
 	to n36;
@@ -707,7 +707,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj3540;
 	from l35;
 	to n40;
@@ -717,7 +717,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj3637;
 	from n36;
 	to l37;
@@ -727,7 +727,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj3638;
 	from n36;
 	to l38;
@@ -737,7 +737,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj3839;
 	from l38;
 	to l39;
@@ -747,7 +747,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj4041;
 	from n40;
 	to l41;
@@ -757,7 +757,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4042;
 	from n40;
 	to l42;
@@ -767,7 +767,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj4243;
 	from l42;
 	to l43;
@@ -777,7 +777,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4244;
 	from l42;
 	to n44;
@@ -787,7 +787,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj4445;
 	from n44;
 	to l45;
@@ -797,7 +797,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4447;
 	from n44;
 	to l47;
@@ -807,7 +807,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj4546;
 	from l45;
 	to l46;
@@ -817,7 +817,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4748;
 	from l47;
 	to l48;
@@ -827,7 +827,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4749;
 	from l47;
 	to l49;
@@ -837,7 +837,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj4950;
 	from l49;
 	to l50;
@@ -847,7 +847,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5051;
 	from l50;
 	to l51;
@@ -857,7 +857,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj51151;
 	from l51;
 	to n151;
@@ -867,7 +867,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5253;
 	from l52;
 	to l53;
@@ -877,7 +877,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5354;
 	from l53;
 	to n54;
@@ -887,7 +887,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5455;
 	from n54;
 	to l55;
@@ -897,7 +897,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5457;
 	from n54;
 	to n57;
@@ -907,7 +907,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5556;
 	from l55;
 	to l56;
@@ -917,7 +917,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj5758;
 	from n57;
 	to l58;
@@ -927,7 +927,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj5760;
 	from n57;
 	to l60;
@@ -937,7 +937,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj5859;
 	from l58;
 	to l59;
@@ -947,7 +947,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj6061;
 	from l60;
 	to n61;
@@ -957,7 +957,7 @@ object overhead_line {
 };
 
 object underground_line {
-	phases "ABC";
+	phases ABC;
 	name linobj6062;
 	from l60;
 	to l62;
@@ -967,7 +967,7 @@ object underground_line {
 };
 
 object underground_line {
-	phases "ABC";
+	phases ABC;
 	name linobj6263;
 	from l62;
 	to l63;
@@ -977,7 +977,7 @@ object underground_line {
 };
 
 object underground_line {
-	phases "ABC";
+	phases ABC;
 	name linobj6364;
 	from l63;
 	to l64;
@@ -987,7 +987,7 @@ object underground_line {
 };
 
 object underground_line {
-	phases "ABC";
+	phases ABC;
 	name linobj6465;
 	from l64;
 	to l65;
@@ -997,7 +997,7 @@ object underground_line {
 };
 
 object underground_line {
-	phases "ABC";
+	phases ABC;
 	name linobj6566;
 	from l65;
 	to l66;
@@ -1007,7 +1007,7 @@ object underground_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj6768;
 	from n67;
 	to l68;
@@ -1017,7 +1017,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj6772;
 	from n67;
 	to n72;
@@ -1027,7 +1027,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj6797;
 	from n67;
 	to n97;
@@ -1037,7 +1037,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj6869;
 	from l68;
 	to l69;
@@ -1047,7 +1047,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj6970;
 	from l69;
 	to l70;
@@ -1057,7 +1057,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj7071;
 	from l70;
 	to l71;
@@ -1067,7 +1067,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj7273;
 	from n72;
 	to l73;
@@ -1077,7 +1077,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7276;
 	from n72;
 	to l76;
@@ -1087,7 +1087,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj7374;
 	from l73;
 	to l74;
@@ -1097,7 +1097,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj7475;
 	from l74;
 	to l75;
@@ -1107,7 +1107,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7677;
 	from l76;
 	to l77;
@@ -1117,7 +1117,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7686;
 	from l76;
 	to l86;
@@ -1127,7 +1127,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7778;
 	from l77;
 	to n78;
@@ -1137,7 +1137,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7879;
 	from n78;
 	to l79;
@@ -1147,7 +1147,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj7880;
 	from n78;
 	to l80;
@@ -1157,7 +1157,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8081;
 	from l80;
 	to n81;
@@ -1167,7 +1167,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8182;
 	from n81;
 	to l82;
@@ -1177,7 +1177,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj8184;
 	from n81;
 	to l84;
@@ -1187,7 +1187,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8283;
 	from l82;
 	to l83;
@@ -1197,7 +1197,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj8485;
 	from l84;
 	to l85;
@@ -1207,7 +1207,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8687;
 	from l86;
 	to l87;
@@ -1217,7 +1217,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj8788;
 	from l87;
 	to l88;
@@ -1227,7 +1227,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8789;
 	from l87;
 	to n89;
@@ -1237,7 +1237,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj8990;
 	from n89;
 	to l90;
@@ -1247,7 +1247,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj8991;
 	from n89;
 	to n91;
@@ -1257,7 +1257,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj9192;
 	from n91;
 	to l92;
@@ -1267,7 +1267,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj9193;
 	from n91;
 	to n93;
@@ -1277,7 +1277,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj9394;
 	from n93;
 	to l94;
@@ -1287,7 +1287,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj9395;
 	from n93;
 	to l95;
@@ -1297,7 +1297,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj9596;
 	from l95;
 	to l96;
@@ -1307,7 +1307,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj9798;
 	from n97;
 	to l98;
@@ -1317,7 +1317,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj9899;
 	from l98;
 	to l99;
@@ -1327,7 +1327,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj99100;
 	from l99;
 	to l100;
@@ -1337,7 +1337,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj100450;
 	from l100;
 	to n450;
@@ -1347,7 +1347,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj101102;
 	from n101;
 	to l102;
@@ -1357,7 +1357,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj101105;
 	from n101;
 	to n105;
@@ -1367,7 +1367,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj102103;
 	from l102;
 	to l103;
@@ -1377,7 +1377,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "CN";
+	phases CN;
 	name linobj103104;
 	from l103;
 	to l104;
@@ -1387,7 +1387,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj105106;
 	from n105;
 	to l106;
@@ -1397,7 +1397,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj105108;
 	from n105;
 	to n108;
@@ -1407,7 +1407,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "BN";
+	phases BN;
 	name linobj106107;
 	from l106;
 	to l107;
@@ -1417,7 +1417,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj108109;
 	from n108;
 	to l109;
@@ -1427,7 +1427,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj108300;
 	from n108;
 	to n300;
@@ -1437,7 +1437,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj109110;
 	from l109;
 	to n110;
@@ -1447,7 +1447,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj110111;
 	from n110;
 	to l111;
@@ -1457,7 +1457,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj110112;
 	from n110;
 	to l112;
@@ -1467,7 +1467,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj112113;
 	from l112;
 	to l113;
@@ -1477,7 +1477,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "AN";
+	phases AN;
 	name linobj113114;
 	from l113;
 	to l114;
@@ -1487,7 +1487,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj13535;
 	from n135;
 	to l35;
@@ -1497,7 +1497,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj1491;
 	from n149;
 	to l1;
@@ -1507,7 +1507,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj15252;
 	from n152;
 	to l52;
@@ -1517,7 +1517,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj670167;
 	from n6701;
 	to n67;
@@ -1527,7 +1527,7 @@ object overhead_line {
 };
 
 object overhead_line {
-	phases "ABCN";
+	phases ABCN;
 	name linobj197101;
 	from n197;
 	to n101;
@@ -1538,7 +1538,7 @@ object overhead_line {
 
 object node {
 	name n3;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1547,7 +1547,7 @@ object node {
 
 object node {
 	name n8;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1556,7 +1556,7 @@ object node {
 
 object node {
 	name n13;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1565,7 +1565,7 @@ object node {
 
 object node {
 	name n14;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1574,7 +1574,7 @@ object node {
 
 object node {
 	name n1401;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1583,7 +1583,7 @@ object node {
 
 object node {
 	name n15;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1592,7 +1592,7 @@ object node {
 
 object node {
 	name n18;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1601,7 +1601,7 @@ object node {
 
 object node {
 	name n21;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1610,7 +1610,7 @@ object node {
 
 object node {
 	name n23;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1619,7 +1619,7 @@ object node {
 
 object node {
 	name n25;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1628,7 +1628,7 @@ object node {
 
 object node {
 	name n26;
-	phases "ACN";
+	phases ACN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1637,7 +1637,7 @@ object node {
 
 object node {
 	name n2601;
-	phases "ACN";
+	phases ACN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1646,7 +1646,7 @@ object node {
 
 object node {
 	name n27;
-	phases "ACN";
+	phases ACN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1655,7 +1655,7 @@ object node {
 
 object node {
 	name n36;
-	phases "ABN";
+	phases ABN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1664,7 +1664,7 @@ object node {
 
 object node {
 	name n40;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1673,7 +1673,7 @@ object node {
 
 object node {
 	name n44;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1682,7 +1682,7 @@ object node {
 
 object node {
 	name n54;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1691,7 +1691,7 @@ object node {
 
 object node {
 	name n57;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1700,7 +1700,7 @@ object node {
 
 object node {
 	name n61;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1709,7 +1709,7 @@ object node {
 
 object node {
 	name n67;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1718,7 +1718,7 @@ object node {
 
 object node {
 	name n6701;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1727,7 +1727,7 @@ object node {
 
 object node {
 	name n72;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1736,7 +1736,7 @@ object node {
 
 object node {
 	name n78;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1745,7 +1745,7 @@ object node {
 
 object node {
 	name n81;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1754,7 +1754,7 @@ object node {
 
 object node {
 	name n89;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1763,7 +1763,7 @@ object node {
 
 object node {
 	name n91;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1772,7 +1772,7 @@ object node {
 
 object node {
 	name n93;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1781,7 +1781,7 @@ object node {
 
 object node {
 	name n97;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1790,7 +1790,7 @@ object node {
 
 object node {
 	name n101;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1799,7 +1799,7 @@ object node {
 
 object node {
 	name n105;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1808,7 +1808,7 @@ object node {
 
 object node {
 	name n108;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1817,7 +1817,7 @@ object node {
 
 object node {
 	name n110;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1826,7 +1826,7 @@ object node {
 
 object node {
 	name n135;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1835,7 +1835,7 @@ object node {
 
 object node {
 	name n149;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1844,7 +1844,7 @@ object node {
 
 object node {
 	name n1491;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1853,7 +1853,7 @@ object node {
 
 object meter {
 	name n150;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1862,7 +1862,7 @@ object meter {
 
 object node {
 	name n151;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1871,7 +1871,7 @@ object node {
 
 object node {
 	name n152;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1880,7 +1880,7 @@ object node {
 
 object node {
 	name n160;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1889,7 +1889,7 @@ object node {
 
 object node {
 	name n195;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1898,7 +1898,7 @@ object node {
 
 object node {
 	name n197;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1907,7 +1907,7 @@ object node {
 
 object node {
 	name n250;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1916,7 +1916,7 @@ object node {
 
 object node {
 	name n251;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1925,7 +1925,7 @@ object node {
 
 object node {
 	name n300;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1934,7 +1934,7 @@ object node {
 
 object node {
 	name n350;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1943,7 +1943,7 @@ object node {
 
 object node {
 	name n450;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1952,7 +1952,7 @@ object node {
 
 object node {
 	name n451;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1961,7 +1961,7 @@ object node {
 
 object node {
 	name n610;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 480.000+0j;
 	voltage_B -240.000-415.6922j;
 	voltage_C -240.000+415.6922j;
@@ -1970,7 +1970,7 @@ object node {
 
 object node {
 	name n611;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -1979,7 +1979,7 @@ object node {
 
 object load {
 	name l1;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2035,7 +2035,7 @@ object triplex_line {
 
 object load {
 	name l2;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2091,7 +2091,7 @@ object triplex_line {
 
 object load {
 	name l4;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2147,7 +2147,7 @@ object triplex_line {
 
 object load {
 	name l5;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2203,7 +2203,7 @@ object triplex_line {
 
 object load {
 	name l6;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2259,7 +2259,7 @@ object triplex_line {
 
 object load {
 	name l7;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2315,7 +2315,7 @@ object triplex_line {
 
 object load {
 	name l9;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2371,7 +2371,7 @@ object triplex_line {
 
 object load {
 	name l10;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2427,7 +2427,7 @@ object triplex_line {
 
 object load {
 	name l11;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2483,7 +2483,7 @@ object triplex_line {
 
 object load {
 	name l12;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2539,7 +2539,7 @@ object triplex_line {
 
 object load {
 	name l16;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2595,7 +2595,7 @@ object triplex_line {
 
 object load {
 	name l17;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2651,7 +2651,7 @@ object triplex_line {
 
 object load {
 	name l19;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2707,7 +2707,7 @@ object triplex_line {
 
 object load {
 	name l20;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2763,7 +2763,7 @@ object triplex_line {
 
 object load {
 	name l22;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2819,7 +2819,7 @@ object triplex_line {
 
 object load {
 	name l24;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2875,7 +2875,7 @@ object triplex_line {
 
 object load {
 	name l28;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2931,7 +2931,7 @@ object triplex_line {
 
 object load {
 	name l29;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -2987,7 +2987,7 @@ object triplex_line {
 
 object load {
 	name l30;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3043,7 +3043,7 @@ object triplex_line {
 
 object load {
 	name l31;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3099,7 +3099,7 @@ object triplex_line {
 
 object load {
 	name l32;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3155,7 +3155,7 @@ object triplex_line {
 
 object load {
 	name l33;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3211,7 +3211,7 @@ object triplex_line {
 
 object load {
 	name l34;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3267,7 +3267,7 @@ object triplex_line {
 
 object load {
 	name l35;
-	phases "ABCD";
+	phases ABCD;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3277,7 +3277,7 @@ object load {
 
 object load {
 	name l37;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3333,7 +3333,7 @@ object triplex_line {
 
 object load {
 	name l38;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3389,7 +3389,7 @@ object triplex_line {
 
 object load {
 	name l39;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3445,7 +3445,7 @@ object triplex_line {
 
 object load {
 	name l41;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3501,7 +3501,7 @@ object triplex_line {
 
 object load {
 	name l42;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3557,7 +3557,7 @@ object triplex_line {
 
 object load {
 	name l43;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3613,7 +3613,7 @@ object triplex_line {
 
 object load {
 	name l45;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3669,7 +3669,7 @@ object triplex_line {
 
 object load {
 	name l46;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3725,7 +3725,7 @@ object triplex_line {
 
 object load {
 	name l47;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3737,7 +3737,7 @@ object load {
 
 object load {
 	name l48;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3749,7 +3749,7 @@ object load {
 
 object load {
 	name l49;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3761,7 +3761,7 @@ object load {
 
 object load {
 	name l50;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3817,7 +3817,7 @@ object triplex_line {
 
 object load {
 	name l51;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3873,7 +3873,7 @@ object triplex_line {
 
 object load {
 	name l52;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3929,7 +3929,7 @@ object triplex_line {
 
 object load {
 	name l53;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -3985,7 +3985,7 @@ object triplex_line {
 
 object load {
 	name l55;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4041,7 +4041,7 @@ object triplex_line {
 
 object load {
 	name l56;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4097,7 +4097,7 @@ object triplex_line {
 
 object load {
 	name l58;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4153,7 +4153,7 @@ object triplex_line {
 
 object load {
 	name l59;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4209,7 +4209,7 @@ object triplex_line {
 
 object load {
 	name l60;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4265,7 +4265,7 @@ object triplex_line {
 
 object load {
 	name l62;
-	phases "ABC";
+	phases ABC;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4321,7 +4321,7 @@ object triplex_line {
 
 object load {
 	name l63;
-	phases "ABC";
+	phases ABC;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4377,7 +4377,7 @@ object triplex_line {
 
 object load {
 	name l64;
-	phases "ABC";
+	phases ABC;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4433,7 +4433,7 @@ object triplex_line {
 
 object load {
 	name l65;
-	phases "ABCD";
+	phases ABCD;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4445,7 +4445,7 @@ object load {
 
 object load {
 	name l66;
-	phases "ABC";
+	phases ABC;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4501,7 +4501,7 @@ object triplex_line {
 
 object load {
 	name l68;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4557,7 +4557,7 @@ object triplex_line {
 
 object load {
 	name l69;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4613,7 +4613,7 @@ object triplex_line {
 
 object load {
 	name l70;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4669,7 +4669,7 @@ object triplex_line {
 
 object load {
 	name l71;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4725,7 +4725,7 @@ object triplex_line {
 
 object load {
 	name l73;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4781,7 +4781,7 @@ object triplex_line {
 
 object load {
 	name l74;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4837,7 +4837,7 @@ object triplex_line {
 
 object load {
 	name l75;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4893,7 +4893,7 @@ object triplex_line {
 
 object load {
 	name l76;
-	phases "ABCD";
+	phases ABCD;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4905,7 +4905,7 @@ object load {
 
 object load {
 	name l77;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -4961,7 +4961,7 @@ object triplex_line {
 
 object load {
 	name l79;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5017,7 +5017,7 @@ object triplex_line {
 
 object load {
 	name l80;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5073,7 +5073,7 @@ object triplex_line {
 
 object load {
 	name l82;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5129,7 +5129,7 @@ object triplex_line {
 
 object load {
 	name l83;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5185,7 +5185,7 @@ object triplex_line {
 
 object load {
 	name l84;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5241,7 +5241,7 @@ object triplex_line {
 
 object load {
 	name l85;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5297,7 +5297,7 @@ object triplex_line {
 
 object load {
 	name l86;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5353,7 +5353,7 @@ object triplex_line {
 
 object load {
 	name l87;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5409,7 +5409,7 @@ object triplex_line {
 
 object load {
 	name l88;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5465,7 +5465,7 @@ object triplex_line {
 
 object load {
 	name l90;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5521,7 +5521,7 @@ object triplex_line {
 
 object load {
 	name l92;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5577,7 +5577,7 @@ object triplex_line {
 
 object load {
 	name l94;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5633,7 +5633,7 @@ object triplex_line {
 
 object load {
 	name l95;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5689,7 +5689,7 @@ object triplex_line {
 
 object load {
 	name l96;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5745,7 +5745,7 @@ object triplex_line {
 
 object load {
 	name l98;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5801,7 +5801,7 @@ object triplex_line {
 
 object load {
 	name l99;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5857,7 +5857,7 @@ object triplex_line {
 
 object load {
 	name l100;
-	phases "ABCN";
+	phases ABCN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5913,7 +5913,7 @@ object triplex_line {
 
 object load {
 	name l102;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -5969,7 +5969,7 @@ object triplex_line {
 
 object load {
 	name l103;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6025,7 +6025,7 @@ object triplex_line {
 
 object load {
 	name l104;
-	phases "CN";
+	phases CN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6081,7 +6081,7 @@ object triplex_line {
 
 object load {
 	name l106;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6137,7 +6137,7 @@ object triplex_line {
 
 object load {
 	name l107;
-	phases "BN";
+	phases BN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6193,7 +6193,7 @@ object triplex_line {
 
 object load {
 	name l109;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6249,7 +6249,7 @@ object triplex_line {
 
 object load {
 	name l111;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6305,7 +6305,7 @@ object triplex_line {
 
 object load {
 	name l112;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6361,7 +6361,7 @@ object triplex_line {
 
 object load {
 	name l113;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6417,7 +6417,7 @@ object triplex_line {
 
 object load {
 	name l114;
-	phases "AN";
+	phases AN;
 	voltage_A 2401.7771;
 	voltage_B -1200.8886-2080.000j;
 	voltage_C -1200.8886+2080.000j;
@@ -6473,7 +6473,7 @@ object triplex_line {
 
 object switch {
 	name sw13152;
-	phases "ABCN";
+	phases ABCN;
 	from n13;
 	to n152;
 	status CLOSED;
@@ -6481,7 +6481,7 @@ object switch {
 
 object switch {
 	name sw18135;
-	phases "ABCN";
+	phases ABCN;
 	from n18;
 	to n135;
 	status CLOSED;
@@ -6489,7 +6489,7 @@ object switch {
 
 object switch {
 	name sw60160;
-	phases "ABCN";
+	phases ABCN;
 	from l60;
 	to n160;
 	status CLOSED;
@@ -6497,7 +6497,7 @@ object switch {
 
 object switch {
 	name sw61611;
-	phases "ABCN";
+	phases ABCN;
 	from n61;
 	to n611;
 	status CLOSED;
@@ -6505,7 +6505,7 @@ object switch {
 
 object switch {
 	name sw97197;
-	phases "ABCN";
+	phases ABCN;
 	from n97;
 	to n197;
 	status CLOSED;
@@ -6513,7 +6513,7 @@ object switch {
 
 object switch {
 	name sw1491149;
-	phases "ABCN";
+	phases ABCN;
 	from n1491;
 	to n149;
 	status CLOSED;
@@ -6521,7 +6521,7 @@ object switch {
 
 object switch {
 	name sw250251;
-	phases "ABCN";
+	phases ABCN;
 	from n250;
 	to n251;
 	status CLOSED;
@@ -6529,7 +6529,7 @@ object switch {
 
 object switch {
 	name sw450451;
-	phases "ABCN";
+	phases ABCN;
 	from n450;
 	to n451;
 	status CLOSED;
@@ -6537,7 +6537,7 @@ object switch {
 
 object switch {
 	name sw300350;
-	phases "ABCN";
+	phases ABCN;
 	from n300;
 	to n350;
 	status CLOSED;
@@ -6545,7 +6545,7 @@ object switch {
 
 object switch {
 	name sw95195;
-	phases "ABCN";
+	phases ABCN;
 	from l95;
 	to n195;
 	status CLOSED;
@@ -6562,9 +6562,9 @@ object capacitor {
 	voltage_set_high 2500;
 	voltage_set_low 2300;
 	remote_sense l83;
-	capacitor_A 200 kVAr;
-	capacitor_B 200 kVAr;
-	capacitor_C 200 kVAr;
+	capacitor_A "200 kVAr";
+	capacitor_B "200 kVAr";
+	capacitor_C "200 kVAr";
 	control_level INDIVIDUAL;
 	nominal_voltage 2401.7771;
 };
@@ -6580,7 +6580,7 @@ object capacitor {
 	voltage_set_high 2500;
 	voltage_set_low 2300;
 	remote_sense l88;
-	capacitor_A 50 kVAr;
+	capacitor_A "50 kVAr";
 	control_level INDIVIDUAL;
 	nominal_voltage 2401.7771;
 };
@@ -6596,7 +6596,7 @@ object capacitor {
 	voltage_set_high 2500;
 	voltage_set_low 2300;
 	remote_sense l90;
-	capacitor_B 50 kVAr;
+	capacitor_B "50 kVAr";
 	control_level INDIVIDUAL;
 	nominal_voltage 2401.7771;
 };
@@ -6612,7 +6612,7 @@ object capacitor {
 	voltage_set_high 2500;
 	voltage_set_low 2300;
 	remote_sense l92;
-	capacitor_C 50 kVAr;
+	capacitor_C "50 kVAr";
 	control_level INDIVIDUAL;
 	nominal_voltage 2401.7771;
 };
@@ -6669,7 +6669,7 @@ object transformer_configuration {
 
 object transformer {
 	name tran611610;
-	phases "ABCN";
+	phases ABCN;
 	from n611;
 	to n610;
 	configuration tc400;
@@ -6692,8 +6692,8 @@ object regulator_configuration {
 	compensator_x_setting_B 7.5;
 	compensator_r_setting_C 3.0;
 	compensator_x_setting_C 7.5;
-	CT_phase "ABC";
-	PT_phase "ABC";
+	CT_phase ABC;
+	PT_phase ABC;
 	regulation 0.10;
 	Control OUTPUT_VOLTAGE;
 	control_level INDIVIDUAL;
@@ -6702,7 +6702,7 @@ object regulator_configuration {
 
 object regulator {
 	name reg1501491;
-	phases "ABC";
+	phases ABC;
 	from n150;
 	to n1491;
 	configuration regcon1501490;
@@ -6722,8 +6722,8 @@ object regulator_configuration {
 	compensator_x_setting_A 0.4;
 	compensator_r_setting_C 0.4;
 	compensator_x_setting_C 0.4;
-	CT_phase "A";
-	PT_phase "A";
+	CT_phase A;
+	PT_phase A;
 	regulation 0.10;
 	Control OUTPUT_VOLTAGE;
 	control_level BANK;
@@ -6732,7 +6732,7 @@ object regulator_configuration {
 
 object regulator {
 	name reg252601;
-	phases "AC";
+	phases AC;
 	from n25;
 	to n2601;
 	configuration regcon2526010;
@@ -6750,8 +6750,8 @@ object regulator_configuration {
 	power_transducer_ratio 20;
 	compensator_r_setting_A 0.4;
 	compensator_x_setting_A 0.4;
-	CT_phase "A";
-	PT_phase "A";
+	CT_phase A;
+	PT_phase A;
 	regulation 0.10;
 	Control OUTPUT_VOLTAGE;
 	control_level BANK;
@@ -6760,7 +6760,7 @@ object regulator_configuration {
 
 object regulator {
 	name reg91401;
-	phases "A";
+	phases A;
 	from l9;
 	to n1401;
 	configuration regcon914010;
@@ -6782,8 +6782,8 @@ object regulator_configuration {
 	compensator_x_setting_B 2.6;
 	compensator_r_setting_C 0.2;
 	compensator_x_setting_C 1.4;
-	CT_phase "ABC";
-	PT_phase "ABC";
+	CT_phase ABC;
+	PT_phase ABC;
 	regulation 0.10;
 	Control OUTPUT_VOLTAGE;
 	control_level INDIVIDUAL;
@@ -6792,7 +6792,7 @@ object regulator_configuration {
 
 object regulator {
 	name reg1606701;
-	phases "ABC";
+	phases ABC;
 	from n160;
 	to n6701;
 	configuration regcon16067010;

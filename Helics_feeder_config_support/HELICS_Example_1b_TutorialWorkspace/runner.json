@@ -1,0 +1,12 @@
+{
+  "broker":true,
+  "federates":[
+    {
+      "directory":"./IEEE_123_feeder_0",
+      "exec":"gridlabd IEEE_123_feeder_0.glm",
+      "host":"localhost",
+      "name":"IEEE_123_feeder_0"
+    }
+  ],
+  "name":"HELICS_Example_1b_TutorialWorkspace"
+}

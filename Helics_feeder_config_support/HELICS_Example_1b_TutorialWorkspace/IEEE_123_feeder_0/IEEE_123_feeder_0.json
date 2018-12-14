@@ -1,0 +1,6 @@
+{
+    "publications" : {"EV1": {"constant_power_C": "charge_EV1"}, "EV2": {"constant_power_B": "charge_EV2"}, "EV3": {"constant_power_A": "charge_EV3"}, "EV4": {"constant_power_C": "charge_EV4"}, "EV5": {"constant_power_B": "charge_EV5"}, "EV6": {"constant_power_A": "charge_EV6"}, "network_node": {"distribution_load": "totalLoad"}} ,
+    "subscriptions" : {"network_node": {"positive_sequence_voltage": "TransmissionSim/transmission_voltage"}},
+    "endpoint_subscriptions" : {},
+    "core_init_string" : "1"
+}
