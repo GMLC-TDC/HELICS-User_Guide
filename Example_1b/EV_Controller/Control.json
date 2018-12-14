@@ -3,41 +3,46 @@
 	"loglevel": 5,
 	"coreType": "zmq",
 	"timeDelta": 1.0,
-	"uninterruptible": true,
 
 	"endpoints":[
 	{
 		"name": "EV_Controller/EV6",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV6",
 		"global": true
-		
 	},  
 	{ 
 		"name": "EV_Controller/EV5",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV5",
 		"global": true
 	},  
 	{ 
 		"name": "EV_Controller/EV4",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV4",
 		"global": true
 	},  
 	{ 
 		"name": "EV_Controller/EV3",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV3",
 		"global": true
 	},  
 	{ 
 		"name": "EV_Controller/EV2",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV2",
 		"global": true
 	},	
 	{ 
 		"name": "EV_Controller/EV1",
 		"type": "genmessage",
+		"knownDestinations": "IEEE_123_feeder_0/EV1",
 		"global": true
 	}
-	],	
+	],
+	
 	"subscriptions":[
 	{
 		"key": "IEEE_123_feeder_0/totalLoad",

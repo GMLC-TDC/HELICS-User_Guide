@@ -1,1495 +1,29 @@
 WARNING  [INIT] : switch objects may not behave properly under FBS!
-DistributionSim (131074) (0)::Granting Initialization
-DistributionSim (131074) (0)::Granting Execution
-DistributionSim (131074) (0)::Granted Time=1
-Processing 2013-08-28 00:00:01 PST...                                      Processing 2013-08-28 00:00:01 PST...DistributionSim (131074) (0)::Granted Time=60
-DistributionSim (131074) (0)::Granted Time=120
-DistributionSim (131074) (0)::Granted Time=180
-DistributionSim (131074) (0)::Granted Time=240
-DistributionSim (131074) (0)::Granted Time=300
-DistributionSim (131074) (0)::Granted Time=360
-DistributionSim (131074) (0)::Granted Time=420
-DistributionSim (131074) (0)::Granted Time=480
-DistributionSim (131074) (0)::Granted Time=540
-DistributionSim (131074) (0)::Granted Time=600
-DistributionSim (131074) (0)::Granted Time=660
-DistributionSim (131074) (0)::Granted Time=720
-DistributionSim (131074) (0)::Granted Time=780
-DistributionSim (131074) (0)::Granted Time=840
-DistributionSim (131074) (0)::Granted Time=900
-DistributionSim (131074) (0)::Granted Time=960
-DistributionSim (131074) (0)::Granted Time=1020
-DistributionSim (131074) (0)::Granted Time=1080
-DistributionSim (131074) (0)::Granted Time=1140
-DistributionSim (131074) (0)::Granted Time=1200
-DistributionSim (131074) (0)::Granted Time=1260
-DistributionSim (131074) (0)::Granted Time=1320
-DistributionSim (131074) (0)::Granted Time=1380
-DistributionSim (131074) (0)::Granted Time=1440
-DistributionSim (131074) (0)::Granted Time=1500
-DistributionSim (131074) (0)::Granted Time=1560
-                                      Processing 2013-08-28 00:26:00 PST...DistributionSim (131074) (0)::Granted Time=1620
-DistributionSim (131074) (0)::Granted Time=1680
-DistributionSim (131074) (0)::Granted Time=1740
-DistributionSim (131074) (0)::Granted Time=1800
-DistributionSim (131074) (0)::Granted Time=1860
-DistributionSim (131074) (0)::Granted Time=1920
-DistributionSim (131074) (0)::Granted Time=1980
-DistributionSim (131074) (0)::Granted Time=2040
-DistributionSim (131074) (0)::Granted Time=2100
-DistributionSim (131074) (0)::Granted Time=2160
-DistributionSim (131074) (0)::Granted Time=2220
-DistributionSim (131074) (0)::Granted Time=2280
-DistributionSim (131074) (0)::Granted Time=2340
-DistributionSim (131074) (0)::Granted Time=2400
-DistributionSim (131074) (0)::Granted Time=2460
-DistributionSim (131074) (0)::Granted Time=2520
-DistributionSim (131074) (0)::Granted Time=2580
-DistributionSim (131074) (0)::Granted Time=2640
-DistributionSim (131074) (0)::Granted Time=2700
-DistributionSim (131074) (0)::Granted Time=2760
-DistributionSim (131074) (0)::Granted Time=2820
-DistributionSim (131074) (0)::Granted Time=2880
-DistributionSim (131074) (0)::Granted Time=2940
-DistributionSim (131074) (0)::Granted Time=3000
-DistributionSim (131074) (0)::Granted Time=3060
-DistributionSim (131074) (0)::Granted Time=3120
-DistributionSim (131074) (0)::Granted Time=3180
-                                      Processing 2013-08-28 00:53:00 PST...DistributionSim (131074) (0)::Granted Time=3240
-DistributionSim (131074) (0)::Granted Time=3300
-DistributionSim (131074) (0)::Granted Time=3360
-DistributionSim (131074) (0)::Granted Time=3420
-DistributionSim (131074) (0)::Granted Time=3480
-DistributionSim (131074) (0)::Granted Time=3540
-DistributionSim (131074) (0)::Granted Time=3600
-DistributionSim (131074) (0)::Granted Time=3601
-                                      Processing 2013-08-28 01:00:01 PST...DistributionSim (131074) (0)::Granted Time=3660
-DistributionSim (131074) (0)::Granted Time=3720
-DistributionSim (131074) (0)::Granted Time=3780
-DistributionSim (131074) (0)::Granted Time=3840
-DistributionSim (131074) (0)::Granted Time=3900
-DistributionSim (131074) (0)::Granted Time=3960
-DistributionSim (131074) (0)::Granted Time=4020
-DistributionSim (131074) (0)::Granted Time=4080
-DistributionSim (131074) (0)::Granted Time=4140
-DistributionSim (131074) (0)::Granted Time=4200
-DistributionSim (131074) (0)::Granted Time=4260
-DistributionSim (131074) (0)::Granted Time=4320
-DistributionSim (131074) (0)::Granted Time=4380
-                                      Processing 2013-08-28 01:13:00 PST...DistributionSim (131074) (0)::Granted Time=4440
-DistributionSim (131074) (0)::Granted Time=4500
-DistributionSim (131074) (0)::Granted Time=4560
-DistributionSim (131074) (0)::Granted Time=4620
-DistributionSim (131074) (0)::Granted Time=4680
-DistributionSim (131074) (0)::Granted Time=4740
-DistributionSim (131074) (0)::Granted Time=4800
-DistributionSim (131074) (0)::Granted Time=4860
-DistributionSim (131074) (0)::Granted Time=4920
-DistributionSim (131074) (0)::Granted Time=4980
-DistributionSim (131074) (0)::Granted Time=5040
-DistributionSim (131074) (0)::Granted Time=5100
-DistributionSim (131074) (0)::Granted Time=5160
-DistributionSim (131074) (0)::Granted Time=5220
-DistributionSim (131074) (0)::Granted Time=5280
-DistributionSim (131074) (0)::Granted Time=5340
-DistributionSim (131074) (0)::Granted Time=5400
-DistributionSim (131074) (0)::Granted Time=5460
-DistributionSim (131074) (0)::Granted Time=5520
-DistributionSim (131074) (0)::Granted Time=5580
-DistributionSim (131074) (0)::Granted Time=5640
-DistributionSim (131074) (0)::Granted Time=5700
-DistributionSim (131074) (0)::Granted Time=5760
-DistributionSim (131074) (0)::Granted Time=5820
-DistributionSim (131074) (0)::Granted Time=5880
-DistributionSim (131074) (0)::Granted Time=5940
-DistributionSim (131074) (0)::Granted Time=6000
-                                      Processing 2013-08-28 01:40:00 PST...DistributionSim (131074) (0)::Granted Time=6060
-DistributionSim (131074) (0)::Granted Time=6120
-DistributionSim (131074) (0)::Granted Time=6180
-DistributionSim (131074) (0)::Granted Time=6240
-DistributionSim (131074) (0)::Granted Time=6300
-DistributionSim (131074) (0)::Granted Time=6360
-DistributionSim (131074) (0)::Granted Time=6420
-DistributionSim (131074) (0)::Granted Time=6480
-DistributionSim (131074) (0)::Granted Time=6540
-DistributionSim (131074) (0)::Granted Time=6600
-DistributionSim (131074) (0)::Granted Time=6660
-DistributionSim (131074) (0)::Granted Time=6720
-DistributionSim (131074) (0)::Granted Time=6780
-DistributionSim (131074) (0)::Granted Time=6840
-DistributionSim (131074) (0)::Granted Time=6900
-DistributionSim (131074) (0)::Granted Time=6960
-DistributionSim (131074) (0)::Granted Time=7020
-DistributionSim (131074) (0)::Granted Time=7080
-DistributionSim (131074) (0)::Granted Time=7140
-DistributionSim (131074) (0)::Granted Time=7200
-DistributionSim (131074) (0)::Granted Time=7201
-                                      Processing 2013-08-28 02:00:01 PST...DistributionSim (131074) (0)::Granted Time=7260
-DistributionSim (131074) (0)::Granted Time=7320
-DistributionSim (131074) (0)::Granted Time=7380
-DistributionSim (131074) (0)::Granted Time=7440
-DistributionSim (131074) (0)::Granted Time=7500
-DistributionSim (131074) (0)::Granted Time=7560
-DistributionSim (131074) (0)::Granted Time=7620
-DistributionSim (131074) (0)::Granted Time=7680
-DistributionSim (131074) (0)::Granted Time=7740
-                                      Processing 2013-08-28 02:09:00 PST...DistributionSim (131074) (0)::Granted Time=7800
-DistributionSim (131074) (0)::Granted Time=7860
-DistributionSim (131074) (0)::Granted Time=7920
-DistributionSim (131074) (0)::Granted Time=7980
-DistributionSim (131074) (0)::Granted Time=8040
-DistributionSim (131074) (0)::Granted Time=8100
-DistributionSim (131074) (0)::Granted Time=8160
-DistributionSim (131074) (0)::Granted Time=8220
-DistributionSim (131074) (0)::Granted Time=8280
-DistributionSim (131074) (0)::Granted Time=8340
-DistributionSim (131074) (0)::Granted Time=8400
-DistributionSim (131074) (0)::Granted Time=8460
-DistributionSim (131074) (0)::Granted Time=8520
-DistributionSim (131074) (0)::Granted Time=8580
-DistributionSim (131074) (0)::Granted Time=8640
-DistributionSim (131074) (0)::Granted Time=8700
-DistributionSim (131074) (0)::Granted Time=8760
-DistributionSim (131074) (0)::Granted Time=8820
-DistributionSim (131074) (0)::Granted Time=8880
-DistributionSim (131074) (0)::Granted Time=8940
-DistributionSim (131074) (0)::Granted Time=9000
-DistributionSim (131074) (0)::Granted Time=9060
-DistributionSim (131074) (0)::Granted Time=9120
-DistributionSim (131074) (0)::Granted Time=9180
-DistributionSim (131074) (0)::Granted Time=9240
-DistributionSim (131074) (0)::Granted Time=9300
-DistributionSim (131074) (0)::Granted Time=9360
-                                      Processing 2013-08-28 02:36:00 PST...DistributionSim (131074) (0)::Granted Time=9420
-DistributionSim (131074) (0)::Granted Time=9480
-DistributionSim (131074) (0)::Granted Time=9540
-DistributionSim (131074) (0)::Granted Time=9600
-DistributionSim (131074) (0)::Granted Time=9660
-DistributionSim (131074) (0)::Granted Time=9720
-DistributionSim (131074) (0)::Granted Time=9780
-DistributionSim (131074) (0)::Granted Time=9840
-DistributionSim (131074) (0)::Granted Time=9900
-DistributionSim (131074) (0)::Granted Time=9960
-DistributionSim (131074) (0)::Granted Time=10020
-DistributionSim (131074) (0)::Granted Time=10080
-DistributionSim (131074) (0)::Granted Time=10140
-DistributionSim (131074) (0)::Granted Time=10200
-DistributionSim (131074) (0)::Granted Time=10260
-DistributionSim (131074) (0)::Granted Time=10320
-DistributionSim (131074) (0)::Granted Time=10380
-DistributionSim (131074) (0)::Granted Time=10440
-DistributionSim (131074) (0)::Granted Time=10500
-DistributionSim (131074) (0)::Granted Time=10560
-DistributionSim (131074) (0)::Granted Time=10620
-DistributionSim (131074) (0)::Granted Time=10680
-DistributionSim (131074) (0)::Granted Time=10740
-DistributionSim (131074) (0)::Granted Time=10800
-DistributionSim (131074) (0)::Granted Time=10801
-                                      Processing 2013-08-28 03:00:01 PST...DistributionSim (131074) (0)::Granted Time=10860
-DistributionSim (131074) (0)::Granted Time=10920
-DistributionSim (131074) (0)::Granted Time=10980
-DistributionSim (131074) (0)::Granted Time=11040
-DistributionSim (131074) (0)::Granted Time=11100
-DistributionSim (131074) (0)::Granted Time=11160
-DistributionSim (131074) (0)::Granted Time=11220
-DistributionSim (131074) (0)::Granted Time=11280
-DistributionSim (131074) (0)::Granted Time=11340
-DistributionSim (131074) (0)::Granted Time=11400
-DistributionSim (131074) (0)::Granted Time=11460
-DistributionSim (131074) (0)::Granted Time=11520
-DistributionSim (131074) (0)::Granted Time=11580
-DistributionSim (131074) (0)::Granted Time=11640
-DistributionSim (131074) (0)::Granted Time=11700
-DistributionSim (131074) (0)::Granted Time=11760
-DistributionSim (131074) (0)::Granted Time=11820
-DistributionSim (131074) (0)::Granted Time=11880
-DistributionSim (131074) (0)::Granted Time=11940
-DistributionSim (131074) (0)::Granted Time=12000
-DistributionSim (131074) (0)::Granted Time=12060
-DistributionSim (131074) (0)::Granted Time=12120
-DistributionSim (131074) (0)::Granted Time=12180
-DistributionSim (131074) (0)::Granted Time=12240
-DistributionSim (131074) (0)::Granted Time=12300
-DistributionSim (131074) (0)::Granted Time=12360
-DistributionSim (131074) (0)::Granted Time=12420
-DistributionSim (131074) (0)::Granted Time=12480
-                                      Processing 2013-08-28 03:28:00 PST...DistributionSim (131074) (0)::Granted Time=12540
-DistributionSim (131074) (0)::Granted Time=12600
-DistributionSim (131074) (0)::Granted Time=12660
-DistributionSim (131074) (0)::Granted Time=12720
-DistributionSim (131074) (0)::Granted Time=12780
-DistributionSim (131074) (0)::Granted Time=12840
-DistributionSim (131074) (0)::Granted Time=12900
-DistributionSim (131074) (0)::Granted Time=12960
-DistributionSim (131074) (0)::Granted Time=13020
-DistributionSim (131074) (0)::Granted Time=13080
-DistributionSim (131074) (0)::Granted Time=13140
-DistributionSim (131074) (0)::Granted Time=13200
-DistributionSim (131074) (0)::Granted Time=13260
-DistributionSim (131074) (0)::Granted Time=13320
-DistributionSim (131074) (0)::Granted Time=13380
-DistributionSim (131074) (0)::Granted Time=13440
-DistributionSim (131074) (0)::Granted Time=13500
-DistributionSim (131074) (0)::Granted Time=13560
-DistributionSim (131074) (0)::Granted Time=13620
-DistributionSim (131074) (0)::Granted Time=13680
-DistributionSim (131074) (0)::Granted Time=13740
-DistributionSim (131074) (0)::Granted Time=13800
-DistributionSim (131074) (0)::Granted Time=13860
-DistributionSim (131074) (0)::Granted Time=13920
-DistributionSim (131074) (0)::Granted Time=13980
-DistributionSim (131074) (0)::Granted Time=14040
-DistributionSim (131074) (0)::Granted Time=14100
-                                      Processing 2013-08-28 03:55:00 PST...DistributionSim (131074) (0)::Granted Time=14160
-DistributionSim (131074) (0)::Granted Time=14220
-DistributionSim (131074) (0)::Granted Time=14280
-DistributionSim (131074) (0)::Granted Time=14340
-DistributionSim (131074) (0)::Granted Time=14400
-DistributionSim (131074) (0)::Granted Time=14401
-                                      Processing 2013-08-28 04:00:01 PST...DistributionSim (131074) (0)::Granted Time=14460
-DistributionSim (131074) (0)::Granted Time=14520
-DistributionSim (131074) (0)::Granted Time=14580
-DistributionSim (131074) (0)::Granted Time=14640
-DistributionSim (131074) (0)::Granted Time=14700
-DistributionSim (131074) (0)::Granted Time=14760
-DistributionSim (131074) (0)::Granted Time=14820
-DistributionSim (131074) (0)::Granted Time=14880
-DistributionSim (131074) (0)::Granted Time=14940
-DistributionSim (131074) (0)::Granted Time=15000
-DistributionSim (131074) (0)::Granted Time=15060
-DistributionSim (131074) (0)::Granted Time=15120
-DistributionSim (131074) (0)::Granted Time=15180
-DistributionSim (131074) (0)::Granted Time=15240
-DistributionSim (131074) (0)::Granted Time=15300
-DistributionSim (131074) (0)::Granted Time=15360
-DistributionSim (131074) (0)::Granted Time=15420
-DistributionSim (131074) (0)::Granted Time=15480
-DistributionSim (131074) (0)::Granted Time=15540
-DistributionSim (131074) (0)::Granted Time=15600
-DistributionSim (131074) (0)::Granted Time=15660
-DistributionSim (131074) (0)::Granted Time=15720
-DistributionSim (131074) (0)::Granted Time=15780
-DistributionSim (131074) (0)::Granted Time=15840
-                                      Processing 2013-08-28 04:24:00 PST...DistributionSim (131074) (0)::Granted Time=15900
-DistributionSim (131074) (0)::Granted Time=15960
-DistributionSim (131074) (0)::Granted Time=16020
-DistributionSim (131074) (0)::Granted Time=16080
-DistributionSim (131074) (0)::Granted Time=16140
-DistributionSim (131074) (0)::Granted Time=16200
-DistributionSim (131074) (0)::Granted Time=16260
-DistributionSim (131074) (0)::Granted Time=16320
-DistributionSim (131074) (0)::Granted Time=16380
-DistributionSim (131074) (0)::Granted Time=16440
-DistributionSim (131074) (0)::Granted Time=16500
-DistributionSim (131074) (0)::Granted Time=16560
-DistributionSim (131074) (0)::Granted Time=16620
-DistributionSim (131074) (0)::Granted Time=16680
-DistributionSim (131074) (0)::Granted Time=16740
-DistributionSim (131074) (0)::Granted Time=16800
-DistributionSim (131074) (0)::Granted Time=16860
-DistributionSim (131074) (0)::Granted Time=16920
-DistributionSim (131074) (0)::Granted Time=16980
-DistributionSim (131074) (0)::Granted Time=17040
-DistributionSim (131074) (0)::Granted Time=17100
-DistributionSim (131074) (0)::Granted Time=17160
-DistributionSim (131074) (0)::Granted Time=17220
-DistributionSim (131074) (0)::Granted Time=17280
-DistributionSim (131074) (0)::Granted Time=17340
-DistributionSim (131074) (0)::Granted Time=17400
-                                      Processing 2013-08-28 04:50:00 PST...DistributionSim (131074) (0)::Granted Time=17460
-DistributionSim (131074) (0)::Granted Time=17520
-DistributionSim (131074) (0)::Granted Time=17580
-DistributionSim (131074) (0)::Granted Time=17640
-DistributionSim (131074) (0)::Granted Time=17700
-DistributionSim (131074) (0)::Granted Time=17760
-DistributionSim (131074) (0)::Granted Time=17820
-DistributionSim (131074) (0)::Granted Time=17880
-DistributionSim (131074) (0)::Granted Time=17940
-DistributionSim (131074) (0)::Granted Time=18000
-DistributionSim (131074) (0)::Granted Time=18001
-                                      Processing 2013-08-28 05:00:01 PST...DistributionSim (131074) (0)::Granted Time=18060
-DistributionSim (131074) (0)::Granted Time=18120
-DistributionSim (131074) (0)::Granted Time=18180
-DistributionSim (131074) (0)::Granted Time=18240
-DistributionSim (131074) (0)::Granted Time=18300
-DistributionSim (131074) (0)::Granted Time=18360
-DistributionSim (131074) (0)::Granted Time=18420
-DistributionSim (131074) (0)::Granted Time=18480
-DistributionSim (131074) (0)::Granted Time=18540
-DistributionSim (131074) (0)::Granted Time=18600
-DistributionSim (131074) (0)::Granted Time=18660
-DistributionSim (131074) (0)::Granted Time=18720
-DistributionSim (131074) (0)::Granted Time=18780
-DistributionSim (131074) (0)::Granted Time=18840
-DistributionSim (131074) (0)::Granted Time=18900
-DistributionSim (131074) (0)::Granted Time=18960
-                                      Processing 2013-08-28 05:16:00 PST...DistributionSim (131074) (0)::Granted Time=19020
-DistributionSim (131074) (0)::Granted Time=19080
-DistributionSim (131074) (0)::Granted Time=19140
-DistributionSim (131074) (0)::Granted Time=19200
-DistributionSim (131074) (0)::Granted Time=19260
-DistributionSim (131074) (0)::Granted Time=19320
-DistributionSim (131074) (0)::Granted Time=19380
-DistributionSim (131074) (0)::Granted Time=19440
-DistributionSim (131074) (0)::Granted Time=19500
-DistributionSim (131074) (0)::Granted Time=19560
-DistributionSim (131074) (0)::Granted Time=19620
-DistributionSim (131074) (0)::Granted Time=19680
-DistributionSim (131074) (0)::Granted Time=19740
-DistributionSim (131074) (0)::Granted Time=19800
-DistributionSim (131074) (0)::Granted Time=19860
-DistributionSim (131074) (0)::Granted Time=19920
-DistributionSim (131074) (0)::Granted Time=19980
-DistributionSim (131074) (0)::Granted Time=20040
-DistributionSim (131074) (0)::Granted Time=20100
-DistributionSim (131074) (0)::Granted Time=20160
-DistributionSim (131074) (0)::Granted Time=20220
-DistributionSim (131074) (0)::Granted Time=20280
-DistributionSim (131074) (0)::Granted Time=20340
-DistributionSim (131074) (0)::Granted Time=20400
-DistributionSim (131074) (0)::Granted Time=20460
-                                      Processing 2013-08-28 05:41:00 PST...DistributionSim (131074) (0)::Granted Time=20520
-DistributionSim (131074) (0)::Granted Time=20580
-DistributionSim (131074) (0)::Granted Time=20640
-DistributionSim (131074) (0)::Granted Time=20700
-DistributionSim (131074) (0)::Granted Time=20760
-DistributionSim (131074) (0)::Granted Time=20820
-DistributionSim (131074) (0)::Granted Time=20880
-DistributionSim (131074) (0)::Granted Time=20940
-DistributionSim (131074) (0)::Granted Time=21000
-DistributionSim (131074) (0)::Granted Time=21060
-DistributionSim (131074) (0)::Granted Time=21120
-DistributionSim (131074) (0)::Granted Time=21180
-DistributionSim (131074) (0)::Granted Time=21240
-DistributionSim (131074) (0)::Granted Time=21300
-DistributionSim (131074) (0)::Granted Time=21360
-DistributionSim (131074) (0)::Granted Time=21420
-DistributionSim (131074) (0)::Granted Time=21480
-DistributionSim (131074) (0)::Granted Time=21540
-DistributionSim (131074) (0)::Granted Time=21600
-DistributionSim (131074) (0)::Granted Time=21601
-                                      Processing 2013-08-28 06:00:01 PST...DistributionSim (131074) (0)::Granted Time=21660
-DistributionSim (131074) (0)::Granted Time=21720
-DistributionSim (131074) (0)::Granted Time=21780
-DistributionSim (131074) (0)::Granted Time=21840
-DistributionSim (131074) (0)::Granted Time=21900
-DistributionSim (131074) (0)::Granted Time=21960
-                                      Processing 2013-08-28 06:06:00 PST...DistributionSim (131074) (0)::Granted Time=22020
-DistributionSim (131074) (0)::Granted Time=22080
-DistributionSim (131074) (0)::Granted Time=22140
-DistributionSim (131074) (0)::Granted Time=22200
-DistributionSim (131074) (0)::Granted Time=22260
-DistributionSim (131074) (0)::Granted Time=22320
-DistributionSim (131074) (0)::Granted Time=22380
-DistributionSim (131074) (0)::Granted Time=22440
-DistributionSim (131074) (0)::Granted Time=22500
-DistributionSim (131074) (0)::Granted Time=22560
-DistributionSim (131074) (0)::Granted Time=22620
-DistributionSim (131074) (0)::Granted Time=22680
-DistributionSim (131074) (0)::Granted Time=22740
-DistributionSim (131074) (0)::Granted Time=22800
-DistributionSim (131074) (0)::Granted Time=22860
-DistributionSim (131074) (0)::Granted Time=22920
-DistributionSim (131074) (0)::Granted Time=22980
-DistributionSim (131074) (0)::Granted Time=23040
-DistributionSim (131074) (0)::Granted Time=23100
-DistributionSim (131074) (0)::Granted Time=23160
-DistributionSim (131074) (0)::Granted Time=23220
-DistributionSim (131074) (0)::Granted Time=23280
-DistributionSim (131074) (0)::Granted Time=23340
-DistributionSim (131074) (0)::Granted Time=23400
-DistributionSim (131074) (0)::Granted Time=23460
-                                      Processing 2013-08-28 06:31:00 PST...DistributionSim (131074) (0)::Granted Time=23520
-DistributionSim (131074) (0)::Granted Time=23580
-DistributionSim (131074) (0)::Granted Time=23640
-DistributionSim (131074) (0)::Granted Time=23700
-DistributionSim (131074) (0)::Granted Time=23760
-DistributionSim (131074) (0)::Granted Time=23820
-DistributionSim (131074) (0)::Granted Time=23880
-DistributionSim (131074) (0)::Granted Time=23940
-DistributionSim (131074) (0)::Granted Time=24000
-DistributionSim (131074) (0)::Granted Time=24060
-DistributionSim (131074) (0)::Granted Time=24120
-DistributionSim (131074) (0)::Granted Time=24180
-DistributionSim (131074) (0)::Granted Time=24240
-DistributionSim (131074) (0)::Granted Time=24300
-DistributionSim (131074) (0)::Granted Time=24360
-DistributionSim (131074) (0)::Granted Time=24420
-DistributionSim (131074) (0)::Granted Time=24480
-DistributionSim (131074) (0)::Granted Time=24540
-DistributionSim (131074) (0)::Granted Time=24600
-DistributionSim (131074) (0)::Granted Time=24660
-DistributionSim (131074) (0)::Granted Time=24720
-DistributionSim (131074) (0)::Granted Time=24780
-DistributionSim (131074) (0)::Granted Time=24840
-DistributionSim (131074) (0)::Granted Time=24900
-DistributionSim (131074) (0)::Granted Time=24960
-DistributionSim (131074) (0)::Granted Time=25020
-DistributionSim (131074) (0)::Granted Time=25080
-                                      Processing 2013-08-28 06:58:00 PST...DistributionSim (131074) (0)::Granted Time=25140
-DistributionSim (131074) (0)::Granted Time=25200
-DistributionSim (131074) (0)::Granted Time=25201
-                                      Processing 2013-08-28 07:00:01 PST...DistributionSim (131074) (0)::Granted Time=25260
-DistributionSim (131074) (0)::Granted Time=25320
-DistributionSim (131074) (0)::Granted Time=25380
-DistributionSim (131074) (0)::Granted Time=25440
-DistributionSim (131074) (0)::Granted Time=25500
-DistributionSim (131074) (0)::Granted Time=25560
-DistributionSim (131074) (0)::Granted Time=25620
-DistributionSim (131074) (0)::Granted Time=25680
-DistributionSim (131074) (0)::Granted Time=25740
-DistributionSim (131074) (0)::Granted Time=25800
-DistributionSim (131074) (0)::Granted Time=25860
-DistributionSim (131074) (0)::Granted Time=25920
-DistributionSim (131074) (0)::Granted Time=25980
-DistributionSim (131074) (0)::Granted Time=26040
-DistributionSim (131074) (0)::Granted Time=26100
-DistributionSim (131074) (0)::Granted Time=26160
-DistributionSim (131074) (0)::Granted Time=26220
-DistributionSim (131074) (0)::Granted Time=26280
-DistributionSim (131074) (0)::Granted Time=26340
-DistributionSim (131074) (0)::Granted Time=26400
-DistributionSim (131074) (0)::Granted Time=26460
-                                      Processing 2013-08-28 07:21:00 PST...DistributionSim (131074) (0)::Granted Time=26520
-DistributionSim (131074) (0)::Granted Time=26580
-DistributionSim (131074) (0)::Granted Time=26640
-DistributionSim (131074) (0)::Granted Time=26700
-DistributionSim (131074) (0)::Granted Time=26760
-DistributionSim (131074) (0)::Granted Time=26820
-DistributionSim (131074) (0)::Granted Time=26880
-DistributionSim (131074) (0)::Granted Time=26940
-DistributionSim (131074) (0)::Granted Time=27000
-DistributionSim (131074) (0)::Granted Time=27060
-DistributionSim (131074) (0)::Granted Time=27120
-DistributionSim (131074) (0)::Granted Time=27180
-DistributionSim (131074) (0)::Granted Time=27240
-DistributionSim (131074) (0)::Granted Time=27300
-DistributionSim (131074) (0)::Granted Time=27360
-DistributionSim (131074) (0)::Granted Time=27420
-DistributionSim (131074) (0)::Granted Time=27480
-DistributionSim (131074) (0)::Granted Time=27540
-DistributionSim (131074) (0)::Granted Time=27600
-DistributionSim (131074) (0)::Granted Time=27660
-DistributionSim (131074) (0)::Granted Time=27720
-DistributionSim (131074) (0)::Granted Time=27780
-DistributionSim (131074) (0)::Granted Time=27840
-DistributionSim (131074) (0)::Granted Time=27900
-DistributionSim (131074) (0)::Granted Time=27960
-                                      Processing 2013-08-28 07:46:00 PST...DistributionSim (131074) (0)::Granted Time=28020
-DistributionSim (131074) (0)::Granted Time=28080
-DistributionSim (131074) (0)::Granted Time=28140
-DistributionSim (131074) (0)::Granted Time=28200
-DistributionSim (131074) (0)::Granted Time=28260
-DistributionSim (131074) (0)::Granted Time=28320
-DistributionSim (131074) (0)::Granted Time=28380
-DistributionSim (131074) (0)::Granted Time=28440
-DistributionSim (131074) (0)::Granted Time=28500
-DistributionSim (131074) (0)::Granted Time=28560
-DistributionSim (131074) (0)::Granted Time=28620
-DistributionSim (131074) (0)::Granted Time=28680
-DistributionSim (131074) (0)::Granted Time=28740
-DistributionSim (131074) (0)::Granted Time=28800
-DistributionSim (131074) (0)::Granted Time=28801
-                                      Processing 2013-08-28 08:00:01 PST...DistributionSim (131074) (0)::Granted Time=28860
-DistributionSim (131074) (0)::Granted Time=28920
-DistributionSim (131074) (0)::Granted Time=28980
-DistributionSim (131074) (0)::Granted Time=29040
-DistributionSim (131074) (0)::Granted Time=29100
-DistributionSim (131074) (0)::Granted Time=29160
-DistributionSim (131074) (0)::Granted Time=29220
-DistributionSim (131074) (0)::Granted Time=29280
-DistributionSim (131074) (0)::Granted Time=29340
-DistributionSim (131074) (0)::Granted Time=29400
-                                      Processing 2013-08-28 08:10:00 PST...DistributionSim (131074) (0)::Granted Time=29460
-DistributionSim (131074) (0)::Granted Time=29520
-DistributionSim (131074) (0)::Granted Time=29580
-DistributionSim (131074) (0)::Granted Time=29640
-DistributionSim (131074) (0)::Granted Time=29700
-DistributionSim (131074) (0)::Granted Time=29760
-DistributionSim (131074) (0)::Granted Time=29820
-DistributionSim (131074) (0)::Granted Time=29880
-DistributionSim (131074) (0)::Granted Time=29940
-DistributionSim (131074) (0)::Granted Time=30000
-DistributionSim (131074) (0)::Granted Time=30060
-DistributionSim (131074) (0)::Granted Time=30120
-DistributionSim (131074) (0)::Granted Time=30180
-DistributionSim (131074) (0)::Granted Time=30240
-DistributionSim (131074) (0)::Granted Time=30300
-DistributionSim (131074) (0)::Granted Time=30360
-DistributionSim (131074) (0)::Granted Time=30420
-DistributionSim (131074) (0)::Granted Time=30480
-DistributionSim (131074) (0)::Granted Time=30540
-DistributionSim (131074) (0)::Granted Time=30600
-DistributionSim (131074) (0)::Granted Time=30660
-DistributionSim (131074) (0)::Granted Time=30720
-DistributionSim (131074) (0)::Granted Time=30780
-DistributionSim (131074) (0)::Granted Time=30840
-DistributionSim (131074) (0)::Granted Time=30900
-DistributionSim (131074) (0)::Granted Time=30960
-                                      Processing 2013-08-28 08:36:00 PST...DistributionSim (131074) (0)::Granted Time=31020
-DistributionSim (131074) (0)::Granted Time=31080
-DistributionSim (131074) (0)::Granted Time=31140
-DistributionSim (131074) (0)::Granted Time=31200
-DistributionSim (131074) (0)::Granted Time=31260
-DistributionSim (131074) (0)::Granted Time=31320
-DistributionSim (131074) (0)::Granted Time=31380
-DistributionSim (131074) (0)::Granted Time=31440
-DistributionSim (131074) (0)::Granted Time=31500
-DistributionSim (131074) (0)::Granted Time=31560
-DistributionSim (131074) (0)::Granted Time=31620
-DistributionSim (131074) (0)::Granted Time=31680
-DistributionSim (131074) (0)::Granted Time=31740
-DistributionSim (131074) (0)::Granted Time=31800
-DistributionSim (131074) (0)::Granted Time=31860
-DistributionSim (131074) (0)::Granted Time=31920
-DistributionSim (131074) (0)::Granted Time=31980
-DistributionSim (131074) (0)::Granted Time=32040
-DistributionSim (131074) (0)::Granted Time=32100
-DistributionSim (131074) (0)::Granted Time=32160
-DistributionSim (131074) (0)::Granted Time=32220
-DistributionSim (131074) (0)::Granted Time=32280
-DistributionSim (131074) (0)::Granted Time=32340
-DistributionSim (131074) (0)::Granted Time=32400
-                                      Processing 2013-08-28 09:00:00 PST...DistributionSim (131074) (0)::Granted Time=32401
-                                      Processing 2013-08-28 09:00:01 PST...DistributionSim (131074) (0)::Granted Time=32460
-DistributionSim (131074) (0)::Granted Time=32520
-DistributionSim (131074) (0)::Granted Time=32580
-DistributionSim (131074) (0)::Granted Time=32640
-DistributionSim (131074) (0)::Granted Time=32700
-DistributionSim (131074) (0)::Granted Time=32760
-DistributionSim (131074) (0)::Granted Time=32820
-DistributionSim (131074) (0)::Granted Time=32880
-DistributionSim (131074) (0)::Granted Time=32940
-DistributionSim (131074) (0)::Granted Time=33000
-DistributionSim (131074) (0)::Granted Time=33060
-DistributionSim (131074) (0)::Granted Time=33120
-DistributionSim (131074) (0)::Granted Time=33180
-DistributionSim (131074) (0)::Granted Time=33240
-DistributionSim (131074) (0)::Granted Time=33300
-DistributionSim (131074) (0)::Granted Time=33360
-                                      Processing 2013-08-28 09:16:00 PST...DistributionSim (131074) (0)::Granted Time=33420
-DistributionSim (131074) (0)::Granted Time=33480
-DistributionSim (131074) (0)::Granted Time=33540
-DistributionSim (131074) (0)::Granted Time=33600
-DistributionSim (131074) (0)::Granted Time=33660
-DistributionSim (131074) (0)::Granted Time=33720
-DistributionSim (131074) (0)::Granted Time=33780
-DistributionSim (131074) (0)::Granted Time=33840
-DistributionSim (131074) (0)::Granted Time=33900
-DistributionSim (131074) (0)::Granted Time=33960
-DistributionSim (131074) (0)::Granted Time=34020
-DistributionSim (131074) (0)::Granted Time=34080
-DistributionSim (131074) (0)::Granted Time=34140
-DistributionSim (131074) (0)::Granted Time=34200
-DistributionSim (131074) (0)::Granted Time=34260
-DistributionSim (131074) (0)::Granted Time=34320
-DistributionSim (131074) (0)::Granted Time=34380
-DistributionSim (131074) (0)::Granted Time=34440
-DistributionSim (131074) (0)::Granted Time=34500
-DistributionSim (131074) (0)::Granted Time=34560
-DistributionSim (131074) (0)::Granted Time=34620
-DistributionSim (131074) (0)::Granted Time=34680
-DistributionSim (131074) (0)::Granted Time=34740
-DistributionSim (131074) (0)::Granted Time=34800
-DistributionSim (131074) (0)::Granted Time=34860
-DistributionSim (131074) (0)::Granted Time=34920
-                                      Processing 2013-08-28 09:42:00 PST...DistributionSim (131074) (0)::Granted Time=34980
-DistributionSim (131074) (0)::Granted Time=35040
-DistributionSim (131074) (0)::Granted Time=35100
-DistributionSim (131074) (0)::Granted Time=35160
-DistributionSim (131074) (0)::Granted Time=35220
-DistributionSim (131074) (0)::Granted Time=35280
-DistributionSim (131074) (0)::Granted Time=35340
-DistributionSim (131074) (0)::Granted Time=35400
-DistributionSim (131074) (0)::Granted Time=35460
-DistributionSim (131074) (0)::Granted Time=35520
-DistributionSim (131074) (0)::Granted Time=35580
-DistributionSim (131074) (0)::Granted Time=35640
-DistributionSim (131074) (0)::Granted Time=35700
-DistributionSim (131074) (0)::Granted Time=35760
-DistributionSim (131074) (0)::Granted Time=35820
-DistributionSim (131074) (0)::Granted Time=35880
-DistributionSim (131074) (0)::Granted Time=35940
-DistributionSim (131074) (0)::Granted Time=36000
-DistributionSim (131074) (0)::Granted Time=36001
-                                      Processing 2013-08-28 10:00:01 PST...DistributionSim (131074) (0)::Granted Time=36060
-DistributionSim (131074) (0)::Granted Time=36120
-DistributionSim (131074) (0)::Granted Time=36180
-DistributionSim (131074) (0)::Granted Time=36240
-DistributionSim (131074) (0)::Granted Time=36300
-DistributionSim (131074) (0)::Granted Time=36360
-DistributionSim (131074) (0)::Granted Time=36420
-DistributionSim (131074) (0)::Granted Time=36480
-DistributionSim (131074) (0)::Granted Time=36540
-DistributionSim (131074) (0)::Granted Time=36600
-DistributionSim (131074) (0)::Granted Time=36660
-DistributionSim (131074) (0)::Granted Time=36720
-DistributionSim (131074) (0)::Granted Time=36780
-DistributionSim (131074) (0)::Granted Time=36840
-DistributionSim (131074) (0)::Granted Time=36900
-DistributionSim (131074) (0)::Granted Time=36960
-DistributionSim (131074) (0)::Granted Time=37020
-DistributionSim (131074) (0)::Granted Time=37080
-DistributionSim (131074) (0)::Granted Time=37140
-DistributionSim (131074) (0)::Granted Time=37200
-DistributionSim (131074) (0)::Granted Time=37260
-DistributionSim (131074) (0)::Granted Time=37320
-DistributionSim (131074) (0)::Granted Time=37380
-DistributionSim (131074) (0)::Granted Time=37440
-DistributionSim (131074) (0)::Granted Time=37500
-DistributionSim (131074) (0)::Granted Time=37560
-                                      Processing 2013-08-28 10:26:00 PST...DistributionSim (131074) (0)::Granted Time=37620
-DistributionSim (131074) (0)::Granted Time=37680
-DistributionSim (131074) (0)::Granted Time=37740
-DistributionSim (131074) (0)::Granted Time=37800
-DistributionSim (131074) (0)::Granted Time=37860
-DistributionSim (131074) (0)::Granted Time=37920
-DistributionSim (131074) (0)::Granted Time=37980
-DistributionSim (131074) (0)::Granted Time=38040
-DistributionSim (131074) (0)::Granted Time=38100
-DistributionSim (131074) (0)::Granted Time=38160
-DistributionSim (131074) (0)::Granted Time=38220
-DistributionSim (131074) (0)::Granted Time=38280
-DistributionSim (131074) (0)::Granted Time=38340
-DistributionSim (131074) (0)::Granted Time=38400
-DistributionSim (131074) (0)::Granted Time=38460
-DistributionSim (131074) (0)::Granted Time=38520
-DistributionSim (131074) (0)::Granted Time=38580
-DistributionSim (131074) (0)::Granted Time=38640
-DistributionSim (131074) (0)::Granted Time=38700
-DistributionSim (131074) (0)::Granted Time=38760
-DistributionSim (131074) (0)::Granted Time=38820
-DistributionSim (131074) (0)::Granted Time=38880
-DistributionSim (131074) (0)::Granted Time=38940
-DistributionSim (131074) (0)::Granted Time=39000
-                                      Processing 2013-08-28 10:50:00 PST...DistributionSim (131074) (0)::Granted Time=39060
-DistributionSim (131074) (0)::Granted Time=39120
-DistributionSim (131074) (0)::Granted Time=39180
-DistributionSim (131074) (0)::Granted Time=39240
-DistributionSim (131074) (0)::Granted Time=39300
-DistributionSim (131074) (0)::Granted Time=39360
-DistributionSim (131074) (0)::Granted Time=39420
-DistributionSim (131074) (0)::Granted Time=39480
-DistributionSim (131074) (0)::Granted Time=39540
-DistributionSim (131074) (0)::Granted Time=39600
-DistributionSim (131074) (0)::Granted Time=39601
-                                      Processing 2013-08-28 11:00:01 PST...DistributionSim (131074) (0)::Granted Time=39660
-DistributionSim (131074) (0)::Granted Time=39720
-DistributionSim (131074) (0)::Granted Time=39780
-DistributionSim (131074) (0)::Granted Time=39840
-DistributionSim (131074) (0)::Granted Time=39900
-DistributionSim (131074) (0)::Granted Time=39960
-DistributionSim (131074) (0)::Granted Time=40020
-DistributionSim (131074) (0)::Granted Time=40080
-DistributionSim (131074) (0)::Granted Time=40140
-DistributionSim (131074) (0)::Granted Time=40200
-DistributionSim (131074) (0)::Granted Time=40260
-                                      Processing 2013-08-28 11:11:00 PST...DistributionSim (131074) (0)::Granted Time=40320
-DistributionSim (131074) (0)::Granted Time=40380
-DistributionSim (131074) (0)::Granted Time=40440
-DistributionSim (131074) (0)::Granted Time=40500
-DistributionSim (131074) (0)::Granted Time=40560
-DistributionSim (131074) (0)::Granted Time=40620
-DistributionSim (131074) (0)::Granted Time=40680
-DistributionSim (131074) (0)::Granted Time=40740
-DistributionSim (131074) (0)::Granted Time=40800
-DistributionSim (131074) (0)::Granted Time=40860
-DistributionSim (131074) (0)::Granted Time=40920
-DistributionSim (131074) (0)::Granted Time=40980
-DistributionSim (131074) (0)::Granted Time=41040
-DistributionSim (131074) (0)::Granted Time=41100
-DistributionSim (131074) (0)::Granted Time=41160
-DistributionSim (131074) (0)::Granted Time=41220
-DistributionSim (131074) (0)::Granted Time=41280
-DistributionSim (131074) (0)::Granted Time=41340
-DistributionSim (131074) (0)::Granted Time=41400
-DistributionSim (131074) (0)::Granted Time=41460
-DistributionSim (131074) (0)::Granted Time=41520
-DistributionSim (131074) (0)::Granted Time=41580
-DistributionSim (131074) (0)::Granted Time=41640
-DistributionSim (131074) (0)::Granted Time=41700
-DistributionSim (131074) (0)::Granted Time=41760
-                                      Processing 2013-08-28 11:36:00 PST...DistributionSim (131074) (0)::Granted Time=41820
-DistributionSim (131074) (0)::Granted Time=41880
-DistributionSim (131074) (0)::Granted Time=41940
-DistributionSim (131074) (0)::Granted Time=42000
-DistributionSim (131074) (0)::Granted Time=42060
-DistributionSim (131074) (0)::Granted Time=42120
-DistributionSim (131074) (0)::Granted Time=42180
-DistributionSim (131074) (0)::Granted Time=42240
-DistributionSim (131074) (0)::Granted Time=42300
-DistributionSim (131074) (0)::Granted Time=42360
-DistributionSim (131074) (0)::Granted Time=42420
-DistributionSim (131074) (0)::Granted Time=42480
-DistributionSim (131074) (0)::Granted Time=42540
-DistributionSim (131074) (0)::Granted Time=42600
-DistributionSim (131074) (0)::Granted Time=42660
-DistributionSim (131074) (0)::Granted Time=42720
-DistributionSim (131074) (0)::Granted Time=42780
-DistributionSim (131074) (0)::Granted Time=42840
-DistributionSim (131074) (0)::Granted Time=42900
-DistributionSim (131074) (0)::Granted Time=42960
-DistributionSim (131074) (0)::Granted Time=43020
-DistributionSim (131074) (0)::Granted Time=43080
-DistributionSim (131074) (0)::Granted Time=43140
-DistributionSim (131074) (0)::Granted Time=43200
-                                      Processing 2013-08-28 12:00:00 PST...DistributionSim (131074) (0)::Granted Time=43201
-                                      Processing 2013-08-28 12:00:01 PST...DistributionSim (131074) (0)::Granted Time=43260
-DistributionSim (131074) (0)::Granted Time=43320
-DistributionSim (131074) (0)::Granted Time=43380
-DistributionSim (131074) (0)::Granted Time=43440
-DistributionSim (131074) (0)::Granted Time=43500
-DistributionSim (131074) (0)::Granted Time=43560
-DistributionSim (131074) (0)::Granted Time=43620
-DistributionSim (131074) (0)::Granted Time=43680
-DistributionSim (131074) (0)::Granted Time=43740
-DistributionSim (131074) (0)::Granted Time=43800
-DistributionSim (131074) (0)::Granted Time=43860
-DistributionSim (131074) (0)::Granted Time=43920
-DistributionSim (131074) (0)::Granted Time=43980
-DistributionSim (131074) (0)::Granted Time=44040
-DistributionSim (131074) (0)::Granted Time=44100
-DistributionSim (131074) (0)::Granted Time=44160
-DistributionSim (131074) (0)::Granted Time=44220
-DistributionSim (131074) (0)::Granted Time=44280
-DistributionSim (131074) (0)::Granted Time=44340
-DistributionSim (131074) (0)::Granted Time=44400
-DistributionSim (131074) (0)::Granted Time=44460
-DistributionSim (131074) (0)::Granted Time=44520
-DistributionSim (131074) (0)::Granted Time=44580
-DistributionSim (131074) (0)::Granted Time=44640
-DistributionSim (131074) (0)::Granted Time=44700
-                                      Processing 2013-08-28 12:25:00 PST...DistributionSim (131074) (0)::Granted Time=44760
-DistributionSim (131074) (0)::Granted Time=44820
-DistributionSim (131074) (0)::Granted Time=44880
-DistributionSim (131074) (0)::Granted Time=44940
-DistributionSim (131074) (0)::Granted Time=45000
-DistributionSim (131074) (0)::Granted Time=45060
-DistributionSim (131074) (0)::Granted Time=45120
-DistributionSim (131074) (0)::Granted Time=45180
-DistributionSim (131074) (0)::Granted Time=45240
-DistributionSim (131074) (0)::Granted Time=45300
-DistributionSim (131074) (0)::Granted Time=45360
-DistributionSim (131074) (0)::Granted Time=45420
-DistributionSim (131074) (0)::Granted Time=45480
-DistributionSim (131074) (0)::Granted Time=45540
-DistributionSim (131074) (0)::Granted Time=45600
-DistributionSim (131074) (0)::Granted Time=45660
-DistributionSim (131074) (0)::Granted Time=45720
-DistributionSim (131074) (0)::Granted Time=45780
-DistributionSim (131074) (0)::Granted Time=45840
-DistributionSim (131074) (0)::Granted Time=45900
-DistributionSim (131074) (0)::Granted Time=45960
-DistributionSim (131074) (0)::Granted Time=46020
-DistributionSim (131074) (0)::Granted Time=46080
-DistributionSim (131074) (0)::Granted Time=46140
-                                      Processing 2013-08-28 12:49:00 PST...DistributionSim (131074) (0)::Granted Time=46200
-DistributionSim (131074) (0)::Granted Time=46260
-DistributionSim (131074) (0)::Granted Time=46320
-DistributionSim (131074) (0)::Granted Time=46380
-DistributionSim (131074) (0)::Granted Time=46440
-DistributionSim (131074) (0)::Granted Time=46500
-DistributionSim (131074) (0)::Granted Time=46560
-DistributionSim (131074) (0)::Granted Time=46620
-DistributionSim (131074) (0)::Granted Time=46680
-DistributionSim (131074) (0)::Granted Time=46740
-DistributionSim (131074) (0)::Granted Time=46800
-DistributionSim (131074) (0)::Granted Time=46801
-                                      Processing 2013-08-28 13:00:01 PST...DistributionSim (131074) (0)::Granted Time=46860
-DistributionSim (131074) (0)::Granted Time=46920
-DistributionSim (131074) (0)::Granted Time=46980
-DistributionSim (131074) (0)::Granted Time=47040
-DistributionSim (131074) (0)::Granted Time=47100
-DistributionSim (131074) (0)::Granted Time=47160
-DistributionSim (131074) (0)::Granted Time=47220
-DistributionSim (131074) (0)::Granted Time=47280
-DistributionSim (131074) (0)::Granted Time=47340
-DistributionSim (131074) (0)::Granted Time=47400
-DistributionSim (131074) (0)::Granted Time=47460
-DistributionSim (131074) (0)::Granted Time=47520
-DistributionSim (131074) (0)::Granted Time=47580
-                                      Processing 2013-08-28 13:13:00 PST...DistributionSim (131074) (0)::Granted Time=47640
-DistributionSim (131074) (0)::Granted Time=47700
-DistributionSim (131074) (0)::Granted Time=47760
-DistributionSim (131074) (0)::Granted Time=47820
-DistributionSim (131074) (0)::Granted Time=47880
-DistributionSim (131074) (0)::Granted Time=47940
-DistributionSim (131074) (0)::Granted Time=48000
-DistributionSim (131074) (0)::Granted Time=48060
-DistributionSim (131074) (0)::Granted Time=48120
-DistributionSim (131074) (0)::Granted Time=48180
-DistributionSim (131074) (0)::Granted Time=48240
-DistributionSim (131074) (0)::Granted Time=48300
-DistributionSim (131074) (0)::Granted Time=48360
-DistributionSim (131074) (0)::Granted Time=48420
-DistributionSim (131074) (0)::Granted Time=48480
-DistributionSim (131074) (0)::Granted Time=48540
-DistributionSim (131074) (0)::Granted Time=48600
-DistributionSim (131074) (0)::Granted Time=48660
-DistributionSim (131074) (0)::Granted Time=48720
-DistributionSim (131074) (0)::Granted Time=48780
-DistributionSim (131074) (0)::Granted Time=48840
-DistributionSim (131074) (0)::Granted Time=48900
-DistributionSim (131074) (0)::Granted Time=48960
-                                      Processing 2013-08-28 13:36:00 PST...DistributionSim (131074) (0)::Granted Time=49020
-DistributionSim (131074) (0)::Granted Time=49080
-DistributionSim (131074) (0)::Granted Time=49140
-DistributionSim (131074) (0)::Granted Time=49200
-DistributionSim (131074) (0)::Granted Time=49260
-DistributionSim (131074) (0)::Granted Time=49320
-DistributionSim (131074) (0)::Granted Time=49380
-DistributionSim (131074) (0)::Granted Time=49440
-DistributionSim (131074) (0)::Granted Time=49500
-DistributionSim (131074) (0)::Granted Time=49560
-DistributionSim (131074) (0)::Granted Time=49620
-DistributionSim (131074) (0)::Granted Time=49680
-DistributionSim (131074) (0)::Granted Time=49740
-DistributionSim (131074) (0)::Granted Time=49800
-DistributionSim (131074) (0)::Granted Time=49860
-DistributionSim (131074) (0)::Granted Time=49920
-DistributionSim (131074) (0)::Granted Time=49980
-DistributionSim (131074) (0)::Granted Time=50040
-DistributionSim (131074) (0)::Granted Time=50100
-DistributionSim (131074) (0)::Granted Time=50160
-DistributionSim (131074) (0)::Granted Time=50220
-DistributionSim (131074) (0)::Granted Time=50280
-DistributionSim (131074) (0)::Granted Time=50340
-                                      Processing 2013-08-28 13:59:00 PST...DistributionSim (131074) (0)::Granted Time=50400
-DistributionSim (131074) (0)::Granted Time=50401
-                                      Processing 2013-08-28 14:00:01 PST...DistributionSim (131074) (0)::Granted Time=50460
-DistributionSim (131074) (0)::Granted Time=50520
-DistributionSim (131074) (0)::Granted Time=50580
-DistributionSim (131074) (0)::Granted Time=50640
-DistributionSim (131074) (0)::Granted Time=50700
-DistributionSim (131074) (0)::Granted Time=50760
-DistributionSim (131074) (0)::Granted Time=50820
-DistributionSim (131074) (0)::Granted Time=50880
-DistributionSim (131074) (0)::Granted Time=50940
-DistributionSim (131074) (0)::Granted Time=51000
-DistributionSim (131074) (0)::Granted Time=51060
-DistributionSim (131074) (0)::Granted Time=51120
-DistributionSim (131074) (0)::Granted Time=51180
-DistributionSim (131074) (0)::Granted Time=51240
-DistributionSim (131074) (0)::Granted Time=51300
-DistributionSim (131074) (0)::Granted Time=51360
-DistributionSim (131074) (0)::Granted Time=51420
-DistributionSim (131074) (0)::Granted Time=51480
-DistributionSim (131074) (0)::Granted Time=51540
-DistributionSim (131074) (0)::Granted Time=51600
-DistributionSim (131074) (0)::Granted Time=51660
-DistributionSim (131074) (0)::Granted Time=51720
-                                      Processing 2013-08-28 14:22:00 PST...DistributionSim (131074) (0)::Granted Time=51780
-DistributionSim (131074) (0)::Granted Time=51840
-DistributionSim (131074) (0)::Granted Time=51900
-DistributionSim (131074) (0)::Granted Time=51960
-DistributionSim (131074) (0)::Granted Time=52020
-DistributionSim (131074) (0)::Granted Time=52080
-DistributionSim (131074) (0)::Granted Time=52140
-DistributionSim (131074) (0)::Granted Time=52200
-DistributionSim (131074) (0)::Granted Time=52260
-DistributionSim (131074) (0)::Granted Time=52320
-DistributionSim (131074) (0)::Granted Time=52380
-DistributionSim (131074) (0)::Granted Time=52440
-DistributionSim (131074) (0)::Granted Time=52500
-DistributionSim (131074) (0)::Granted Time=52560
-DistributionSim (131074) (0)::Granted Time=52620
-DistributionSim (131074) (0)::Granted Time=52680
-DistributionSim (131074) (0)::Granted Time=52740
-DistributionSim (131074) (0)::Granted Time=52800
-DistributionSim (131074) (0)::Granted Time=52860
-DistributionSim (131074) (0)::Granted Time=52920
-DistributionSim (131074) (0)::Granted Time=52980
-DistributionSim (131074) (0)::Granted Time=53040
-DistributionSim (131074) (0)::Granted Time=53100
-                                      Processing 2013-08-28 14:45:00 PST...DistributionSim (131074) (0)::Granted Time=53160
-DistributionSim (131074) (0)::Granted Time=53220
-DistributionSim (131074) (0)::Granted Time=53280
-DistributionSim (131074) (0)::Granted Time=53340
-DistributionSim (131074) (0)::Granted Time=53400
-DistributionSim (131074) (0)::Granted Time=53460
-DistributionSim (131074) (0)::Granted Time=53520
-DistributionSim (131074) (0)::Granted Time=53580
-DistributionSim (131074) (0)::Granted Time=53640
-DistributionSim (131074) (0)::Granted Time=53700
-DistributionSim (131074) (0)::Granted Time=53760
-DistributionSim (131074) (0)::Granted Time=53820
-DistributionSim (131074) (0)::Granted Time=53880
-DistributionSim (131074) (0)::Granted Time=53940
-DistributionSim (131074) (0)::Granted Time=54000
-DistributionSim (131074) (0)::Granted Time=54001
-                                      Processing 2013-08-28 15:00:01 PST...DistributionSim (131074) (0)::Granted Time=54060
-DistributionSim (131074) (0)::Granted Time=54120
-DistributionSim (131074) (0)::Granted Time=54180
-DistributionSim (131074) (0)::Granted Time=54240
-DistributionSim (131074) (0)::Granted Time=54300
-DistributionSim (131074) (0)::Granted Time=54360
-                                      Processing 2013-08-28 15:06:00 PST...DistributionSim (131074) (0)::Granted Time=54420
-DistributionSim (131074) (0)::Granted Time=54480
-DistributionSim (131074) (0)::Granted Time=54540
-DistributionSim (131074) (0)::Granted Time=54600
-DistributionSim (131074) (0)::Granted Time=54660
-DistributionSim (131074) (0)::Granted Time=54720
-DistributionSim (131074) (0)::Granted Time=54780
-DistributionSim (131074) (0)::Granted Time=54840
-DistributionSim (131074) (0)::Granted Time=54900
-DistributionSim (131074) (0)::Granted Time=54960
-DistributionSim (131074) (0)::Granted Time=55020
-DistributionSim (131074) (0)::Granted Time=55080
-DistributionSim (131074) (0)::Granted Time=55140
-DistributionSim (131074) (0)::Granted Time=55200
-DistributionSim (131074) (0)::Granted Time=55260
-DistributionSim (131074) (0)::Granted Time=55320
-DistributionSim (131074) (0)::Granted Time=55380
-DistributionSim (131074) (0)::Granted Time=55440
-DistributionSim (131074) (0)::Granted Time=55500
-DistributionSim (131074) (0)::Granted Time=55560
-DistributionSim (131074) (0)::Granted Time=55620
-DistributionSim (131074) (0)::Granted Time=55680
-DistributionSim (131074) (0)::Granted Time=55740
-DistributionSim (131074) (0)::Granted Time=55800
-DistributionSim (131074) (0)::Granted Time=55860
-                                      Processing 2013-08-28 15:31:00 PST...DistributionSim (131074) (0)::Granted Time=55920
-DistributionSim (131074) (0)::Granted Time=55980
-DistributionSim (131074) (0)::Granted Time=56040
-DistributionSim (131074) (0)::Granted Time=56100
-DistributionSim (131074) (0)::Granted Time=56160
-DistributionSim (131074) (0)::Granted Time=56220
-DistributionSim (131074) (0)::Granted Time=56280
-DistributionSim (131074) (0)::Granted Time=56340
-DistributionSim (131074) (0)::Granted Time=56400
-DistributionSim (131074) (0)::Granted Time=56460
-DistributionSim (131074) (0)::Granted Time=56520
-DistributionSim (131074) (0)::Granted Time=56580
-DistributionSim (131074) (0)::Granted Time=56640
-DistributionSim (131074) (0)::Granted Time=56700
-DistributionSim (131074) (0)::Granted Time=56760
-DistributionSim (131074) (0)::Granted Time=56820
-DistributionSim (131074) (0)::Granted Time=56880
-DistributionSim (131074) (0)::Granted Time=56940
-DistributionSim (131074) (0)::Granted Time=57000
-DistributionSim (131074) (0)::Granted Time=57060
-DistributionSim (131074) (0)::Granted Time=57120
-                                      Processing 2013-08-28 15:52:00 PST...DistributionSim (131074) (0)::Granted Time=57180
-DistributionSim (131074) (0)::Granted Time=57240
-DistributionSim (131074) (0)::Granted Time=57300
-DistributionSim (131074) (0)::Granted Time=57360
-DistributionSim (131074) (0)::Granted Time=57420
-DistributionSim (131074) (0)::Granted Time=57480
-DistributionSim (131074) (0)::Granted Time=57540
-DistributionSim (131074) (0)::Granted Time=57600
-DistributionSim (131074) (0)::Granted Time=57601
-                                      Processing 2013-08-28 16:00:01 PST...DistributionSim (131074) (0)::Granted Time=57660
-DistributionSim (131074) (0)::Granted Time=57720
-DistributionSim (131074) (0)::Granted Time=57780
-DistributionSim (131074) (0)::Granted Time=57840
-DistributionSim (131074) (0)::Granted Time=57900
-DistributionSim (131074) (0)::Granted Time=57960
-DistributionSim (131074) (0)::Granted Time=58020
-DistributionSim (131074) (0)::Granted Time=58080
-DistributionSim (131074) (0)::Granted Time=58140
-DistributionSim (131074) (0)::Granted Time=58200
-DistributionSim (131074) (0)::Granted Time=58260
-DistributionSim (131074) (0)::Granted Time=58320
-DistributionSim (131074) (0)::Granted Time=58380
-DistributionSim (131074) (0)::Granted Time=58440
-DistributionSim (131074) (0)::Granted Time=58500
-DistributionSim (131074) (0)::Granted Time=58560
-                                      Processing 2013-08-28 16:16:00 PST...DistributionSim (131074) (0)::Granted Time=58620
-DistributionSim (131074) (0)::Granted Time=58680
-DistributionSim (131074) (0)::Granted Time=58740
-DistributionSim (131074) (0)::Granted Time=58800
-DistributionSim (131074) (0)::Granted Time=58860
-DistributionSim (131074) (0)::Granted Time=58920
-DistributionSim (131074) (0)::Granted Time=58980
-DistributionSim (131074) (0)::Granted Time=59040
-DistributionSim (131074) (0)::Granted Time=59100
-DistributionSim (131074) (0)::Granted Time=59160
-DistributionSim (131074) (0)::Granted Time=59220
-DistributionSim (131074) (0)::Granted Time=59280
-DistributionSim (131074) (0)::Granted Time=59340
-DistributionSim (131074) (0)::Granted Time=59400
-DistributionSim (131074) (0)::Granted Time=59460
-DistributionSim (131074) (0)::Granted Time=59520
-DistributionSim (131074) (0)::Granted Time=59580
-DistributionSim (131074) (0)::Granted Time=59640
-DistributionSim (131074) (0)::Granted Time=59700
-DistributionSim (131074) (0)::Granted Time=59760
-DistributionSim (131074) (0)::Granted Time=59820
-DistributionSim (131074) (0)::Granted Time=59880
-DistributionSim (131074) (0)::Granted Time=59940
-DistributionSim (131074) (0)::Granted Time=60000
-                                      Processing 2013-08-28 16:40:00 PST...DistributionSim (131074) (0)::Granted Time=60060
-DistributionSim (131074) (0)::Granted Time=60120
-DistributionSim (131074) (0)::Granted Time=60180
-DistributionSim (131074) (0)::Granted Time=60240
-DistributionSim (131074) (0)::Granted Time=60300
-DistributionSim (131074) (0)::Granted Time=60360
-DistributionSim (131074) (0)::Granted Time=60420
-DistributionSim (131074) (0)::Granted Time=60480
-DistributionSim (131074) (0)::Granted Time=60540
-DistributionSim (131074) (0)::Granted Time=60600
-DistributionSim (131074) (0)::Granted Time=60660
-DistributionSim (131074) (0)::Granted Time=60720
-DistributionSim (131074) (0)::Granted Time=60780
-DistributionSim (131074) (0)::Granted Time=60840
-DistributionSim (131074) (0)::Granted Time=60900
-DistributionSim (131074) (0)::Granted Time=60960
-DistributionSim (131074) (0)::Granted Time=61020
-DistributionSim (131074) (0)::Granted Time=61080
-DistributionSim (131074) (0)::Granted Time=61140
-DistributionSim (131074) (0)::Granted Time=61200
-DistributionSim (131074) (0)::Granted Time=61201
-                                      Processing 2013-08-28 17:00:01 PST...DistributionSim (131074) (0)::Granted Time=61260
-DistributionSim (131074) (0)::Granted Time=61320
-DistributionSim (131074) (0)::Granted Time=61380
-DistributionSim (131074) (0)::Granted Time=61440
-DistributionSim (131074) (0)::Granted Time=61500
-DistributionSim (131074) (0)::Granted Time=61560
-DistributionSim (131074) (0)::Granted Time=61620
-                                      Processing 2013-08-28 17:07:00 PST...DistributionSim (131074) (0)::Granted Time=61680
-DistributionSim (131074) (0)::Granted Time=61740
-DistributionSim (131074) (0)::Granted Time=61800
-DistributionSim (131074) (0)::Granted Time=61860
-DistributionSim (131074) (0)::Granted Time=61920
-DistributionSim (131074) (0)::Granted Time=61980
-DistributionSim (131074) (0)::Granted Time=62040
-DistributionSim (131074) (0)::Granted Time=62100
-DistributionSim (131074) (0)::Granted Time=62160
-DistributionSim (131074) (0)::Granted Time=62220
-DistributionSim (131074) (0)::Granted Time=62280
-DistributionSim (131074) (0)::Granted Time=62340
-DistributionSim (131074) (0)::Granted Time=62400
-DistributionSim (131074) (0)::Granted Time=62460
-DistributionSim (131074) (0)::Granted Time=62520
-DistributionSim (131074) (0)::Granted Time=62580
-DistributionSim (131074) (0)::Granted Time=62640
-DistributionSim (131074) (0)::Granted Time=62700
-DistributionSim (131074) (0)::Granted Time=62760
-DistributionSim (131074) (0)::Granted Time=62820
-DistributionSim (131074) (0)::Granted Time=62880
-DistributionSim (131074) (0)::Granted Time=62940
-DistributionSim (131074) (0)::Granted Time=63000
-DistributionSim (131074) (0)::Granted Time=63060
-                                      Processing 2013-08-28 17:31:00 PST...DistributionSim (131074) (0)::Granted Time=63120
-DistributionSim (131074) (0)::Granted Time=63180
-DistributionSim (131074) (0)::Granted Time=63240
-DistributionSim (131074) (0)::Granted Time=63300
-DistributionSim (131074) (0)::Granted Time=63360
-DistributionSim (131074) (0)::Granted Time=63420
-DistributionSim (131074) (0)::Granted Time=63480
-DistributionSim (131074) (0)::Granted Time=63540
-DistributionSim (131074) (0)::Granted Time=63600
-DistributionSim (131074) (0)::Granted Time=63660
-DistributionSim (131074) (0)::Granted Time=63720
-DistributionSim (131074) (0)::Granted Time=63780
-DistributionSim (131074) (0)::Granted Time=63840
-DistributionSim (131074) (0)::Granted Time=63900
-DistributionSim (131074) (0)::Granted Time=63960
-DistributionSim (131074) (0)::Granted Time=64020
-DistributionSim (131074) (0)::Granted Time=64080
-DistributionSim (131074) (0)::Granted Time=64140
-DistributionSim (131074) (0)::Granted Time=64200
-DistributionSim (131074) (0)::Granted Time=64260
-DistributionSim (131074) (0)::Granted Time=64320
-DistributionSim (131074) (0)::Granted Time=64380
-DistributionSim (131074) (0)::Granted Time=64440
-DistributionSim (131074) (0)::Granted Time=64500
-DistributionSim (131074) (0)::Granted Time=64560
-                                      Processing 2013-08-28 17:56:00 PST...DistributionSim (131074) (0)::Granted Time=64620
-DistributionSim (131074) (0)::Granted Time=64680
-DistributionSim (131074) (0)::Granted Time=64740
-DistributionSim (131074) (0)::Granted Time=64800
-DistributionSim (131074) (0)::Granted Time=64801
-                                      Processing 2013-08-28 18:00:01 PST...DistributionSim (131074) (0)::Granted Time=64860
-DistributionSim (131074) (0)::Granted Time=64920
-DistributionSim (131074) (0)::Granted Time=64980
-DistributionSim (131074) (0)::Granted Time=65040
-DistributionSim (131074) (0)::Granted Time=65100
-DistributionSim (131074) (0)::Granted Time=65160
-DistributionSim (131074) (0)::Granted Time=65220
-DistributionSim (131074) (0)::Granted Time=65280
-DistributionSim (131074) (0)::Granted Time=65340
-DistributionSim (131074) (0)::Granted Time=65400
-DistributionSim (131074) (0)::Granted Time=65460
-DistributionSim (131074) (0)::Granted Time=65520
-DistributionSim (131074) (0)::Granted Time=65580
-DistributionSim (131074) (0)::Granted Time=65640
-DistributionSim (131074) (0)::Granted Time=65700
-DistributionSim (131074) (0)::Granted Time=65760
-DistributionSim (131074) (0)::Granted Time=65820
-DistributionSim (131074) (0)::Granted Time=65880
-DistributionSim (131074) (0)::Granted Time=65940
-                                      Processing 2013-08-28 18:19:00 PST...DistributionSim (131074) (0)::Granted Time=66000
-DistributionSim (131074) (0)::Granted Time=66060
-DistributionSim (131074) (0)::Granted Time=66120
-DistributionSim (131074) (0)::Granted Time=66180
-DistributionSim (131074) (0)::Granted Time=66240
-DistributionSim (131074) (0)::Granted Time=66300
-DistributionSim (131074) (0)::Granted Time=66360
-DistributionSim (131074) (0)::Granted Time=66420
-DistributionSim (131074) (0)::Granted Time=66480
-DistributionSim (131074) (0)::Granted Time=66540
-DistributionSim (131074) (0)::Granted Time=66600
-DistributionSim (131074) (0)::Granted Time=66660
-DistributionSim (131074) (0)::Granted Time=66720
-DistributionSim (131074) (0)::Granted Time=66780
-DistributionSim (131074) (0)::Granted Time=66840
-DistributionSim (131074) (0)::Granted Time=66900
-DistributionSim (131074) (0)::Granted Time=66960
-DistributionSim (131074) (0)::Granted Time=67020
-DistributionSim (131074) (0)::Granted Time=67080
-DistributionSim (131074) (0)::Granted Time=67140
-DistributionSim (131074) (0)::Granted Time=67200
-DistributionSim (131074) (0)::Granted Time=67260
-DistributionSim (131074) (0)::Granted Time=67320
-DistributionSim (131074) (0)::Granted Time=67380
-                                      Processing 2013-08-28 18:43:00 PST...DistributionSim (131074) (0)::Granted Time=67440
-DistributionSim (131074) (0)::Granted Time=67500
-DistributionSim (131074) (0)::Granted Time=67560
-DistributionSim (131074) (0)::Granted Time=67620
-DistributionSim (131074) (0)::Granted Time=67680
-DistributionSim (131074) (0)::Granted Time=67740
-DistributionSim (131074) (0)::Granted Time=67800
-DistributionSim (131074) (0)::Granted Time=67860
-DistributionSim (131074) (0)::Granted Time=67920
-DistributionSim (131074) (0)::Granted Time=67980
-DistributionSim (131074) (0)::Granted Time=68040
-DistributionSim (131074) (0)::Granted Time=68100
-DistributionSim (131074) (0)::Granted Time=68160
-DistributionSim (131074) (0)::Granted Time=68220
-DistributionSim (131074) (0)::Granted Time=68280
-DistributionSim (131074) (0)::Granted Time=68340
-DistributionSim (131074) (0)::Granted Time=68400
-DistributionSim (131074) (0)::Granted Time=68401
-                                      Processing 2013-08-28 19:00:01 PST...DistributionSim (131074) (0)::Granted Time=68460
-DistributionSim (131074) (0)::Granted Time=68520
-DistributionSim (131074) (0)::Granted Time=68580
-DistributionSim (131074) (0)::Granted Time=68640
-DistributionSim (131074) (0)::Granted Time=68700
-DistributionSim (131074) (0)::Granted Time=68760
-DistributionSim (131074) (0)::Granted Time=68820
-DistributionSim (131074) (0)::Granted Time=68880
-DistributionSim (131074) (0)::Granted Time=68940
-                                      Processing 2013-08-28 19:09:00 PST...DistributionSim (131074) (0)::Granted Time=69000
-DistributionSim (131074) (0)::Granted Time=69060
-DistributionSim (131074) (0)::Granted Time=69120
-DistributionSim (131074) (0)::Granted Time=69180
-DistributionSim (131074) (0)::Granted Time=69240
-DistributionSim (131074) (0)::Granted Time=69300
-DistributionSim (131074) (0)::Granted Time=69360
-DistributionSim (131074) (0)::Granted Time=69420
-DistributionSim (131074) (0)::Granted Time=69480
-DistributionSim (131074) (0)::Granted Time=69540
-DistributionSim (131074) (0)::Granted Time=69600
-DistributionSim (131074) (0)::Granted Time=69660
-DistributionSim (131074) (0)::Granted Time=69720
-DistributionSim (131074) (0)::Granted Time=69780
-DistributionSim (131074) (0)::Granted Time=69840
-DistributionSim (131074) (0)::Granted Time=69900
-DistributionSim (131074) (0)::Granted Time=69960
-DistributionSim (131074) (0)::Granted Time=70020
-DistributionSim (131074) (0)::Granted Time=70080
-DistributionSim (131074) (0)::Granted Time=70140
-DistributionSim (131074) (0)::Granted Time=70200
-DistributionSim (131074) (0)::Granted Time=70260
-DistributionSim (131074) (0)::Granted Time=70320
-DistributionSim (131074) (0)::Granted Time=70380
-DistributionSim (131074) (0)::Granted Time=70440
-DistributionSim (131074) (0)::Granted Time=70500
-                                      Processing 2013-08-28 19:35:00 PST...DistributionSim (131074) (0)::Granted Time=70560
-DistributionSim (131074) (0)::Granted Time=70620
-DistributionSim (131074) (0)::Granted Time=70680
-DistributionSim (131074) (0)::Granted Time=70740
-DistributionSim (131074) (0)::Granted Time=70800
-DistributionSim (131074) (0)::Granted Time=70860
-DistributionSim (131074) (0)::Granted Time=70920
-DistributionSim (131074) (0)::Granted Time=70980
-DistributionSim (131074) (0)::Granted Time=71040
-DistributionSim (131074) (0)::Granted Time=71100
-DistributionSim (131074) (0)::Granted Time=71160
-DistributionSim (131074) (0)::Granted Time=71220
-DistributionSim (131074) (0)::Granted Time=71280
-DistributionSim (131074) (0)::Granted Time=71340
-DistributionSim (131074) (0)::Granted Time=71400
-DistributionSim (131074) (0)::Granted Time=71460
-DistributionSim (131074) (0)::Granted Time=71520
-DistributionSim (131074) (0)::Granted Time=71580
-DistributionSim (131074) (0)::Granted Time=71640
-DistributionSim (131074) (0)::Granted Time=71700
-DistributionSim (131074) (0)::Granted Time=71760
-DistributionSim (131074) (0)::Granted Time=71820
-DistributionSim (131074) (0)::Granted Time=71880
-                                      Processing 2013-08-28 19:58:00 PST...DistributionSim (131074) (0)::Granted Time=71940
-DistributionSim (131074) (0)::Granted Time=72000
-DistributionSim (131074) (0)::Granted Time=72001
-                                      Processing 2013-08-28 20:00:01 PST...DistributionSim (131074) (0)::Granted Time=72060
-DistributionSim (131074) (0)::Granted Time=72120
-DistributionSim (131074) (0)::Granted Time=72180
-DistributionSim (131074) (0)::Granted Time=72240
-DistributionSim (131074) (0)::Granted Time=72300
-DistributionSim (131074) (0)::Granted Time=72360
-DistributionSim (131074) (0)::Granted Time=72420
-DistributionSim (131074) (0)::Granted Time=72480
-DistributionSim (131074) (0)::Granted Time=72540
-DistributionSim (131074) (0)::Granted Time=72600
-DistributionSim (131074) (0)::Granted Time=72660
-DistributionSim (131074) (0)::Granted Time=72720
-DistributionSim (131074) (0)::Granted Time=72780
-DistributionSim (131074) (0)::Granted Time=72840
-DistributionSim (131074) (0)::Granted Time=72900
-DistributionSim (131074) (0)::Granted Time=72960
-DistributionSim (131074) (0)::Granted Time=73020
-DistributionSim (131074) (0)::Granted Time=73080
-DistributionSim (131074) (0)::Granted Time=73140
-DistributionSim (131074) (0)::Granted Time=73200
-DistributionSim (131074) (0)::Granted Time=73260
-DistributionSim (131074) (0)::Granted Time=73320
-                                      Processing 2013-08-28 20:22:00 PST...DistributionSim (131074) (0)::Granted Time=73380
-DistributionSim (131074) (0)::Granted Time=73440
-DistributionSim (131074) (0)::Granted Time=73500
-DistributionSim (131074) (0)::Granted Time=73560
-DistributionSim (131074) (0)::Granted Time=73620
-DistributionSim (131074) (0)::Granted Time=73680
-DistributionSim (131074) (0)::Granted Time=73740
-DistributionSim (131074) (0)::Granted Time=73800
-DistributionSim (131074) (0)::Granted Time=73860
-DistributionSim (131074) (0)::Granted Time=73920
-DistributionSim (131074) (0)::Granted Time=73980
-DistributionSim (131074) (0)::Granted Time=74040
-DistributionSim (131074) (0)::Granted Time=74100
-DistributionSim (131074) (0)::Granted Time=74160
-DistributionSim (131074) (0)::Granted Time=74220
-DistributionSim (131074) (0)::Granted Time=74280
-DistributionSim (131074) (0)::Granted Time=74340
-DistributionSim (131074) (0)::Granted Time=74400
-DistributionSim (131074) (0)::Granted Time=74460
-DistributionSim (131074) (0)::Granted Time=74520
-DistributionSim (131074) (0)::Granted Time=74580
-DistributionSim (131074) (0)::Granted Time=74640
-DistributionSim (131074) (0)::Granted Time=74700
-DistributionSim (131074) (0)::Granted Time=74760
-                                      Processing 2013-08-28 20:46:00 PST...DistributionSim (131074) (0)::Granted Time=74820
-DistributionSim (131074) (0)::Granted Time=74880
-DistributionSim (131074) (0)::Granted Time=74940
-DistributionSim (131074) (0)::Granted Time=75000
-DistributionSim (131074) (0)::Granted Time=75060
-DistributionSim (131074) (0)::Granted Time=75120
-DistributionSim (131074) (0)::Granted Time=75180
-DistributionSim (131074) (0)::Granted Time=75240
-DistributionSim (131074) (0)::Granted Time=75300
-DistributionSim (131074) (0)::Granted Time=75360
-DistributionSim (131074) (0)::Granted Time=75420
-DistributionSim (131074) (0)::Granted Time=75480
-DistributionSim (131074) (0)::Granted Time=75540
-DistributionSim (131074) (0)::Granted Time=75600
-DistributionSim (131074) (0)::Granted Time=75601
-                                      Processing 2013-08-28 21:00:01 PST...DistributionSim (131074) (0)::Granted Time=75660
-DistributionSim (131074) (0)::Granted Time=75720
-DistributionSim (131074) (0)::Granted Time=75780
-DistributionSim (131074) (0)::Granted Time=75840
-DistributionSim (131074) (0)::Granted Time=75900
-DistributionSim (131074) (0)::Granted Time=75960
-DistributionSim (131074) (0)::Granted Time=76020
-DistributionSim (131074) (0)::Granted Time=76080
-DistributionSim (131074) (0)::Granted Time=76140
-DistributionSim (131074) (0)::Granted Time=76200
-DistributionSim (131074) (0)::Granted Time=76260
-                                      Processing 2013-08-28 21:11:00 PST...DistributionSim (131074) (0)::Granted Time=76320
-DistributionSim (131074) (0)::Granted Time=76380
-DistributionSim (131074) (0)::Granted Time=76440
-DistributionSim (131074) (0)::Granted Time=76500
-DistributionSim (131074) (0)::Granted Time=76560
-DistributionSim (131074) (0)::Granted Time=76620
-DistributionSim (131074) (0)::Granted Time=76680
-DistributionSim (131074) (0)::Granted Time=76740
-DistributionSim (131074) (0)::Granted Time=76800
-DistributionSim (131074) (0)::Granted Time=76860
-DistributionSim (131074) (0)::Granted Time=76920
-DistributionSim (131074) (0)::Granted Time=76980
-DistributionSim (131074) (0)::Granted Time=77040
-DistributionSim (131074) (0)::Granted Time=77100
-DistributionSim (131074) (0)::Granted Time=77160
-DistributionSim (131074) (0)::Granted Time=77220
-DistributionSim (131074) (0)::Granted Time=77280
-DistributionSim (131074) (0)::Granted Time=77340
-DistributionSim (131074) (0)::Granted Time=77400
-DistributionSim (131074) (0)::Granted Time=77460
-DistributionSim (131074) (0)::Granted Time=77520
-DistributionSim (131074) (0)::Granted Time=77580
-DistributionSim (131074) (0)::Granted Time=77640
-DistributionSim (131074) (0)::Granted Time=77700
-DistributionSim (131074) (0)::Granted Time=77760
-                                      Processing 2013-08-28 21:36:00 PST...DistributionSim (131074) (0)::Granted Time=77820
-DistributionSim (131074) (0)::Granted Time=77880
-DistributionSim (131074) (0)::Granted Time=77940
-DistributionSim (131074) (0)::Granted Time=78000
-DistributionSim (131074) (0)::Granted Time=78060
-DistributionSim (131074) (0)::Granted Time=78120
-DistributionSim (131074) (0)::Granted Time=78180
-DistributionSim (131074) (0)::Granted Time=78240
-DistributionSim (131074) (0)::Granted Time=78300
-DistributionSim (131074) (0)::Granted Time=78360
-DistributionSim (131074) (0)::Granted Time=78420
-DistributionSim (131074) (0)::Granted Time=78480
-DistributionSim (131074) (0)::Granted Time=78540
-DistributionSim (131074) (0)::Granted Time=78600
-DistributionSim (131074) (0)::Granted Time=78660
-DistributionSim (131074) (0)::Granted Time=78720
-DistributionSim (131074) (0)::Granted Time=78780
-DistributionSim (131074) (0)::Granted Time=78840
-DistributionSim (131074) (0)::Granted Time=78900
-DistributionSim (131074) (0)::Granted Time=78960
-DistributionSim (131074) (0)::Granted Time=79020
-DistributionSim (131074) (0)::Granted Time=79080
-DistributionSim (131074) (0)::Granted Time=79140
-DistributionSim (131074) (0)::Granted Time=79200
-DistributionSim (131074) (0)::Granted Time=79201
-                                      Processing 2013-08-28 22:00:01 PST...DistributionSim (131074) (0)::Granted Time=79260
-DistributionSim (131074) (0)::Granted Time=79320
-DistributionSim (131074) (0)::Granted Time=79380
-DistributionSim (131074) (0)::Granted Time=79440
-DistributionSim (131074) (0)::Granted Time=79500
-DistributionSim (131074) (0)::Granted Time=79560
-DistributionSim (131074) (0)::Granted Time=79620
-DistributionSim (131074) (0)::Granted Time=79680
-DistributionSim (131074) (0)::Granted Time=79740
-DistributionSim (131074) (0)::Granted Time=79800
-DistributionSim (131074) (0)::Granted Time=79860
-DistributionSim (131074) (0)::Granted Time=79920
-DistributionSim (131074) (0)::Granted Time=79980
-DistributionSim (131074) (0)::Granted Time=80040
-DistributionSim (131074) (0)::Granted Time=80100
-DistributionSim (131074) (0)::Granted Time=80160
-DistributionSim (131074) (0)::Granted Time=80220
-DistributionSim (131074) (0)::Granted Time=80280
-DistributionSim (131074) (0)::Granted Time=80340
-DistributionSim (131074) (0)::Granted Time=80400
-DistributionSim (131074) (0)::Granted Time=80460
-                                      Processing 2013-08-28 22:21:00 PST...DistributionSim (131074) (0)::Granted Time=80520
-DistributionSim (131074) (0)::Granted Time=80580
-DistributionSim (131074) (0)::Granted Time=80640
-DistributionSim (131074) (0)::Granted Time=80700
-DistributionSim (131074) (0)::Granted Time=80760
-DistributionSim (131074) (0)::Granted Time=80820
-DistributionSim (131074) (0)::Granted Time=80880
-DistributionSim (131074) (0)::Granted Time=80940
-DistributionSim (131074) (0)::Granted Time=81000
-DistributionSim (131074) (0)::Granted Time=81060
-DistributionSim (131074) (0)::Granted Time=81120
-DistributionSim (131074) (0)::Granted Time=81180
-DistributionSim (131074) (0)::Granted Time=81240
-DistributionSim (131074) (0)::Granted Time=81300
-DistributionSim (131074) (0)::Granted Time=81360
-DistributionSim (131074) (0)::Granted Time=81420
-DistributionSim (131074) (0)::Granted Time=81480
-DistributionSim (131074) (0)::Granted Time=81540
-DistributionSim (131074) (0)::Granted Time=81600
-DistributionSim (131074) (0)::Granted Time=81660
-DistributionSim (131074) (0)::Granted Time=81720
-DistributionSim (131074) (0)::Granted Time=81780
-DistributionSim (131074) (0)::Granted Time=81840
-DistributionSim (131074) (0)::Granted Time=81900
-DistributionSim (131074) (0)::Granted Time=81960
-                                      Processing 2013-08-28 22:46:00 PST...DistributionSim (131074) (0)::Granted Time=82020
-DistributionSim (131074) (0)::Granted Time=82080
-DistributionSim (131074) (0)::Granted Time=82140
-DistributionSim (131074) (0)::Granted Time=82200
-DistributionSim (131074) (0)::Granted Time=82260
-DistributionSim (131074) (0)::Granted Time=82320
-DistributionSim (131074) (0)::Granted Time=82380
-DistributionSim (131074) (0)::Granted Time=82440
-DistributionSim (131074) (0)::Granted Time=82500
-DistributionSim (131074) (0)::Granted Time=82560
-DistributionSim (131074) (0)::Granted Time=82620
-DistributionSim (131074) (0)::Granted Time=82680
-DistributionSim (131074) (0)::Granted Time=82740
-DistributionSim (131074) (0)::Granted Time=82800
-DistributionSim (131074) (0)::Granted Time=82860
-                                      Processing 2013-08-28 23:01:00 PST...DistributionSim (131074) (0)::Granted Time=82920
-DistributionSim (131074) (0)::Granted Time=82980
-                                      Processing 2013-08-28 23:03:00 PST...DistributionSim (131074) (0)::Granted Time=83040
-DistributionSim (131074) (0)::Granted Time=83100
-DistributionSim (131074) (0)::Granted Time=83160
-DistributionSim (131074) (0)::Granted Time=83220
-DistributionSim (131074) (0)::Granted Time=83280
-DistributionSim (131074) (0)::Granted Time=83340
-DistributionSim (131074) (0)::Granted Time=83400
-DistributionSim (131074) (0)::Granted Time=83460
-DistributionSim (131074) (0)::Granted Time=83520
-DistributionSim (131074) (0)::Granted Time=83580
-DistributionSim (131074) (0)::Granted Time=83640
-DistributionSim (131074) (0)::Granted Time=83700
-DistributionSim (131074) (0)::Granted Time=83760
-DistributionSim (131074) (0)::Granted Time=83820
-DistributionSim (131074) (0)::Granted Time=83880
-DistributionSim (131074) (0)::Granted Time=83940
-DistributionSim (131074) (0)::Granted Time=84000
-DistributionSim (131074) (0)::Granted Time=84060
-DistributionSim (131074) (0)::Granted Time=84120
-DistributionSim (131074) (0)::Granted Time=84180
-DistributionSim (131074) (0)::Granted Time=84240
-DistributionSim (131074) (0)::Granted Time=84300
-DistributionSim (131074) (0)::Granted Time=84360
-                                      Processing 2013-08-28 23:26:00 PST...DistributionSim (131074) (0)::Granted Time=84420
-DistributionSim (131074) (0)::Granted Time=84480
-DistributionSim (131074) (0)::Granted Time=84540
-DistributionSim (131074) (0)::Granted Time=84600
-DistributionSim (131074) (0)::Granted Time=84660
-DistributionSim (131074) (0)::Granted Time=84720
-DistributionSim (131074) (0)::Granted Time=84780
-DistributionSim (131074) (0)::Granted Time=84840
-DistributionSim (131074) (0)::Granted Time=84900
-DistributionSim (131074) (0)::Granted Time=84960
-DistributionSim (131074) (0)::Granted Time=85020
-DistributionSim (131074) (0)::Granted Time=85080
-DistributionSim (131074) (0)::Granted Time=85140
-DistributionSim (131074) (0)::Granted Time=85200
-DistributionSim (131074) (0)::Granted Time=85260
-DistributionSim (131074) (0)::Granted Time=85320
-DistributionSim (131074) (0)::Granted Time=85380
-DistributionSim (131074) (0)::Granted Time=85440
-DistributionSim (131074) (0)::Granted Time=85500
-DistributionSim (131074) (0)::Granted Time=85560
-DistributionSim (131074) (0)::Granted Time=85620
-DistributionSim (131074) (0)::Granted Time=85680
-DistributionSim (131074) (0)::Granted Time=85740
-DistributionSim (131074) (0)::Granted Time=85800
-DistributionSim (131074) (0)::Granted Time=85860
-                                      Processing 2013-08-28 23:51:00 PST...DistributionSim (131074) (0)::Granted Time=85920
-DistributionSim (131074) (0)::Granted Time=85980
-DistributionSim (131074) (0)::Granted Time=86040
-DistributionSim (131074) (0)::Granted Time=86100
-3401-itYfx-YHnoC-CNRax-AjcgM (1879048194):: core tick
-DistributionSim (131074) (0)::Granted Time=86160
-                                      Processing 2013-08-28 23:56:00 PST...DistributionSim (131074) (0)::Granted Time=86220
-DistributionSim (131074) (0)::Granted Time=86280
-DistributionSim (131074) (0)::Granted Time=86340
-DistributionSim (131074) (0)::Granted Time=86400
-
+Processing 2013-08-28 00:00:01 PST...Processing 2013-08-28 00:00:02 PST...Processing 2013-08-28 00:05:01 PST...Processing 2013-08-28 00:15:01 PST...Processing 2013-08-28 00:20:01 PST...Processing 2013-08-28 00:25:01 PST...Processing 2013-08-28 00:30:01 PST...Processing 2013-08-28 00:40:01 PST...Processing 2013-08-28 00:45:01 PST...Processing 2013-08-28 00:50:01 PST...Processing 2013-08-28 01:00:01 PST...Processing 2013-08-28 01:05:01 PST...Processing 2013-08-28 01:10:01 PST...Processing 2013-08-28 01:15:01 PST...Processing 2013-08-28 01:22:00 PST...Processing 2013-08-28 01:30:01 PST...Processing 2013-08-28 01:35:01 PST...Processing 2013-08-28 01:40:01 PST...Processing 2013-08-28 01:45:01 PST...Processing 2013-08-28 01:55:01 PST...Processing 2013-08-28 02:00:01 PST...Processing 2013-08-28 02:05:01 PST...Processing 2013-08-28 02:15:01 PST...Processing 2013-08-28 02:20:01 PST...Processing 2013-08-28 02:27:00 PST...Processing 2013-08-28 02:30:01 PST...Processing 2013-08-28 02:40:01 PST...Processing 2013-08-28 02:45:01 PST...Processing 2013-08-28 02:51:00 PST...Processing 2013-08-28 03:00:01 PST...Processing 2013-08-28 03:05:01 PST...Processing 2013-08-28 03:15:00 PST...Processing 2013-08-28 03:15:01 PST...Processing 2013-08-28 03:16:00 PST...Processing 2013-08-28 03:25:01 PST...Processing 2013-08-28 03:30:01 PST...Processing 2013-08-28 03:38:00 PST...Processing 2013-08-28 03:45:01 PST...Processing 2013-08-28 03:50:01 PST...Processing 2013-08-28 04:00:01 PST...Processing 2013-08-28 04:02:00 PST...Processing 2013-08-28 04:10:01 PST...Processing 2013-08-28 04:15:01 PST...Processing 2013-08-28 04:20:01 PST...Processing 2013-08-28 04:30:01 PST...Processing 2013-08-28 04:32:00 PST...Processing 2013-08-28 04:40:01 PST...Processing 2013-08-28 04:45:01 PST...Processing 2013-08-28 04:50:01 PST...Processing 2013-08-28 05:00:01 PST...Processing 2013-08-28 05:04:00 PST...Processing 2013-08-28 05:10:01 PST...Processing 2013-08-28 05:15:01 PST...Processing 2013-08-28 05:25:01 PST...Processing 2013-08-28 05:30:01 PST...Processing 2013-08-28 05:35:01 PST...Processing 2013-08-28 05:45:01 PST...Processing 2013-08-28 05:50:01 PST...Processing 2013-08-28 05:55:01 PST...Processing 2013-08-28 06:00:01 PST...Processing 2013-08-28 06:09:00 PST...Processing 2013-08-28 06:15:01 PST...Processing 2013-08-28 06:20:01 PST...Processing 2013-08-28 06:25:01 PST...Processing 2013-08-28 06:30:01 PST...Processing 2013-08-28 06:39:00 PST...Processing 2013-08-28 06:45:01 PST...Processing 2013-08-28 06:47:00 PST...Processing 2013-08-28 06:55:01 PST...Processing 2013-08-28 07:00:01 PST...Processing 2013-08-28 07:05:01 PST...Processing 2013-08-28 07:15:01 PST...Processing 2013-08-28 07:25:01 PST...Processing 2013-08-28 07:30:01 PST...Processing 2013-08-28 07:35:01 PST...Processing 2013-08-28 07:43:00 PST...Processing 2013-08-28 07:45:01 PST...Processing 2013-08-28 07:55:01 PST...Processing 2013-08-28 08:00:01 PST...Processing 2013-08-28 08:05:01 PST...Processing 2013-08-28 08:12:00 PST...Processing 2013-08-28 08:15:01 PST...Processing 2013-08-28 08:20:01 PST...Processing 2013-08-28 08:30:01 PST...Processing 2013-08-28 08:40:01 PST...Processing 2013-08-28 08:45:01 PST...Processing 2013-08-28 08:50:01 PST...Processing 2013-08-28 08:55:01 PST...Processing 2013-08-28 09:00:01 PST...Processing 2013-08-28 09:05:01 PST...Processing 2013-08-28 09:15:01 PST...Processing 2013-08-28 09:25:01 PST...Processing 2013-08-28 09:30:01 PST...Processing 2013-08-28 09:35:01 PST...Processing 2013-08-28 09:45:01 PST...Processing 2013-08-28 09:50:01 PST...Processing 2013-08-28 09:55:01 PST...Processing 2013-08-28 10:00:01 PST...Processing 2013-08-28 10:05:01 PST...Processing 2013-08-28 10:15:01 PST...Processing 2013-08-28 10:20:01 PST...Processing 2013-08-28 10:26:00 PST...Processing 2013-08-28 10:30:01 PST...Processing 2013-08-28 10:40:01 PST...Processing 2013-08-28 10:45:01 PST...Processing 2013-08-28 10:50:01 PST...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Processing 2013-08-28 11:00:01 PST...Processing 2013-08-28 11:05:01 PST...Processing 2013-08-28 11:10:01 PST...Processing 2013-08-28 11:15:01 PST...Processing 2013-08-28 11:23:00 PST...Processing 2013-08-28 11:30:01 PST...Processing 2013-08-28 11:35:01 PST...Processing 2013-08-28 11:43:00 PST...Processing 2013-08-28 11:45:01 PST...Processing 2013-08-28 11:55:01 PST...Processing 2013-08-28 12:00:01 PST...Processing 2013-08-28 12:05:01 PST...Processing 2013-08-28 12:15:01 PST...Processing 2013-08-28 12:20:01 PST...Processing 2013-08-28 12:25:01 PST...Processing 2013-08-28 12:30:01 PST...Processing 2013-08-28 12:40:01 PST...Processing 2013-08-28 12:45:01 PST...Processing 2013-08-28 12:50:01 PST...Processing 2013-08-28 12:58:00 PST...Processing 2013-08-28 13:00:01 PST...Processing 2013-08-28 13:10:01 PST...Processing 2013-08-28 13:15:01 PST...Processing 2013-08-28 13:20:01 PST...Processing 2013-08-28 13:30:01 PST...Processing 2013-08-28 13:35:00 PST...Processing 2013-08-28 13:40:01 PST...Processing 2013-08-28 13:45:01 PST...Processing 2013-08-28 13:50:01 PST...Processing 2013-08-28 14:00:01 PST...Processing 2013-08-28 14:05:01 PST...Processing 2013-08-28 14:10:01 PST...Processing 2013-08-28 14:15:01 PST...Processing 2013-08-28 14:25:00 PST...Processing 2013-08-28 14:30:01 PST...Processing 2013-08-28 14:35:01 PST...Processing 2013-08-28 14:40:01 PST...Processing 2013-08-28 14:45:01 PST...Processing 2013-08-28 14:55:01 PST...Processing 2013-08-28 15:00:01 PST...Processing 2013-08-28 15:05:01 PST...Processing 2013-08-28 15:15:01 PST...Processing 2013-08-28 15:18:00 PST...Processing 2013-08-28 15:25:01 PST...Processing 2013-08-28 15:30:01 PST...Processing 2013-08-28 15:40:01 PST...Processing 2013-08-28 15:45:01 PST...Processing 2013-08-28 15:50:01 PST...Processing 2013-08-28 16:00:01 PST...Processing 2013-08-28 16:05:01 PST...Processing 2013-08-28 16:10:01 PST...Processing 2013-08-28 16:15:01 PST...Processing 2013-08-28 16:20:01 PST...Processing 2013-08-28 16:30:01 PST...Processing 2013-08-28 16:35:01 PST...Processing 2013-08-28 16:40:01 PST...Processing 2013-08-28 16:45:01 PST...Processing 2013-08-28 16:55:01 PST...Processing 2013-08-28 17:00:01 PST...Processing 2013-08-28 17:05:01 PST...Processing 2013-08-28 17:15:01 PST...Processing 2013-08-28 17:20:01 PST...Processing 2013-08-28 17:26:00 PST...Processing 2013-08-28 17:30:01 PST...Processing 2013-08-28 17:33:00 PST...Processing 2013-08-28 17:40:01 PST...Processing 2013-08-28 17:45:01 PST...Processing 2013-08-28 17:55:01 PST...Processing 2013-08-28 18:00:01 PST...Processing 2013-08-28 18:05:01 PST...Processing 2013-08-28 18:15:00 PST...Processing 2013-08-28 18:15:01 PST...Processing 2013-08-28 18:16:00 PST...Processing 2013-08-28 18:25:01 PST...Processing 2013-08-28 18:30:01 PST...Processing 2013-08-28 18:35:01 PST...Processing 2013-08-28 18:45:01 PST...Processing 2013-08-28 18:50:01 PST...Processing 2013-08-28 18:55:01 PST...Processing 2013-08-28 19:00:01 PST...Processing 2013-08-28 19:10:01 PST...Processing 2013-08-28 19:15:01 PST...Processing 2013-08-28 19:20:01 PST...Processing 2013-08-28 19:30:01 PST...Processing 2013-08-28 19:40:01 PST...Processing 2013-08-28 19:45:01 PST...Processing 2013-08-28 19:50:01 PST...Processing 2013-08-28 20:00:01 PST...Processing 2013-08-28 20:04:00 PST...Processing 2013-08-28 20:10:01 PST...Processing 2013-08-28 20:15:01 PST...Processing 2013-08-28 20:21:00 PST...Processing 2013-08-28 20:30:01 PST...Processing 2013-08-28 20:35:01 PST...Processing 2013-08-28 20:40:01 PST...Processing 2013-08-28 20:45:01 PST...Processing 2013-08-28 20:55:01 PST...Processing 2013-08-28 21:00:01 PST...Processing 2013-08-28 21:05:01 PST...Processing 2013-08-28 21:15:01 PST...Processing 2013-08-28 21:20:01 PST...Processing 2013-08-28 21:25:01 PST...Processing 2013-08-28 21:30:01 PST...Processing 2013-08-28 21:40:01 PST...Processing 2013-08-28 21:45:01 PST...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Processing 2013-08-28 21:50:01 PST...Processing 2013-08-28 21:57:00 PST...Processing 2013-08-28 22:00:01 PST...Processing 2013-08-28 22:10:01 PST...Processing 2013-08-28 22:15:01 PST...Processing 2013-08-28 22:19:00 PST...Processing 2013-08-28 22:25:01 PST...Processing 2013-08-28 22:30:01 PST...Processing 2013-08-28 22:35:01 PST...Processing 2013-08-28 22:42:00 PST...Processing 2013-08-28 22:45:01 PST...Processing 2013-08-28 22:55:00 PST...Processing 2013-08-28 23:00:01 PST...Processing 2013-08-28 23:03:00 PST...Processing 2013-08-28 23:10:01 PST...Processing 2013-08-28 23:15:01 PST...Processing 2013-08-28 23:20:01 PST...Processing 2013-08-28 23:26:00 PST...Processing 2013-08-28 23:30:01 PST...Processing 2013-08-28 23:40:00 PST...Processing 2013-08-28 23:45:01 PST...Processing 2013-08-28 23:47:00 PST...Processing 2013-08-28 23:56:00 PST...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 Core profiler results
 ======================
 
 Total objects                809 objects
 Parallelism                    1 thread
-Total time                 169.0 seconds
-  Core time                139.3 seconds (82.4%)
-    Compiler                11.0 seconds (6.5%)
+Total time                1814.0 seconds
+  Core time               1779.9 seconds (98.1%)
+    Compiler                10.9 seconds (0.6%)
     Instances                0.0 seconds (0.0%)
     Random variables         0.0 seconds (0.0%)
     Schedules                0.0 seconds (0.0%)
     Loadshapes               0.0 seconds (0.0%)
     Enduses                  0.0 seconds (0.0%)
     Transforms               0.1 seconds (0.0%)
-  Model time                29.7 seconds/thread (17.6%)
+  Model time                34.1 seconds/thread (1.9%)
 Simulation time                1 days
-Simulation speed             115 object.hours/second
-Passes completed            4258 passes
-Time steps completed        1464 timesteps
-Convergence efficiency      2.91 passes/timestep
+Simulation speed              11 object.hours/second
+Passes completed            4807 passes
+Time steps completed        1729 timesteps
+Convergence efficiency      2.78 passes/timestep
 Read lock contention        0.0%
 Write lock contention       0.0%
-Average timestep             59 seconds/timestep
-Simulation rate             511 x realtime
+Average timestep             50 seconds/timestep
+Simulation rate              48 x realtime
 
 
 Model profiler results
@@ -1497,25 +31,25 @@ Model profiler results
 
 Class            Time (s) Time (%) msec/obj
 ---------------- -------- -------- --------
-triplex_node       5.402     18.2%     34.2
-overhead_line      4.107     13.8%     36.3
-load               3.836     12.9%     42.2
-triplex_load       3.483     11.7%     44.1
-triplex_meter      3.318     11.2%     42.0
-transformer        2.887      9.7%     35.6
-triplex_line       2.836      9.5%     35.9
-node               1.727      5.8%     36.0
-switch             0.622      2.1%     38.9
-climate            0.375      1.3%    375.0
-regulator          0.235      0.8%     58.8
-recorder           0.215      0.7%     26.9
-underground_line   0.182      0.6%     36.4
-capacitor          0.180      0.6%     45.0
-helics_msg         0.155      0.5%    155.0
-meter              0.062      0.2%     62.0
-substation         0.058      0.2%     58.0
-player             0.024      0.1%     24.0
+triplex_node       6.135     18.0%     38.8
+overhead_line      4.899     14.3%     43.4
+load               4.579     13.4%     50.3
+triplex_load       3.862     11.3%     48.9
+triplex_meter      3.657     10.7%     46.3
+transformer        3.439     10.1%     42.5
+triplex_line       3.265      9.6%     41.3
+node               1.970      5.8%     41.0
+switch             0.753      2.2%     47.1
+climate            0.382      1.1%    382.0
+regulator          0.270      0.8%     67.5
+underground_line   0.212      0.6%     42.4
+recorder           0.211      0.6%     26.4
+capacitor          0.203      0.6%     50.8
+helics_msg         0.142      0.4%    142.0
+substation         0.073      0.2%     73.0
+meter              0.054      0.2%     54.0
+player             0.038      0.1%     38.0
 ================ ======== ======== ========
-Total             29.704    100.0%     36.7
+Total             34.144    100.0%     42.2
 
 WARNING  [2013-08-29 00:00:00 PST] : last warning message was repeated 15 times

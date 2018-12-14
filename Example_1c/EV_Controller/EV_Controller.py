@@ -38,8 +38,8 @@ def create_broker():
 def destroy_federate(fed):
     status = h.helicsFederateFinalize(fed)
 
-    #state = h.helicsFederateGetState(fed)
-    #assert state == 3
+    status, state = h.helicsFederateGetState(fed)
+    assert state == 3
 
     #while (h.helicsBrokerIsConnected(broker)):
         #time.sleep(1)
@@ -55,33 +55,33 @@ if __name__ == "__main__":
 
 #################################  Registering  federate from json  ########################################
     
-    fed = h.helicsCreateCombinationFederateFromConfig('Control.json')
-    #status = h.helicsFederateRegisterInterfaces(fed, 'Control.json')
-    federate_name = h.helicsFederateGetName(fed)
+    fed = h.helicsCreateCombinationFederateFromJson('Control.json')
+    status = h.helicsFederateRegisterInterfaces(fed, 'Control.json')
+    federate_name = h.helicsFederateGetName(fed)[-1]
     print(federate_name)
     #print(" Federate {} has been registered".format(federate_name))
     endpoint_count = h.helicsFederateGetEndpointCount(fed)
-    subkeys_count = h.helicsFederateGetInputCount(fed)
+    subkeys_count = h.helicsFederateGetSubscriptionCount(fed)
     print(subkeys_count)
     print(endpoint_count)
 ######################   Reference to Publications and Subscription form index  #############################   
     endid = {}
     subid = {}
     for i in range(0,endpoint_count):
-        endid["m{}".format(i)] = h.helicsFederateGetEndpointByIndex(fed, i)
-        end_name = h.helicsEndpointGetName(endid["m{}".format(i)])
+        endid["m{}".format(i)] = h.helicsFederateGetEndpointByIndex (fed, i)
+        end_name = h.helicsEndpointGetName(endid["m{}".format(i)])[1]
         print( 'Registered Endpoint ---> {}'.format(end_name))
 
     for i in range(0,subkeys_count):
-        subid["m{}".format(i)] = h.helicsFederateGetInputByIndex(fed, i)
-        status = h.helicsInputSetDefaultComplex(subid["m{}".format(i)], 0, 0)
-        sub_key = h.helicsSubscriptionGetKey(subid["m{}".format(i)])
+        subid["m{}".format(i)] = h.helicsFederateGetSubscriptionByIndex(fed, i)
+        status = h.helicsSubscriptionSetDefaultComplex(subid["m{}".format(i)], 0, 0)
+        sub_key = h.helicsSubscriptionGetKey(subid["m{}".format(i)])[1]
         print( 'Registered Subscription ---> {}'.format(sub_key))
         
     print( '###############################################################################################')
     print( '########################   Entering Execution Mode  ##########################################')
 ######################   Entering Execution Mode  ##########################################################    
-    h.helicsFederateEnterExecutingMode(fed)
+    h.helicsFederateEnterExecutionMode(fed)
 
     hours = 24
     total_inteval = int(60 * 60 * hours)
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     for t in range(0, total_inteval, update_interval):
         
         while grantedtime < t:
-            grantedtime = h.helicsFederateRequestTime (fed, t)
+            status, grantedtime = h.helicsFederateRequestTime (fed, t)
         time.sleep(0.1)
         
         time_sim.append(t/3600)
@@ -103,9 +103,9 @@ if __name__ == "__main__":
         key =[]; Real_demand = []; Imag_demand = []; 
         for i in range(0,subkeys_count):
             sub = subid["m{}".format(i)]        
-            rload, iload = h.helicsInputGetComplex(sub)
-            sub_key = h.helicsSubscriptionGetKey(sub)
-            print(sub_key)
+            status, rload, iload = h.helicsSubscriptionGetComplex(sub)
+            sub_key = h.helicsSubscriptionGetKey(sub)[1]
+              
             if "totalLoad" in str(sub_key):
                 key_feeder_load = sub_key
                 distribution_fed_name =  str(key_feeder_load.split('/totalLoad')[0])
@@ -134,8 +134,7 @@ if __name__ == "__main__":
             
             if (k < endpoint_count):   
                 end = endid["m{}".format(k)]
-                end_name = str(h.helicsEndpointGetName(end))
-                print(end_name)
+                end_name = str(h.helicsEndpointGetName(end)[1])
                 destination_name = (end_name.replace(federate_name, distribution_fed_name))
                 print('Endpoint Destination {}'.format(destination_name))
                 status = h.helicsEndpointSendMessageRaw(end, destination_name, str('0 + 0 j'))
@@ -151,7 +150,7 @@ if __name__ == "__main__":
             if (k > 0):
                 k=k-1
                 end = endid["m{}".format(k)]
-                end_name = h.helicsEndpointGetName(end)
+                end_name = h.helicsEndpointGetName(end)[1]
                 destination_name = (end_name.replace(federate_name,distribution_fed_name))
                 print('Endpoint Destination {}'.format(destination_name))
                 status = h.helicsEndpointSendMessageRaw(end, destination_name, str('200000 + 0 j'))
@@ -178,6 +177,6 @@ if __name__ == "__main__":
     
     t = 60 * 60 * 24
     while grantedtime < t:
-        grantedtime = h.helicsFederateRequestTime (fed, t)
+        status, grantedtime = h.helicsFederateRequestTime (fed, t)
     logger.info("Destroying federate")
     destroy_federate(fed)

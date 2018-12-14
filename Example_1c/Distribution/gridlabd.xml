@@ -4,9 +4,9 @@
 	<version.major>4</version.major>
 	<version.minor>1</version.minor>
 	<version.patch>0</version.patch>
-	<version.build>17877</version.build>
-	<version.branch>"Lugo [1f48b235:feature/1153]"</version.branch>
-	<command_line>"gridlabd IEEE_123_feeder_0.glm"</command_line>
+	<version.build>17850</version.build>
+	<version.branch>"Lugo [07b409bd:develop]"</version.branch>
+	<command_line>"gridlabd IEEE_123_feeder_0_zip2.glm"</command_line>
 	<environment>batch</environment>
 	<quiet>FALSE</quiet>
 	<warn>TRUE</warn>
@@ -17,7 +17,7 @@
 	<verbose>FALSE</verbose>
 	<iteration_limit>100</iteration_limit>
 	<federation_reiteration>FALSE</federation_reiteration>
-	<workdir>/home/mukh614/Helics_Dependency/Helics_Examples/Helics_Examples/Example_1b/Distribution</workdir>
+	<workdir>/home/mukh614/Helics_Dependency/Helics_Examples/Helics_Example_1b/Distribution</workdir>
 	<dumpfile>gridlabd.xml</dumpfile>
 	<savefile>""</savefile>
 	<dumpall>FALSE</dumpall>
@@ -36,7 +36,7 @@
 	<object_scan>%[^:]:%d</object_scan>
 	<object_tree_balance>FALSE</object_tree_balance>
 	<kmlfile>""</kmlfile>
-	<modelname>IEEE_123_feeder_0.glm</modelname>
+	<modelname>IEEE_123_feeder_0_zip2.glm</modelname>
 	<execdir>gridlabd</execdir>
 	<strictnames>TRUE</strictnames>
 	<website>http://www.gridlabd.org/</website>
@@ -138,10 +138,6 @@
 		</generator_controller_list>
 		<supervisory_control_list>
 		</supervisory_control_list>
-		<auction_ccsi_list>
-		</auction_ccsi_list>
-		<controller_ccsi_list>
-		</controller_ccsi_list>
 	</market>
 	<tape>
 		<version.major>4</version.major>

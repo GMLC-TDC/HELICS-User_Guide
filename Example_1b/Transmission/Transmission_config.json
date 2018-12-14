@@ -3,7 +3,6 @@
 	"loglevel": 5,
 	"coreType": "zmq",
 	"timeDelta": 1.0,
-	"uninterruptible": true,
 
 	"publications": [{
 		"key": "TransmissionSim/transmission_voltage",
